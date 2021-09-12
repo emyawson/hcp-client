@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <withRouter(DetailGraphComponent)
+    axes={Array []}
+    axisLabels={Array []}
+    graphData={
+      Object {
+        "area": Object {
+          "color": "green",
+          "data": Array [
+            Array [],
+          ],
+        },
+        "bars": Object {
+          "color": "orange",
+          "data": Array [
+            Array [],
+          ],
+        },
+        "lines": Object {
+          "color": "gray",
+          "data": Array [
+            Array [],
+          ],
+        },
+        "marks": Object {
+          "data": Array [
+            Array [],
+          ],
+        },
+        "meanLine": Object {
+          "color": "black",
+          "data": Array [
+            Array [],
+          ],
+          "strokeWidth": 4,
+        },
+        "meanMarks": Object {
+          "data": Array [
+            Array [],
+          ],
+        },
+        "threshold": Object {
+          "color": "red",
+          "data": Array [
+            Array [],
+          ],
+        },
+      }
+    }
+    mealTimeVisualCuePointValues={
+      Array [
+        Object {
+          "color": "#FFF",
+          "data": Array [
+            Array [
+              Object {
+                "x": 0,
+                "y": 100,
+                "y0": 0,
+              },
+              Object {
+                "x": 5,
+                "y": 100,
+                "y0": 0,
+              },
+            ],
+          ],
+        },
+      ]
+    }
+    numericalGraphStartTime={0}
+    timeBlocks={
+      Object {
+        "mealBlocks": Array [
+          Object {
+            "description": "Bed Time",
+            "endTime": 1,
+            "startTime": 0,
+            "width": 4.166666666666666,
+          },
+          Object {
+            "description": "Night",
+            "endTime": 6,
+            "startTime": 1,
+            "width": 20.833333333333336,
+          },
+          Object {
+            "description": "Breakfast",
+            "endTime": 11.5,
+            "startTime": 6,
+            "width": 22.916666666666664,
+          },
+          Object {
+            "description": "Lunch",
+            "endTime": 14.5,
+            "startTime": 11.5,
+            "width": 12.5,
+          },
+          Object {
+            "description": "Dinner",
+            "endTime": 21,
+            "startTime": 14.5,
+            "width": 27.083333333333332,
+          },
+          Object {
+            "description": "Bed Time",
+            "endTime": 24,
+            "startTime": 21,
+            "width": 12.5,
+          },
+        ],
+        "mealTimes": Array [
+          Object {
+            "description": "BEDTIME",
+            "endTime": 1,
+            "startTime": 0,
+            "width": 4.166666666666666,
+          },
+          Object {
+            "description": "NIGHT",
+            "endTime": 6,
+            "startTime": 1,
+            "width": 20.833333333333336,
+          },
+          Object {
+            "description": "BEFORE_BREAKFAST",
+            "endTime": 8.5,
+            "startTime": 6,
+            "width": 10.416666666666668,
+          },
+          Object {
+            "description": "AFTER_BREAKFAST",
+            "endTime": 11.5,
+            "startTime": 8.5,
+            "width": 12.5,
+          },
+          Object {
+            "description": "BEFORE_LUNCH",
+            "endTime": 12.5,
+            "startTime": 11.5,
+            "width": 4.166666666666666,
+          },
+          Object {
+            "description": "AFTER_LUNCH",
+            "endTime": 14.5,
+            "startTime": 12.5,
+            "width": 8.333333333333332,
+          },
+          Object {
+            "description": "BEFORE_DINNER",
+            "endTime": 18,
+            "startTime": 14.5,
+            "width": 14.583333333333334,
+          },
+          Object {
+            "description": "AFTER_DINNER",
+            "endTime": 21,
+            "startTime": 18,
+            "width": 12.5,
+          },
+          Object {
+            "description": "BEDTIME",
+            "endTime": 24,
+            "startTime": 21,
+            "width": 12.5,
+          },
+        ],
+      }
+    }
+    unit="unit"
+    xTickFormat={[Function]}
+    xTitle="Title"
+    xTotalTicks={3}
+    yTickValues={Array []}
+    yTopValue={400}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "render": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "render": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

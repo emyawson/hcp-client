@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDirs": ["src"],
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "keyofStringsOnly": true,
+    "strictNullChecks": true,
+    "checkJs": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "paths": {
+      "src/*": ["src/*"],
+      "rxjs/*": ["./node_modules/rxjs/*"], /* since both sources use rxjs, let's make it clear which one to use */
+      "*": [
+        "node_modules/@types/*",
+        "*"
+      ]
+    }
+  },
+  "files": ["./src/types.d.ts", "./src/index.tsx"],
+  "exclude": [
+    "packages",
+    "packages/**/example",
+    "example",
+    "node_modules",
+    "build",
+    "dist",
+    "__mocks__",
+    "flow",
+    "public",
+    "scripts",
+    "coverage",
+    "version.js",
+    "src/setupTests.ts"
+  ]
+}

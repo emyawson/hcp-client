@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Org stock history component Renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    stripModelStockAndHistory={
+      Array [
+        Object {
+          "currentStripStock": 12000,
+          "currentTubeStock": 240,
+          "id": "123",
+          "lastShipmentDate": "2018-02-27T00:00:00.000Z",
+          "lastShipmentNumberOfStripsReceived": 1000,
+          "lastShipmentNumberOfTubesReceived": 20,
+          "name": "AccuChek Aviva",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Unknown>
+          Stock history
+        </Unknown>,
+        Array [
+          <Unknown
+            dateAdded="2018-02-27T00:00:00.000Z"
+            id="123"
+            name="AccuChek Aviva"
+            totalStripStock={12000}
+            totalTubeStock={240}
+            tubeStock={20}
+            unitStock={1000}
+          />,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Stock history",
+        },
+        "ref": null,
+        "rendered": "Stock history",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "123",
+        "nodeType": "function",
+        "props": Object {
+          "dateAdded": "2018-02-27T00:00:00.000Z",
+          "id": "123",
+          "name": "AccuChek Aviva",
+          "totalStripStock": 12000,
+          "totalTubeStock": 240,
+          "tubeStock": 20,
+          "unitStock": 1000,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Unknown>
+            Stock history
+          </Unknown>,
+          Array [
+            <Unknown
+              dateAdded="2018-02-27T00:00:00.000Z"
+              id="123"
+              name="AccuChek Aviva"
+              totalStripStock={12000}
+              totalTubeStock={240}
+              tubeStock={20}
+              unitStock={1000}
+            />,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Stock history",
+          },
+          "ref": null,
+          "rendered": "Stock history",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "123",
+          "nodeType": "function",
+          "props": Object {
+            "dateAdded": "2018-02-27T00:00:00.000Z",
+            "id": "123",
+            "name": "AccuChek Aviva",
+            "totalStripStock": 12000,
+            "totalTubeStock": 240,
+            "tubeStock": 20,
+            "unitStock": 1000,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

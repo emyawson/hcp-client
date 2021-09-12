@@ -1,0 +1,958 @@
+{
+  "translations": {
+    "dashboard": {
+      "notificationCardTitle": "Notificaciones",
+      "distributionCardTitle": "Distribución",
+      "hypoCardTitle": "Hipoglucemia",
+      "bgCardTitle": "Estado de glucemia",
+      "bgStatisticsCardTitle": "Estadísticas de glucemia",
+      "deviceCardTitle": "Dispositivos",
+      "statusCardTitle": "Estado",
+      "graphs": {
+        "dayGraphTitle": "Gráfico de día",
+        "dateRangeTitle": "Rango de fechas"
+      },
+      "patientCardPopover": {
+        "editPatient": "Editar paciente",
+        "timePeriods": "Bloques de Tiempo",
+        "listTreatments": "Lista de tratamientos",
+        "graphicSettings": "Intervalo ideal",
+        "listDevices": "Lista de dispositivos",
+        "dataDownloadAssignment": "Cargar datos",
+        "deactivatePatient": "Desactivar paciente"
+      },
+      "distributionCard": {
+        "statsTable": {
+          "targetRange": "Intervalo ideal",
+          "above": "por encima",
+          "within": "dentro de",
+          "below": "por debajo",
+          "hypoglycaemia": "Hipoglucemia"
+        }
+      },
+      "hypoglycaemiaCard": {
+        "hypoglycaemia": "Hipoglucemia",
+        "hypoLimit": "límite hipo",
+        "hypoAtNight": "Hipos por la noche"
+      },
+      "statusCard": {
+        "hypoRisk": "Riesgo de hipoglucemia",
+        "variability": "Variabilidad glucémica",
+        "meanBloodGlucose": "Glucemia media",
+        "targetRange": "intervalo ideal",
+        "hypoLimit": "Límite hipo",
+        "above": "por encima",
+        "below": "por debajo",
+        "within": "dentro de",
+        "low": "Bajo",
+        "moderate": "Intermedio",
+        "medium": "Medio",
+        "high": "Alto",
+        "monthLabels": {
+          "daysMissing": "días sin información",
+          "januaryShortForm": "Ene",
+          "februaryShortForm": "Feb",
+          "marchShortForm": "Mar",
+          "aprilShortForm": "Abr",
+          "mayShortForm": "May",
+          "juneShortForm": "Jun",
+          "julyShortForm": "Jul",
+          "augustShortForm": "Ago",
+          "septemberShortForm": "Sep",
+          "octoberShortForm": "Oct",
+          "novemberShortForm": "Nov",
+          "decemberShortForm": "Dic"
+        }
+      }
+    },
+    "menu": {
+      "title": "MENÚ",
+      "patients": "Pacientes",
+      "logoIcon": "logotipo",
+      "homeIcon": "inicio",
+      "patientsIcon": "pacientes",
+      "patientDashboardIcon": "panel del paciente",
+      "stripsStockIcon": "existencias",
+      "infoIcon": "información",
+      "helpIcon": "ayuda",
+      "dtcIcon": "DTC"
+    },
+    "patientSearch": {
+      "DIABETES_TYPE1": "Tipo 1",
+      "DIABETES_TYPE2": "Tipo 2",
+      "DIABETES_GESTATIONAL": "Gestacional",
+      "title": "Buscar paciente",
+      "table": {
+        "name": "Nombre del paciente",
+        "id": "Número de ID",
+        "birthDate": "Fecha de nacimiento",
+        "diabetesType": "Tipo de diabetes",
+        "treatment": "Tratamiento",
+        "userInfo": "Ver perfil del paciente"
+      },
+      "noResults": "No se han encontrado resultados",
+      "addPatient": "Añadir paciente nuevo"
+    },
+    "devices": {
+      "allDevicesTitle": "Todos los dispositivos",
+      "deviceDetailsTitle": "Dispositivo",
+      "deviceDetailsNameTitle": "Nombre",
+      "deviceDetailsSerialTitle": "Número de serie",
+      "deviceLastReadingTitle": "Última lectura",
+      "deviceDataTitleTests": "Mediciones",
+      "deviceDataTitleAdditionalInfo": "Información adicional",
+      "deviceDateTimeSetTitle": "Fecha/Hora definida",
+      "tests": {
+        "numberOfTestsTitle": "Número de mediciones",
+        "testPerDayTitle": "Pruebas por día"
+      },
+      "meanBloodGlucose": {
+        "meanBloodGlucoseTitle": "Glucemia media",
+        "standardDevTitle": "Desviación estándar (SD)",
+        "highestTitle": "resultado más alto",
+        "lowestTitle": "resultado más bajo"
+      },
+      "meanBloodGlucoseBeforeMeals": {
+        "meanBloodGlucoseBeforeMealsTitle": "Glucemia media antes de las comidas",
+        "meanBloodGlucoseBeforeBreakfastTitle": "Desayuno",
+        "meanBloodGlucoseBeforeLunchTitle": "Almuerzo",
+        "meanBloodGlucoseBeforeDinnerTitle": "Cena"
+      },
+      "targetRange": {
+        "targetRangeTitle": "INTERVALO IDEAL",
+        "aboveTitle": "por encima",
+        "withinTitle": "dentro de",
+        "belowTitle": "por debajo"
+      },
+      "hypos": {
+        "hypoTitle": "Hipos",
+        "hypoLimitTitle": "Límite hipo",
+        "hypoglycaemiaTitle": "Hipoglucemia"
+      },
+      "bloodGlucoseIndex": {
+        "bloodGlucoseIndexTitle": "ÍNDICE DE GLUCEMIA",
+        "hbgiTitle": "Índice de glucemia alto",
+        "lbgiTitle": "Índice de glucemia bajo"
+      },
+      "additionalInfo": {
+        "additionalInfoTitle": "Información adicional"
+      },
+      "bolus": {
+        "bolusTitle": "Bolo",
+        "numberOfBolusesTitle": "Número de bolos",
+        "standardBolusTitle": "Bolo estándar",
+        "quickBolusTitle": "Bolo rápido",
+        "extendedBolusTitle": "Bolo ampliado",
+        "multiwaveBolusTitle": "Bolo multionda",
+        "highestResultTitle": "Resultado más alto",
+        "meanDoseTitle": "Dosis media",
+        "lowestResultTitle": "Resultado más bajo",
+        "bolusFrequencyTitle": "Frecuencia de bolo",
+        "tbrIncreaseTitle": "Aumento de la dosis basal temporal",
+        "tbrDecreaseTitle": "Descenso de la dosis basal temporal",
+        "basalRateChangeTitle": "Cambio de la dosis basal",
+        "basalRateChangesTitle": "Cambios de la dosis basal",
+        "basalRateProfileSelectionTitle": "Selección del perfil de dosis basal",
+        "stopTitle": "Detener"
+      }
+    },
+    "homeStripDelivery": {
+      "title": "Suministro de tiras reactivas a domicilio",
+      "deliveryStatus": "Estado del suministro",
+      "deliveryConfiguration": "Configuración del suministro"
+    },
+    "stripDelivery": {
+      "title": "Suministro de tiras reactivas",
+      "titleExpanded": "Estado del suministro",
+      "unitsSmallStatusCard": "UDS",
+      "unitsTubesSmallStatusCard": {
+        "singular": "Contenedor de tiras reactivas",
+        "plural": "Contenedores de tiras reactivas"
+      },
+      "patientStatusDeliverSmall": "Tiras reactivas para suministrar",
+      "nextDeliveryDateSmall": "Próximo suministro",
+      "patientStatusDeliver": "Tiras reactivas para suministrar:",
+      "patientStatusDeliverWithAlert": "Tiras reactivas para suministrar [?]:",
+      "patientStatusDoNotDeliver": "No se pueden suministrar tiras reactivas",
+      "lastCollectedDate": "Última obtención:",
+      "nextDeliveryDate": "Próximo suministro:",
+      "statusFlagForced": "FORZADO",
+      "statusFlagTemporary": "Pauta temporal [?]",
+      "statusDetails": "Detalles de estado",
+      "stripsConsumed": "Tiras reactivas utilizadas",
+      "deliverCta": "Suministrar tiras reactivas",
+      "createPrescription": "Crear pauta",
+      "notifications": {
+        "deliveredWithAlert": "El semáforo anterior estaba en ámbar.",
+        "forceStatusToDeliver": "Modifique el estado del semáforo a verde para suministrar las tiras reactivas.",
+        "doNotDeliver": "No se pueden suministrar tiras reactivas. El paciente debe visitarse con el personal sanitario."
+      },
+      "alerts": {
+        "title": "Alertas",
+        "info": "Información de estado",
+        "hypoThreshold": "Alertas de umbral hipo",
+        "upperLimit": "Alertas de límite superior",
+        "lowerLimit": "Alertas de límite inferior",
+        "percentageOfStripsConsumed": "Tiras reactivas utilizadas",
+        "outOf": "de",
+        "infoDescription": {
+          "info": "Información",
+          "green": "Ha finalizado la consulta con el paciente. Suministre las tiras reactivas.",
+          "orange": "El paciente debe visitarse con el personal sanitario para recibir más tiras reactivas.",
+          "red": "El paciente no cumple los criterios necesarios. El paciente debe visitarse con el personal sanitario para recibir más tiras reactivas.",
+          "gray": "El paciente no ha cargado los datos."
+        },
+        "loading": "Cargando datos de alertas de paciente..."
+      },
+      "update": "Actualizar estado",
+      "forceStatus": {
+        "title": "Forzar estado",
+        "instruction": "Pulse + para forzar un estado",
+        "comment": "Forzar comentarios de estado",
+        "submit": "Forzar estado"
+      },
+      "manualDelivery": {
+        "title": "Tiras reactivas adicionales suministradas",
+        "tubes": "Contenedores de tiras reactivas",
+        "strips": "Tiras reactivas",
+        "manualDelivery": "Suministro manual",
+        "comment": "Añada un comentario..."
+      },
+      "lostStrips": {
+        "title": "Tiras reactivas perdidas",
+        "numberOfLostStrips": "Tiras reactivas",
+        "recalculate": "Recalcular tiras reactivas"
+      },
+      "empty": {
+        "stripsToDeliver": "No hay datos en el archivo",
+        "nextDeliveryDate": "No programado",
+        "lastCollectedDate": "Fecha no encontrada",
+        "prescription": "Datos del paciente no encontrados. ",
+        "stripsConsumed": "No hay datos en el archivo",
+        "prescriptionCta": "Añada una pauta aquí."
+      },
+      "loading": "Cargando datos de suministro del paciente...",
+      "comments": {
+        "forceStatus": {
+          "title": "Forzar estado",
+          "titleExpanded": "Forzar comentarios de estado"
+        },
+        "adminComments": {
+          "title": "Notas del administrador",
+          "placeholder": "Añada aquí su comentario..."
+        }
+      }
+    },
+    "profileDropdown": {
+      "manageYourProfile": "Gestionar su perfil",
+      "signOut": "CERRAR SESIÓN"
+    },
+    "profileDropdownPopover": {
+      "updateDetails": "Actualizar detalles",
+      "changePassword": "Cambiar contraseña",
+      "changeSecurityQuestion": "Cambiar pregunta de seguridad",
+      "notificationSettings": "Ajustes de notificación",
+      "graphSettings": "ajustes de gráficos",
+      "addProfessional": "Añadir personal sanitario",
+      "defaultGraphicSettings": "Intervalo ideal predeterminado"
+    },
+    "userDropdown": {
+      "managePatientProfile": "Perfil del paciente"
+    },
+    "searchBar": {
+      "name": "Nombre",
+      "patientId": "ID de paciente",
+      "search": "Buscar"
+    },
+    "modals": {
+      "support": {
+        "title": "Servicio al cliente",
+        "accept": "Aceptar",
+        "forgotPassword": {
+          "title": "Contacto con servicio al cliente",
+          "body": "Póngase en contacto con el servicio al cliente a través del (+34) 900 210 341 para solicitar una contraseña nueva."
+        }
+      },
+      "disclaimer": {
+        "title": "Información adicional",
+        "testFrequency": {
+          "title": "Frecuencia de mediciones",
+          "desc": "El estado de glucemia solamente se puede mostrar cuando se alcanza el número mínimo de 2 mediciones por día y las mediciones se han espaciado lo suficiente a lo largo del día. Tiene que haber 28 resultados de medición disponibles para el periodo seleccionado. La posibilidad de editar este valor no está disponible en la versión actual de la aplicación."
+        },
+        "hypoRisk": {
+          "title": "Riesgo de hipoglucemia",
+          "desc": "El índice de glucemia bajo se utiliza para calcular el riesgo de hipoglucemia. Representa la frecuencia y, por lo tanto, el riesgo de que los resultados de glucemia sean demasiado bajos. El objetivo es conseguir los valores más bajos posibles y los umbrales están predefinidos:",
+          "greenInfo": "Entre 0 y 1,0: riesgo de hipoglucemia bajo (verde)",
+          "orangeInfo": "Entre 1,1 y 2,4: riesgo de hipoglucemia moderado (naranja)",
+          "redInfo": "Por encima de 2,5: riesgo de hipoglucemia alto (rojo)"
+        },
+        "variability": {
+          "title": "Variabilidad glucémica",
+          "desc": "La variabilidad se calcula a partir de la desviación estándar (SD) o la desviación de los resultados analizados. Los umbrales de variabilidad se han definido como SD relativa (relacionada con la glucemia media):",
+          "greenInfo": "Entre 0 % y 32,9 % de glucemia media: variabilidad baja (verde)",
+          "orangeInfo": "Entre 33 % y 49,9 % de glucemia media: variabilidad moderada (naranja)",
+          "redInfo": "Por encima del 50 % de glucemia media: variabilidad alta (rojo)",
+          "footerDesc": "La versión actual de la aplicación no permite editar estos umbrales."
+        },
+        "meanBloodGlucose": {
+          "title": "glucemia media",
+          "desc": "La glucemia media se calcula a partir de la media aritmética de todos los valores de glucemia. El estado mostrado viene determinado por los umbrales definidos en “Intervalo ideal”. Estos umbrales también se utilizan para mostrar el intervalo ideal y el límite hipo en los gráficos e informes de glucosa."
+        },
+        "hiLoControlResult": {
+          "title": "Resultados de control HI/LO",
+          "desc": "La función para mostrar los datos de los resultados de control HI/LO no está disponible en la versión actual de la aplicación."
+        },
+        "flags": {
+          "title": "Marcadores",
+          "desc": "La posibilidad de editar y añadir marcadores (p. ej., En ayunas, Estrés, Enfermedad) en el diario no está disponible en la versión actual de la aplicación. Solamente se mostrarán los marcadores relacionados con la comida con las mediciones de glucemia."
+        },
+        "timeAdjustments": {
+          "title": "Ajustes de hora y eventos",
+          "desc": "La versión actual de la aplicación no mostrará los ajustes de hora o los eventos debido al horario de verano y los viajes."
+        },
+        "standardBolus": {
+          "title": "Bolo estándar",
+          "desc": "El bolo estándar de la versión actual de la aplicación incluye tanto el bolo estándar como el bolo rápido."
+        },
+        "lastCollectedDate": "Última actualización: {{date}}"
+      },
+      "patientStatusNotification": {
+        "title": "Notificación de estado del paciente",
+        "acknowledgePatientStatus": "Confirmar estado del paciente"
+      },
+      "sendPatientStatus": {
+        "title": "Estado del paciente",
+        "send": "Enviar estado al médico"
+      }
+    },
+    "dtcModal": {
+      "headerMessage": "Descargar software DTC",
+      "message": "Seleccione su sistema operativo:",
+      "windows": "Windows",
+      "macOs": "macOS"
+    },
+    "bloodGlucoseOverview": {
+      "bgOverviewLongTermView": "Resumen de glucemia - Vista a largo plazo",
+      "bgStatus": "Estado de glucemia",
+      "insufficientData": "Cantidad de datos insuficiente",
+      "bgStatistics": "Estadísticas de glucemia",
+      "high": "Alto",
+      "hyper": "Sobre Rango",
+      "hypo": "Debajo de Rango",
+      "hypoglycaemia": "Hipoglucemia",
+      "hypoRisk": "Riesgo de hipoglucemia",
+      "inRange": "En Rango",
+      "low": "Bajo",
+      "meanBloodGlucose": "Glucemia media",
+      "medium": "Medio",
+      "mgPerDL": "mg/dL",
+      "na": "N/D",
+      "testsPerDay": "Mediciones por día",
+      "variability": "Variabilidad glucémica",
+      "intervals": {
+        "uploadDate": "Fecha de carga",
+        "monthly": "Intervalos mensuales",
+        "quarterly": "Intervalos trimestrales",
+        "weekly": "Intervalos semanales"
+      }
+    },
+    "bloodGlucoseStats": {
+      "title": "Información detallada de salud del paciente",
+      "titleNav": "Estadísticas",
+      "numberOfTestsTitle": "Número de mediciones",
+      "testsPerDayTitle": "Mediciones por día",
+      "standardDevTitle": "Desviación estándar",
+      "meanBloodGlucoseTitle": "Glucemia media",
+      "bloodGlucoseGeneralStatsTitle": "Estadísticas generales"
+    },
+    "graphDetails": {
+      "mgPerDL": "mg/dL",
+      "legend": {
+        "legend": "Leyenda",
+        "bloodGlucose": "glucemia",
+        "bloodGlucoseWithMgPerDL": "Glucemia (mg/dL)",
+        "meanBloodGlucose": "glucemia media",
+        "meanBloodGlucoseSD": "Glucemia media/SD",
+        "meanBloodGlucoseMeanSD": "Glucemia media/SD media",
+        "oneSdTwoSd": "1 SD/2 SD",
+        "hypoglycaemia": "hipoglucemia",
+        "hypoSymptoms": "síntomas de hipoglucemia",
+        "hypoLimit": "Límite hipo",
+        "graphVisuals": "VISUALIZACIONES GRÁFICAS",
+        "targetRange": "INTERVALO IDEAL",
+        "aboveTargetRange": "por encima del intervalo ideal",
+        "belowTargetRange": "por debajo del intervalo ideal",
+        "targetRangeSectionHeader": "INTERVALO IDEAL",
+        "connectingLines": "líneas de unión",
+        "results": "RESULTADOS",
+        "lowestResult": "resultado más bajo",
+        "highestResult": "resultado más alto",
+        "standardBolus": "Bolo estándar",
+        "quickBolus": "Bolo rápido",
+        "extendedBolus": "Bolo ampliado",
+        "multiwaveBolus": "Bolo multionda",
+        "bolusAdvice": "Recomendación de bolo",
+        "modifiedBolus": "Bolo modificado",
+        "basalRateBolus": "Dosis basal + bolo"
+      },
+      "statistics": {
+        "statistics": "Estadísticas",
+        "tests": {
+          "tests": "MEDICIONES",
+          "numberOfTests": "Número de mediciones",
+          "testsPerDay": "Mediciones por día"
+        },
+        "indexes": {
+          "indexes": "ÍNDICE DE GLUCEMIA",
+          "hbgi": "Índice de glucemia alto",
+          "lbgi": "Índice de glucemia bajo"
+        },
+        "bloodGlucose": {
+          "bloodGlucose": "GLUCEMIA",
+          "glucoseLevel": "nivel de glucosa",
+          "standardDeviation": "desviación estándar",
+          "testsPerDay": "mediciones por día",
+          "meanBloodGlucose": "Glucemia media",
+          "meanBloodGlucoseTitle": "GLUCEMIA MEDIA",
+          "meanBloodGlucoseBeforeMeal": "Glucemia media antes de la comida",
+          "meanBloodGlucoseAfterMeal": "Glucemia media después de la comida",
+          "standardDeviationSD": "Desviación estándar (SD)",
+          "stdDevMeanRatio": "SD/Glucemia media"
+        },
+        "targetRanges": {
+          "above": "Por encima",
+          "below": "Por debajo",
+          "hypos": "hipos",
+          "targetRange": "INTERVALO IDEAL",
+          "within": "Dentro de"
+        }
+      }
+    },
+    "graphs": {
+      "detailGraph": {
+        "bgAfterMeal": "Glucemia después de la comida",
+        "bgBeforeMeal": "Glucemia antes de la comida",
+        "bloodGlucose": "Glucemia",
+        "carbohydratesInG": "Carbohidratos (g)",
+        "connectingLines": "Líneas de unión",
+        "gridLines": "Líneas de cuadrícula",
+        "hypoglycaemia": "Hipoglucemia",
+        "hypoLimit": "límite hipo",
+        "hypoSymptoms": "Síntomas de hipoglucemia",
+        "mealTime": "Hora de la comida",
+        "meanBloodGlucose": "Glucemia media",
+        "targetRange": "Intervalo ideal",
+        "time": "Hora",
+        "toolTip": {
+          "bloodGlucose": "Glucemia"
+        }
+      },
+      "loading": "Cargando gráficos de paciente...",
+      "missingData": "No hay mediciones en este intervalo.",
+      "noAvailableData": "No hay datos disponibles.",
+      "logbook": {
+        "date": "Fecha",
+        "mgPerDL": "mg/dL",
+        "g": "g",
+        "u": "U",
+        "loading": "Cargando datos del diario..."
+      },
+      "logbookDiary": {
+        "bloodGlucose": "Glucemia",
+        "date": "Fecha",
+        "carbohydrates": "Carbohidratos",
+        "insulin": "Insulina",
+        "unitSymbol": "U",
+        "basalRateProfile": "Perfil de dosis basal",
+        "pump": "Sistema de infusión",
+        "notes": "Notas",
+        "mgPerDL": "mg/dL",
+        "time": "Hora",
+        "diary": "Lista",
+        "grams": "g"
+      },
+      "insulinPump": {
+        "title": "Sistema de infusión de insulina - Lista de bolo",
+        "date": "Fecha",
+        "time": "Hora",
+        "u": "U",
+        "type": "Tipo",
+        "comments": "Comentarios",
+        "daysTotal": "Total diario",
+        "loading": "Cargando datos del sistema de infusión de insulina...",
+        "subtitle": "Información sobre la lista de sistemas de infusión de insulina - Lista de bolos. Aquí puede ver la lista de todos los bolos."
+      },
+      "insulin": {
+        "title": "BASAL / BOLO INFO",
+        "basalBolusTitle": "Basal/bolo",
+        "basalRateChange": "CAMBIO DE LA DOSIS BASAL",
+        "bolus": "Bolo promedio",
+        "basalInsulin": "Insulina basal promedio",
+        "totalInsulin": "Insulina total promedio",
+        "acceptedBolus": "Bolo aceptado",
+        "modifiedBolus": "Bolo modificado",
+        "withoutCalculator": "Sin recomendación de bolo",
+        "measurements": "Mediciones",
+        "bolusAdvice": "Recomendación de bolo",
+        "bolusType": "TIPO DE BOLO",
+        "bolusViaRemoteControl": "Bolo por control remoto",
+        "categoryName": "Nombre de la categoría",
+        "day": "Día",
+        "days": "BOLO POR DÍA",
+        "extendedBolus": "Bolo ampliado",
+        "multiwaveBolus": "Bolo multionda",
+        "percentSymbol": "%",
+        "profile": "PERFIL",
+        "quickBolus": "Bolo rápido",
+        "standardBolus": "Bolo estándar",
+        "stop": "Detener",
+        "tbrIncrease": "AUMENTO DE DBT",
+        "tbrDecrease": "DESCENSO DE DBT",
+        "loading": "Cargando datos de insulina..."
+      },
+      "logbookStats": {
+        "date": "FECHA",
+        "bloodGlucose": "GLUCEMIA",
+        "numOfTests": "Número de mediciones",
+        "meanBG": "Glucemia media",
+        "standard": "Estándar",
+        "deviation": "Desviación",
+        "hypos": "Hipos",
+        "mgPerDL": "mg/dL",
+        "carbohydrates": "CARBOHIDRATOS",
+        "g": "g",
+        "insulinInAllCaps": "INSULINA",
+        "insulin": "Insulina",
+        "basal": "Basal",
+        "basalSlash": "Basal/",
+        "bolus": "Bolo",
+        "numOf": "Número de",
+        "boluses": "Bolos",
+        "u": "U"
+      },
+      "logbookTitle": "Diario",
+      "logbookStatsTitle": "Estadísticas diarias",
+      "metabolicTitle": "Dosis metabólica",
+      "insulinPumpTitle": "Sistema de infusión de insulina",
+      "standardDayTitle": "Gráfico día",
+      "standardWeekTitle": "Gráfico semana",
+      "trendGraph": {
+        "toolTip": {
+          "numberOfTests": "Número de mediciones",
+          "highestResult": "Resultado más alto",
+          "mean": "Media",
+          "lowestResult": "Resultado más bajo",
+          "standardDeviation": "Desviación estándar"
+        }
+      },
+      "metabolicGraph": {
+        "labels": {
+          "stableHigh": "Estable - Alta",
+          "stableLow": "Estable - Baja",
+          "unstableHigh": "Inestable - Alta",
+          "unstableLow": "Inestable - Baja"
+        },
+        "tooltip": {
+          "meanbg": "GLUCEMIA MEDIA",
+          "standardDeviation": "SD",
+          "meanStandardDeviation": "SD MEDIA"
+        }
+      },
+      "axisLabels": {
+        "bloodGlucose": "Glucemia",
+        "meanBloodGlucose": "Glucemia media",
+        "standardDeviation": "Desviación estándar",
+        "mgPerDL": "mg/dL"
+      },
+      "trendTitle": "Tendencia",
+      "iconTitles": {
+        "afterMeal": "Después de la comida",
+        "arrow": "Flecha",
+        "bedtime": "Hora de acostarse",
+        "beforeMeal": "Antes de la comida",
+        "bell": "Campana",
+        "bolusExtended": "Bolo ampliado",
+        "bolusMultiwave": "Bolo multionda",
+        "bolusQuick": "Bolo rápido",
+        "bolusStandard": "Bolo estándar",
+        "flag": "Marcador",
+        "hypo": "Hipo",
+        "hypoLimit": "Límite hipo",
+        "hypoSymptoms": "Síntomas de hipoglucemia",
+        "lineGraph": "Gráfico de líneas",
+        "meanBloodGlucose": "Glucemia media",
+        "night": "Noche",
+        "pumpBasalRateChange": "Cambio de la dosis basal",
+        "pumpPause": "Pausa",
+        "pumpPowerDown": "Paro",
+        "pumpPowerUp": "Puesta en servicio",
+        "pumpBasalRateProfileChange": "Cambio del perfil de dosis basal",
+        "pumpRun": "Iniciar",
+        "pumpStop": "Detener",
+        "pumpTbrDec": "Descenso de DBT",
+        "pumpTbrEndDec": "Descenso final de DBT",
+        "pumpTbrEndInc": "Aumento final de DBT",
+        "pumpTbrInc": "Aumento de DBT",
+        "targetRangeIcon": "Icono de intervalo ideal",
+        "ce": "Conformidad europea",
+        "factory": "Creado en icono",
+        "help": "Ayuda",
+        "snack": "",
+        "running": "",
+        "bicycle": "",
+        "pills": "",
+        "premenstrual": "",
+        "meal": "",
+        "hypoWarning": "",
+        "hyperWarning": "",
+        "bed": "",
+        "custom": "",
+        "beforeExercise": "",
+        "DuringExercise": "",
+        "AfterExercise": "",
+        "userDefinedAsterisk": "",
+        "stress": "",
+        "fasting": "",
+        "illness": ""
+      }
+    },
+    "alerts": {
+      "title": "Alertas",
+      "preIdealInterval": "Intervalo ideal previo",
+      "postIdealInterval": " Intervalo ideal posterior",
+      "noctIdealInterval": "Intervalo ideal nocturno",
+      "alertSettings": "Configuraciones de alerta",
+      "thresholdHypo": "Umbral hipo",
+      "thresholdUpper": "Límite superior",
+      "thresholdLower": "Límite inferior",
+      "activateThreshold": "Alerta al sobrepasar",
+      "activateUnitHypo": "Alertas hipo",
+      "activateUnitUpper": "Alertas hiper",
+      "activateUnitLower": "Alertas de advertencia",
+      "saveAccessibilityLabel": "Guardar datos de alertas de paciente",
+      "save": "Guardar alertas",
+      "unavailable": "No disponible",
+      "defaultBannerText": "Las alertas se basan en el número máximo de alertas permitidas entre los periodos de suministro de tiras reactivas al paciente. Las alertas pueden ser cualquier variación de los diferentes tipos de alertas seleccionados."
+    },
+    "prescription": {
+      "title": "PAUTA",
+      "permanentTitle": "PRINCIPAL",
+      "temporaryTitle": "TEMPORAL",
+      "save": "Guardar pauta",
+      "activeLabel": "PAUTA ACTIVA",
+      "quantity": {
+        "label": "Número de mediciones"
+      },
+      "stripConsumption": {
+        "title": "Consumo de tiras reactivas"
+      },
+      "patientStock": {
+        "label": "Total de existencias para paciente",
+        "units": "UDS"
+      },
+      "frequency": {
+        "label": "Frecuencia de suministro",
+        "every": "Cada",
+        "twoDays": "Dos días",
+        "twoWeeks": "Dos semanas",
+        "oneMonth": "Un mes",
+        "oneMonthAndAHalf": "Un mes y medio",
+        "twoMonths": "Dos meses",
+        "threeMonths": "Tres meses"
+      },
+      "period": {
+        "days": "Día",
+        "weeks": "Semana",
+        "label": "Frecuencia de mediciones"
+      },
+      "stripModel": {
+        "label": "Modelo"
+      },
+      "therapy": {
+        "label": "Terapia del paciente",
+        "diabetesTypeOne": "Diabetes tipo 1",
+        "gestationalDiabetes": "Diabetes gestacional",
+        "diabetesTypeTwoOralDrugs": "Diabetes tipo 2 - Fármacos por vía oral",
+        "diabetesTypeTwoInsuline": "Diabetes tipo 2 - Insulina"
+      },
+      "clinicGuide": {
+        "label": "Guía clínica",
+        "insuline": "Insulina",
+        "insulinePump": "Sistema de infusión de insulina",
+        "preGestational": "Pregestacional",
+        "duringPregnancy": "Durante el embarazo",
+        "noMedication": "Sin medicación",
+        "secretagogues": "Secretagogos",
+        "noSecretagogues": "Sin secretagogos",
+        "oneDoseBasalNoPatientAdjusting": "1 dosis (basal) sin ajuste para paciente",
+        "oneDoseBasalPatientAdjusting": "1 dosis (basal) con ajuste para paciente",
+        "twoDosesBifasicaNoPatientAdjusting": "2 dosis (insulina bifásica) sin ajuste para paciente",
+        "twoDosesBifasicaPatientAdjusting": "2 dosis (insulina bifásica) con ajuste para paciente",
+        "multipleDosesNoPatientAdjusting": "Dosis múltiples sin ajuste para paciente",
+        "multipleDosesPatientAdjusting": "Dosis múltiples con ajuste para paciente"
+      },
+      "reason": {
+        "label": "Motivo"
+      },
+      "dateRange": {
+        "label": "Rango de fechas"
+      },
+      "createNewTemporary": "Añadir pauta temporal",
+      "empty": "No hay información en el archivo.",
+      "patientHasNoCurrentPrescription": "No hay información en el archivo. Complete el formulario de paciente nuevo a continuación."
+    },
+    "general": {
+      "appName": "Accu-Chek Smart Pix Online",
+      "date": {
+        "monday": "Lunes",
+        "tuesday": "Martes",
+        "wednesday": "Miércoles",
+        "thursday": "Jueves",
+        "friday": "Viernes",
+        "saturday": "Sábado",
+        "sunday": "Domingo",
+        "jan": "Ene",
+        "feb": "Feb",
+        "mar": "Mar",
+        "apr": "Abr",
+        "may": "Mayo",
+        "jun": "Jun",
+        "jul": "Jul",
+        "aug": "Ago",
+        "sep": "Sep",
+        "oct": "Oct",
+        "nov": "Nov",
+        "dec": "Dic",
+        "january": "Enero",
+        "february": "Febrero",
+        "march": "Marzo",
+        "april": "Abril",
+        "june": "Junio",
+        "july": "Julio",
+        "august": "Agosto",
+        "september": "Septiembre",
+        "october": "Octubre",
+        "november": "Noviembre",
+        "december": "Diciembre"
+      },
+      "days": {
+        "monday": "Lunes",
+        "tuesday": "Martes",
+        "wednesday": "Miércoles",
+        "thursday": "Jueves",
+        "friday": "Viernes",
+        "saturday": "Sábado",
+        "sunday": "Domingo"
+      },
+      "loading": "Cargando...",
+      "mealBlocks": {
+        "breakfast": "Desayuno",
+        "lunch": "Almuerzo",
+        "dinner": "Cena",
+        "bedTime": "Hora de acostarse",
+        "night": "Noche"
+      },
+      "save": "Guardar",
+      "disclaimers": "Información adicional",
+      "dropdownEmpty": "Selección",
+      "units": {
+        "mgPerDL": "mg/dL",
+        "g": "g",
+        "U": "U"
+      }
+    },
+    "requestsLoading": {
+      "addOrgStock": "Guardando existencias de modelos de tiras reactivas...",
+      "closeModal": "Cerrar",
+      "complete": "Completado",
+      "default": "Guardando...",
+      "error": "Se ha producido un error",
+      "getCurrentPrescription": "Cargando pauta de paciente...",
+      "getDeliveryStatus": "Analizando datos del paciente...",
+      "saveAlerts": "Guardando datos de alertas...",
+      "saveDelivery": "Guardando datos de suministro de tiras reactivas...",
+      "savePrescription": "Guardando datos de pauta...",
+      "setDeliveryStatus": "Actualizando estado de suministro de tiras reactivas...",
+      "submitLostStrips": "Enviando datos de tiras reactivas perdidas...",
+      "submitManualDelivery": "Guardando datos del suministro de tiras reactivas adicionales...",
+      "GET_PATIENT": "Cargando datos del paciente...",
+      "ORG_STOCK/FETCH_ORG_STRIP_MODELS": "Cargando datos de existencias..."
+    },
+    "patient": {
+      "idNumber": "Número de paciente",
+      "birthDate": "Fecha de nacimiento:",
+      "diabetesType": "Tipo de diabetes:",
+      "treatmentCenter": "Centro:",
+      "treatmentName": "Tratamiento:",
+      "editPatient": "Editar paciente",
+      "patientActivation": "Desactivar paciente",
+      "createPatient": "Crear paciente",
+      "editTimePeriods": "Editar intervalos de tiempo",
+      "dataDownloadAssigment": "Cargar datos",
+      "listDevices": "Lista de dispositivos",
+      "listTreatments": "Lista de tratamientos",
+      "graphSettings": "Ajustes de gráficos",
+      "editLink": "Editar",
+      "deliveryConfiguration": "Configuración del suministro"
+    },
+    "login": {
+      "language": "Idioma",
+      "description": "Trabajando juntos para controlar la diabetes",
+      "subdescription": "El control de glucosa más avanzado para una mejor atención de sus pacientes",
+      "signIn": "Iniciar sesión",
+      "forgotPassword": "¿Ha olvidado la contraseña?",
+      "email": "Dirección de correo electrónico",
+      "password": "Contraseña",
+      "keepMeLoggedIn": "Mantener sesión iniciada",
+      "agreement": "Acepto:",
+      "disclaimer": "que el Hospital se responsabilice de controlar el procesamiento de los datos de los pacientes a través de la Plataforma. El Hospital utilizará a Roche y a otros subcontratistas como procesadores para el funcionamiento y el mantenimiento de la Plataforma de conformidad con las leyes de protección de datos. Acepto cargar pacientes del Hospital en la Plataforma únicamente tras haber obtenido su consentimiento explícito. Borraré a los pacientes que retiren su consentimiento.",
+      "errors": {
+        "email": "Introduzca su correo electrónico",
+        "password": "Introduzca su contraseña",
+        "invalidCredentials": "La combinación de usuario y contraseña no es correcta.",
+        "agreement": "Acepte los términos del servicio",
+        "hcpNotActive": "Su usuario no tiene actualmente acceso al portal, por favor contacte con su doctor si desea solicitarlo"
+      }
+    },
+    "resetPassword": {
+      "oldPassword": "Contraseña temporal",
+      "newPassword": "Contraseña nueva",
+      "repeatPassword": "Confirmar contraseña nueva",
+      "title": "Restablecer contraseña",
+      "changePassword": "Restablecer contraseña",
+      "errors": {
+        "repeatPassword": "Vuelva a introducir la contraseña nueva",
+        "newPassword": "Introduzca su contraseña nueva",
+        "oldPassword": "Introduzca la contraseña anterior",
+        "passwordMatch": "Las contraseñas no coinciden. Vuelva a introducirlas ahora.",
+        "previouslyUsedPassword": "Esta contraseña ya fue introducida para este usuario.",
+        "invalidPassword": "La contraseña no cumple los criterios de seguridad: Debe contener entre 6 y 20 carácteres, una letra minúscula, una letra mayúscula, un número y no puede contener el nombre del usuario ni espacios"
+      }
+    },
+    "firstTime": {
+      "oldPassword": "Contraseña temporal",
+      "password": "Contraseña nueva",
+      "repeatPassword": "Confirmar contraseña nueva",
+      "secretAnswer": "Respuesta",
+      "changePassword": "Cambiar contraseña",
+      "title": "Cambio de contraseña",
+      "securityQuestion": "Pregunta de seguridad",
+      "errors": {
+        "oldPassword": "Introduzca la contraseña anterior",
+        "password": "Introduzca su contraseña nueva",
+        "repeatPassword": "Vuelva a introducir la contraseña nueva",
+        "securityQuestion": "Seleccione su pregunta de seguridad",
+        "securityAnswer": "Introduzca la respuesta de seguridad"
+      }
+    },
+    "profile": {
+      "changeSecurityQuestion": "Cambiar pregunta de seguridad",
+      "changePassword": "Cambiar contraseña",
+      "editProfessional": "Editar personal sanitario"
+    },
+    "datePicker": {
+      "done": "LISTO",
+      "custom": "Personalizar",
+      "startDate": "Fecha de inicio",
+      "endDate": "Fecha de finalización",
+      "dayLabels": {
+        "sunday": "Do",
+        "monday": "Lu",
+        "tuesday": "Ma",
+        "wednesday": "Mi",
+        "thursday": "Ju",
+        "friday": "Vi",
+        "saturday": "Sá"
+      },
+      "presets": {
+        "today": "Hoy",
+        "yesterday": "Ayer",
+        "last7Days": "Últimos 7 días",
+        "last30Days": "Últimos 30 días",
+        "thisMonth": "Este mes",
+        "lastMonth": "Mes anterior"
+      }
+    },
+    "units": {
+      "mgPerDL": "mg/dL",
+      "mmgPerDL": "mmg/dL",
+      "mmolPerL": "mmol/L"
+    },
+    "orgStock": {
+      "title": "Detalles de existencias",
+      "addNewStock": {
+        "title": "Añadir existencias nuevas",
+        "submit": "Añadir existencias nuevas",
+        "date": {
+          "label": "Fecha de suministro de existencias"
+        },
+        "models": {
+          "label": "Modelo"
+        },
+        "tubes": {
+          "label": "Contenedores de tiras reactivas recibidos"
+        },
+        "strips": {
+          "label": "Tiras reactivas"
+        }
+      },
+      "orgStockHistory": {
+        "title": "Histórico de existencias",
+        "dateAdded": "Fecha añadida",
+        "model": "Modelo",
+        "unitsAdded": "Tiras reactivas añadidas",
+        "tubesAdded": "Contenedores de tiras reactivas añadidos",
+        "unitsTotal": "Total de tiras reactivas",
+        "tubesTotal": "Total de contenedores de tiras reactivas"
+      },
+      "totalStock": {
+        "title": "Total de existencias",
+        "lastAddedDate": "Última actualización de existencias",
+        "tubes": "Total de contenedores de tiras reactivas",
+        "strips": "Total de tiras reactivas"
+      },
+      "empty": {
+        "default": "-"
+      }
+    },
+    "help": {
+      "title": "Asistencia de Accu-Chek Smart Pix Online",
+      "prevPage": "Atrás",
+      "nextPage": "Siguiente"
+    },
+    "manufacturerInfo": {
+      "title": "Información del fabricante",
+      "version": "v",
+      "description": "Sistema para el Tratamiento de la Diabetes",
+      "addressLine1": "Roche Diabetes Care GmbH",
+      "addressLine2": "Sandhofer Strasse 116",
+      "addressLine3": "68305 Mannheim",
+      "addressLine4": "Germany"
+    },
+    "deviceAssignment": {
+      "steps": {
+        "one": "",
+        "two": "",
+        "three": ""
+      },
+      "confirmDevice": {
+        "title": "1. El Dispositivo  ",
+        "header": "Su dispositivo seleccionado",
+        "deviceName": "Nombre dispositivo",
+        "serialNumber": "S/N",
+        "wrongDevice": "Dispositivo erróneo?",
+        "tooltipText": "Intente importar datos del paciente, conecte el dispositivo a su ordenador y vuelva a intentarlo",
+        "proceedWithDevice": "Proceder con  el dispositivo"
+      },
+      "patientSearch": {
+        "select": "",
+        "title": "",
+        "searchBar": {
+          "name": "",
+          "patientId": "",
+          "search": ""
+        }
+      }
+    }
+  }
+}

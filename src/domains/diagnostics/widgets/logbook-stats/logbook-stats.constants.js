@@ -1,0 +1,11 @@
+export const BLOOD_GLUCOSE_CELL_LABELS = {
+  HYPO: 'HYPO',
+  BELOW_TARGET_RANGE: 'BELOW_TARGET_RANGE',
+  IN_RANGE: 'IN_RANGE',
+  HYPER: 'HYPER',
+};
+
+export const DAY_CELL_LABELS = {
+  N_A: 'N/A',
+  WEEKEND: 'WEEKEND',
+};

@@ -1,0 +1,57 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-clean-code",
+    "tslint-sonarts",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "prettier": [
+      true
+    ],
+    "jsx-no-lambda": false,
+    "interface-over-type-literal": false,
+    "variable-name": false,
+    "interface-name": ["never-prefix"],
+    "jsx-boolean-value": false,
+    "object-literal-sort-keys": false,
+    "newspaper-order": false,
+    "no-commented-out-code": false,
+    "no-console": false,
+    "no-debugger": false,
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "case-insensitive",
+        "named-imports-order": "case-insensitive",
+        "grouped-imports": true
+      }
+    ],
+    "curly": false,
+    "no-shadowed-variable": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "no-duplicate-string": false
+  },
+  "jsRules": {
+    "interface-over-type-literal": false,
+    "variable-name": false,
+    "interface-name": ["never-prefix"],
+    "jsx-boolean-value": false,
+    "jsdoc-format": false,
+    "curly": false,
+    "object-literal-sort-keys": false,
+    "newspaper-order": false,
+    "no-commented-out-code": false,
+    "no-console": false,
+    "no-debugger": false,
+    "no-bitwise": false,
+    "ordered-imports": false,
+    "no-shadowed-variable": false,
+    "quotemark": false
+  },
+  "linterOptions": {
+    "exclude": ["src/**/*.type.js", "node_modules/**/*.tsx?", "coverage/**/*"]
+  }
+}

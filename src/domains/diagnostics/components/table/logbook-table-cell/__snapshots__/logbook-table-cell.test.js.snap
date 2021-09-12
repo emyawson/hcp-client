@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogbookTableCell test suite LogbookTableCell renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    borderLeft={true}
+    borderRight={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "borderBottom": undefined,
+      "borderLeft": true,
+      "borderRight": true,
+      "borderTop": undefined,
+      "children": undefined,
+      "color": undefined,
+      "colspan": undefined,
+      "fontSize": undefined,
+      "fontWeight": undefined,
+      "height": undefined,
+      "paddingLeft": undefined,
+      "textAlign": undefined,
+      "textTransform": undefined,
+      "verticalAlign": undefined,
+      "width": undefined,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "borderBottom": undefined,
+        "borderLeft": true,
+        "borderRight": true,
+        "borderTop": undefined,
+        "children": undefined,
+        "color": undefined,
+        "colspan": undefined,
+        "fontSize": undefined,
+        "fontWeight": undefined,
+        "height": undefined,
+        "paddingLeft": undefined,
+        "textAlign": undefined,
+        "textTransform": undefined,
+        "verticalAlign": undefined,
+        "width": undefined,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

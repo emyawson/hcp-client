@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "paths": {
+      "@roche/patterns-indicators/*": ["src/*"]
+    }
+  }
+}

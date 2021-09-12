@@ -1,0 +1,1388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alerts component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    alertSettings={
+      Object {
+        "hypoglycemiaAlert": Object {
+          "active": true,
+          "thresholdLimit": 80,
+        },
+        "lowerAlert": Object {
+          "active": true,
+          "thresholdLimit": 120,
+        },
+        "upperAlert": Object {
+          "active": true,
+          "thresholdLimit": 80,
+        },
+      }
+    }
+    alertThresholdRows={
+      Array [
+        Object {
+          "counterLabel": "Hypo Alerts",
+          "id": "hypoglycemiaAlert",
+          "intervalModelPath": ".preIdealInterval",
+          "label": "Hypo Threshold",
+          "values": Object {
+            "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+            "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+            "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+          },
+        },
+        Object {
+          "counterLabel": "Upper Limit Alerts",
+          "id": "upperAlert",
+          "intervalModelPath": ".postIdealInterval",
+          "label": "Upper Limit",
+          "values": Object {
+            "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+            "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+            "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+          },
+        },
+        Object {
+          "counterLabel": "Lower Limit Alerts",
+          "id": "lowerAlert",
+          "intervalModelPath": ".noctIdealInterval",
+          "label": "Lower Limit",
+          "values": Object {
+            "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+            "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+            "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+          },
+        },
+      ]
+    }
+    attachDispatch={[Function]}
+    hasAlerts={false}
+    onSaveAlerts={[Function]}
+    onUpdateThresholdLimit={[Function]}
+    thresholdsHasError={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "function",
+    "props": Object {
+      "children": <Connect(mapProps(WithPermissionsComponent))
+        hasPermissions={
+          Array [
+            "ROLE_STRIP_MNG_ALERTS_CONFIG",
+          ]
+        }
+      >
+        <Unknown
+          text="Alerts are based on the maximum number of alerts allowed between the delivery periods of the test strips to the patient. The alerts could consist of any variation of the different types of alerts you select."
+        />
+        <styled.div>
+          <TimeoutErrorMessage
+            hasAlerts={false}
+            hasError={false}
+          >
+            <styled.div
+              span={12}
+            >
+              <Unknown />
+            </styled.div>
+            <styled.div
+              span={12}
+            >
+              <Unknown
+                alertId="hypoglycemiaAlert"
+                counterLabel="Hypo Alerts"
+                initialCounterValue={80}
+                intervalModelPath=".preIdealInterval"
+                label="Hypo Threshold"
+                onUpdateThresholdLimit={[Function]}
+                values={
+                  Object {
+                    "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                  }
+                }
+              />
+            </styled.div>
+            <styled.div
+              span={12}
+            >
+              <Unknown
+                alertId="upperAlert"
+                counterLabel="Upper Limit Alerts"
+                initialCounterValue={80}
+                intervalModelPath=".postIdealInterval"
+                label="Upper Limit"
+                onUpdateThresholdLimit={[Function]}
+                values={
+                  Object {
+                    "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                  }
+                }
+              />
+            </styled.div>
+            <styled.div
+              span={12}
+            >
+              <Unknown
+                alertId="lowerAlert"
+                counterLabel="Lower Limit Alerts"
+                initialCounterValue={120}
+                intervalModelPath=".noctIdealInterval"
+                label="Lower Limit"
+                onUpdateThresholdLimit={[Function]}
+                values={
+                  Object {
+                    "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                  }
+                }
+              />
+            </styled.div>
+            <styled.div
+              span={12}
+            >
+              <styled.div>
+                <Unknown
+                  accessibilityLabel="saveAccessibilityLabel"
+                  component={[Function]}
+                  disabled={
+                    Object {
+                      "valid": false,
+                    }
+                  }
+                  label="Save Alerts"
+                  model="alerts"
+                />
+              </styled.div>
+            </styled.div>
+          </TimeoutErrorMessage>
+        </styled.div>
+      </Connect(mapProps(WithPermissionsComponent))>,
+      "getDispatch": [Function],
+      "initialState": Object {
+        "hypoglycemiaAlert": Object {
+          "active": true,
+          "thresholdLimit": 80,
+        },
+        "lowerAlert": Object {
+          "active": true,
+          "thresholdLimit": 120,
+        },
+        "upperAlert": Object {
+          "active": true,
+          "thresholdLimit": 80,
+        },
+      },
+      "model": "alerts",
+      "onSubmit": [Function],
+      "validateOn": "change",
+      "validators": Object {
+        "hypoglycemiaAlert.thresholdLimit": [Function],
+        "lowerAlert.thresholdLimit": [Function],
+        "upperAlert.thresholdLimit": [Function],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            text="Alerts are based on the maximum number of alerts allowed between the delivery periods of the test strips to the patient. The alerts could consist of any variation of the different types of alerts you select."
+          />,
+          <styled.div>
+            <TimeoutErrorMessage
+              hasAlerts={false}
+              hasError={false}
+            >
+              <styled.div
+                span={12}
+              >
+                <Unknown />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <Unknown
+                  alertId="hypoglycemiaAlert"
+                  counterLabel="Hypo Alerts"
+                  initialCounterValue={80}
+                  intervalModelPath=".preIdealInterval"
+                  label="Hypo Threshold"
+                  onUpdateThresholdLimit={[Function]}
+                  values={
+                    Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    }
+                  }
+                />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <Unknown
+                  alertId="upperAlert"
+                  counterLabel="Upper Limit Alerts"
+                  initialCounterValue={80}
+                  intervalModelPath=".postIdealInterval"
+                  label="Upper Limit"
+                  onUpdateThresholdLimit={[Function]}
+                  values={
+                    Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    }
+                  }
+                />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <Unknown
+                  alertId="lowerAlert"
+                  counterLabel="Lower Limit Alerts"
+                  initialCounterValue={120}
+                  intervalModelPath=".noctIdealInterval"
+                  label="Lower Limit"
+                  onUpdateThresholdLimit={[Function]}
+                  values={
+                    Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    }
+                  }
+                />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <styled.div>
+                  <Unknown
+                    accessibilityLabel="saveAccessibilityLabel"
+                    component={[Function]}
+                    disabled={
+                      Object {
+                        "valid": false,
+                      }
+                    }
+                    label="Save Alerts"
+                    model="alerts"
+                  />
+                </styled.div>
+              </styled.div>
+            </TimeoutErrorMessage>
+          </styled.div>,
+        ],
+        "hasPermissions": Array [
+          "ROLE_STRIP_MNG_ALERTS_CONFIG",
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "text": "Alerts are based on the maximum number of alerts allowed between the delivery periods of the test strips to the patient. The alerts could consist of any variation of the different types of alerts you select.",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <TimeoutErrorMessage
+              hasAlerts={false}
+              hasError={false}
+            >
+              <styled.div
+                span={12}
+              >
+                <Unknown />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <Unknown
+                  alertId="hypoglycemiaAlert"
+                  counterLabel="Hypo Alerts"
+                  initialCounterValue={80}
+                  intervalModelPath=".preIdealInterval"
+                  label="Hypo Threshold"
+                  onUpdateThresholdLimit={[Function]}
+                  values={
+                    Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    }
+                  }
+                />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <Unknown
+                  alertId="upperAlert"
+                  counterLabel="Upper Limit Alerts"
+                  initialCounterValue={80}
+                  intervalModelPath=".postIdealInterval"
+                  label="Upper Limit"
+                  onUpdateThresholdLimit={[Function]}
+                  values={
+                    Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    }
+                  }
+                />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <Unknown
+                  alertId="lowerAlert"
+                  counterLabel="Lower Limit Alerts"
+                  initialCounterValue={120}
+                  intervalModelPath=".noctIdealInterval"
+                  label="Lower Limit"
+                  onUpdateThresholdLimit={[Function]}
+                  values={
+                    Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    }
+                  }
+                />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <styled.div>
+                  <Unknown
+                    accessibilityLabel="saveAccessibilityLabel"
+                    component={[Function]}
+                    disabled={
+                      Object {
+                        "valid": false,
+                      }
+                    }
+                    label="Save Alerts"
+                    model="alerts"
+                  />
+                </styled.div>
+              </styled.div>
+            </TimeoutErrorMessage>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <styled.div
+                  span={12}
+                >
+                  <Unknown />
+                </styled.div>,
+                Array [
+                  <styled.div
+                    span={12}
+                  >
+                    <Unknown
+                      alertId="hypoglycemiaAlert"
+                      counterLabel="Hypo Alerts"
+                      initialCounterValue={80}
+                      intervalModelPath=".preIdealInterval"
+                      label="Hypo Threshold"
+                      onUpdateThresholdLimit={[Function]}
+                      values={
+                        Object {
+                          "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        }
+                      }
+                    />
+                  </styled.div>,
+                  <styled.div
+                    span={12}
+                  >
+                    <Unknown
+                      alertId="upperAlert"
+                      counterLabel="Upper Limit Alerts"
+                      initialCounterValue={80}
+                      intervalModelPath=".postIdealInterval"
+                      label="Upper Limit"
+                      onUpdateThresholdLimit={[Function]}
+                      values={
+                        Object {
+                          "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        }
+                      }
+                    />
+                  </styled.div>,
+                  <styled.div
+                    span={12}
+                  >
+                    <Unknown
+                      alertId="lowerAlert"
+                      counterLabel="Lower Limit Alerts"
+                      initialCounterValue={120}
+                      intervalModelPath=".noctIdealInterval"
+                      label="Lower Limit"
+                      onUpdateThresholdLimit={[Function]}
+                      values={
+                        Object {
+                          "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        }
+                      }
+                    />
+                  </styled.div>,
+                ],
+                <styled.div
+                  span={12}
+                >
+                  <styled.div>
+                    <Unknown
+                      accessibilityLabel="saveAccessibilityLabel"
+                      component={[Function]}
+                      disabled={
+                        Object {
+                          "valid": false,
+                        }
+                      }
+                      label="Save Alerts"
+                      model="alerts"
+                    />
+                  </styled.div>
+                </styled.div>,
+              ],
+              "hasAlerts": false,
+              "hasError": false,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Unknown />,
+                  "span": 12,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "AlertsGridRow-hypoglycemiaAlert",
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Unknown
+                    alertId="hypoglycemiaAlert"
+                    counterLabel="Hypo Alerts"
+                    initialCounterValue={80}
+                    intervalModelPath=".preIdealInterval"
+                    label="Hypo Threshold"
+                    onUpdateThresholdLimit={[Function]}
+                    values={
+                      Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      }
+                    }
+                  />,
+                  "span": 12,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "AlertsInterval-hypoglycemiaAlert",
+                  "nodeType": "function",
+                  "props": Object {
+                    "alertId": "hypoglycemiaAlert",
+                    "counterLabel": "Hypo Alerts",
+                    "initialCounterValue": 80,
+                    "intervalModelPath": ".preIdealInterval",
+                    "label": "Hypo Threshold",
+                    "onUpdateThresholdLimit": [Function],
+                    "values": Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "AlertsGridRow-upperAlert",
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Unknown
+                    alertId="upperAlert"
+                    counterLabel="Upper Limit Alerts"
+                    initialCounterValue={80}
+                    intervalModelPath=".postIdealInterval"
+                    label="Upper Limit"
+                    onUpdateThresholdLimit={[Function]}
+                    values={
+                      Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      }
+                    }
+                  />,
+                  "span": 12,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "AlertsInterval-upperAlert",
+                  "nodeType": "function",
+                  "props": Object {
+                    "alertId": "upperAlert",
+                    "counterLabel": "Upper Limit Alerts",
+                    "initialCounterValue": 80,
+                    "intervalModelPath": ".postIdealInterval",
+                    "label": "Upper Limit",
+                    "onUpdateThresholdLimit": [Function],
+                    "values": Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "AlertsGridRow-lowerAlert",
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Unknown
+                    alertId="lowerAlert"
+                    counterLabel="Lower Limit Alerts"
+                    initialCounterValue={120}
+                    intervalModelPath=".noctIdealInterval"
+                    label="Lower Limit"
+                    onUpdateThresholdLimit={[Function]}
+                    values={
+                      Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      }
+                    }
+                  />,
+                  "span": 12,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "AlertsInterval-lowerAlert",
+                  "nodeType": "function",
+                  "props": Object {
+                    "alertId": "lowerAlert",
+                    "counterLabel": "Lower Limit Alerts",
+                    "initialCounterValue": 120,
+                    "intervalModelPath": ".noctIdealInterval",
+                    "label": "Lower Limit",
+                    "onUpdateThresholdLimit": [Function],
+                    "values": Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <styled.div>
+                    <Unknown
+                      accessibilityLabel="saveAccessibilityLabel"
+                      component={[Function]}
+                      disabled={
+                        Object {
+                          "valid": false,
+                        }
+                      }
+                      label="Save Alerts"
+                      model="alerts"
+                    />
+                  </styled.div>,
+                  "span": 12,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Unknown
+                      accessibilityLabel="saveAccessibilityLabel"
+                      component={[Function]}
+                      disabled={
+                        Object {
+                          "valid": false,
+                        }
+                      }
+                      label="Save Alerts"
+                      model="alerts"
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "accessibilityLabel": "saveAccessibilityLabel",
+                      "component": [Function],
+                      "disabled": Object {
+                        "valid": false,
+                      },
+                      "label": "Save Alerts",
+                      "model": "alerts",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Connect(mapProps(WithPermissionsComponent))
+          hasPermissions={
+            Array [
+              "ROLE_STRIP_MNG_ALERTS_CONFIG",
+            ]
+          }
+        >
+          <Unknown
+            text="Alerts are based on the maximum number of alerts allowed between the delivery periods of the test strips to the patient. The alerts could consist of any variation of the different types of alerts you select."
+          />
+          <styled.div>
+            <TimeoutErrorMessage
+              hasAlerts={false}
+              hasError={false}
+            >
+              <styled.div
+                span={12}
+              >
+                <Unknown />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <Unknown
+                  alertId="hypoglycemiaAlert"
+                  counterLabel="Hypo Alerts"
+                  initialCounterValue={80}
+                  intervalModelPath=".preIdealInterval"
+                  label="Hypo Threshold"
+                  onUpdateThresholdLimit={[Function]}
+                  values={
+                    Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    }
+                  }
+                />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <Unknown
+                  alertId="upperAlert"
+                  counterLabel="Upper Limit Alerts"
+                  initialCounterValue={80}
+                  intervalModelPath=".postIdealInterval"
+                  label="Upper Limit"
+                  onUpdateThresholdLimit={[Function]}
+                  values={
+                    Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    }
+                  }
+                />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <Unknown
+                  alertId="lowerAlert"
+                  counterLabel="Lower Limit Alerts"
+                  initialCounterValue={120}
+                  intervalModelPath=".noctIdealInterval"
+                  label="Lower Limit"
+                  onUpdateThresholdLimit={[Function]}
+                  values={
+                    Object {
+                      "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                    }
+                  }
+                />
+              </styled.div>
+              <styled.div
+                span={12}
+              >
+                <styled.div>
+                  <Unknown
+                    accessibilityLabel="saveAccessibilityLabel"
+                    component={[Function]}
+                    disabled={
+                      Object {
+                        "valid": false,
+                      }
+                    }
+                    label="Save Alerts"
+                    model="alerts"
+                  />
+                </styled.div>
+              </styled.div>
+            </TimeoutErrorMessage>
+          </styled.div>
+        </Connect(mapProps(WithPermissionsComponent))>,
+        "getDispatch": [Function],
+        "initialState": Object {
+          "hypoglycemiaAlert": Object {
+            "active": true,
+            "thresholdLimit": 80,
+          },
+          "lowerAlert": Object {
+            "active": true,
+            "thresholdLimit": 120,
+          },
+          "upperAlert": Object {
+            "active": true,
+            "thresholdLimit": 80,
+          },
+        },
+        "model": "alerts",
+        "onSubmit": [Function],
+        "validateOn": "change",
+        "validators": Object {
+          "hypoglycemiaAlert.thresholdLimit": [Function],
+          "lowerAlert.thresholdLimit": [Function],
+          "upperAlert.thresholdLimit": [Function],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Unknown
+              text="Alerts are based on the maximum number of alerts allowed between the delivery periods of the test strips to the patient. The alerts could consist of any variation of the different types of alerts you select."
+            />,
+            <styled.div>
+              <TimeoutErrorMessage
+                hasAlerts={false}
+                hasError={false}
+              >
+                <styled.div
+                  span={12}
+                >
+                  <Unknown />
+                </styled.div>
+                <styled.div
+                  span={12}
+                >
+                  <Unknown
+                    alertId="hypoglycemiaAlert"
+                    counterLabel="Hypo Alerts"
+                    initialCounterValue={80}
+                    intervalModelPath=".preIdealInterval"
+                    label="Hypo Threshold"
+                    onUpdateThresholdLimit={[Function]}
+                    values={
+                      Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      }
+                    }
+                  />
+                </styled.div>
+                <styled.div
+                  span={12}
+                >
+                  <Unknown
+                    alertId="upperAlert"
+                    counterLabel="Upper Limit Alerts"
+                    initialCounterValue={80}
+                    intervalModelPath=".postIdealInterval"
+                    label="Upper Limit"
+                    onUpdateThresholdLimit={[Function]}
+                    values={
+                      Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      }
+                    }
+                  />
+                </styled.div>
+                <styled.div
+                  span={12}
+                >
+                  <Unknown
+                    alertId="lowerAlert"
+                    counterLabel="Lower Limit Alerts"
+                    initialCounterValue={120}
+                    intervalModelPath=".noctIdealInterval"
+                    label="Lower Limit"
+                    onUpdateThresholdLimit={[Function]}
+                    values={
+                      Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      }
+                    }
+                  />
+                </styled.div>
+                <styled.div
+                  span={12}
+                >
+                  <styled.div>
+                    <Unknown
+                      accessibilityLabel="saveAccessibilityLabel"
+                      component={[Function]}
+                      disabled={
+                        Object {
+                          "valid": false,
+                        }
+                      }
+                      label="Save Alerts"
+                      model="alerts"
+                    />
+                  </styled.div>
+                </styled.div>
+              </TimeoutErrorMessage>
+            </styled.div>,
+          ],
+          "hasPermissions": Array [
+            "ROLE_STRIP_MNG_ALERTS_CONFIG",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "text": "Alerts are based on the maximum number of alerts allowed between the delivery periods of the test strips to the patient. The alerts could consist of any variation of the different types of alerts you select.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TimeoutErrorMessage
+                hasAlerts={false}
+                hasError={false}
+              >
+                <styled.div
+                  span={12}
+                >
+                  <Unknown />
+                </styled.div>
+                <styled.div
+                  span={12}
+                >
+                  <Unknown
+                    alertId="hypoglycemiaAlert"
+                    counterLabel="Hypo Alerts"
+                    initialCounterValue={80}
+                    intervalModelPath=".preIdealInterval"
+                    label="Hypo Threshold"
+                    onUpdateThresholdLimit={[Function]}
+                    values={
+                      Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      }
+                    }
+                  />
+                </styled.div>
+                <styled.div
+                  span={12}
+                >
+                  <Unknown
+                    alertId="upperAlert"
+                    counterLabel="Upper Limit Alerts"
+                    initialCounterValue={80}
+                    intervalModelPath=".postIdealInterval"
+                    label="Upper Limit"
+                    onUpdateThresholdLimit={[Function]}
+                    values={
+                      Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      }
+                    }
+                  />
+                </styled.div>
+                <styled.div
+                  span={12}
+                >
+                  <Unknown
+                    alertId="lowerAlert"
+                    counterLabel="Lower Limit Alerts"
+                    initialCounterValue={120}
+                    intervalModelPath=".noctIdealInterval"
+                    label="Lower Limit"
+                    onUpdateThresholdLimit={[Function]}
+                    values={
+                      Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      }
+                    }
+                  />
+                </styled.div>
+                <styled.div
+                  span={12}
+                >
+                  <styled.div>
+                    <Unknown
+                      accessibilityLabel="saveAccessibilityLabel"
+                      component={[Function]}
+                      disabled={
+                        Object {
+                          "valid": false,
+                        }
+                      }
+                      label="Save Alerts"
+                      model="alerts"
+                    />
+                  </styled.div>
+                </styled.div>
+              </TimeoutErrorMessage>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.div
+                    span={12}
+                  >
+                    <Unknown />
+                  </styled.div>,
+                  Array [
+                    <styled.div
+                      span={12}
+                    >
+                      <Unknown
+                        alertId="hypoglycemiaAlert"
+                        counterLabel="Hypo Alerts"
+                        initialCounterValue={80}
+                        intervalModelPath=".preIdealInterval"
+                        label="Hypo Threshold"
+                        onUpdateThresholdLimit={[Function]}
+                        values={
+                          Object {
+                            "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                            "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                            "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          }
+                        }
+                      />
+                    </styled.div>,
+                    <styled.div
+                      span={12}
+                    >
+                      <Unknown
+                        alertId="upperAlert"
+                        counterLabel="Upper Limit Alerts"
+                        initialCounterValue={80}
+                        intervalModelPath=".postIdealInterval"
+                        label="Upper Limit"
+                        onUpdateThresholdLimit={[Function]}
+                        values={
+                          Object {
+                            "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                            "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                            "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          }
+                        }
+                      />
+                    </styled.div>,
+                    <styled.div
+                      span={12}
+                    >
+                      <Unknown
+                        alertId="lowerAlert"
+                        counterLabel="Lower Limit Alerts"
+                        initialCounterValue={120}
+                        intervalModelPath=".noctIdealInterval"
+                        label="Lower Limit"
+                        onUpdateThresholdLimit={[Function]}
+                        values={
+                          Object {
+                            "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                            "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                            "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          }
+                        }
+                      />
+                    </styled.div>,
+                  ],
+                  <styled.div
+                    span={12}
+                  >
+                    <styled.div>
+                      <Unknown
+                        accessibilityLabel="saveAccessibilityLabel"
+                        component={[Function]}
+                        disabled={
+                          Object {
+                            "valid": false,
+                          }
+                        }
+                        label="Save Alerts"
+                        model="alerts"
+                      />
+                    </styled.div>
+                  </styled.div>,
+                ],
+                "hasAlerts": false,
+                "hasError": false,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Unknown />,
+                    "span": 12,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "AlertsGridRow-hypoglycemiaAlert",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Unknown
+                      alertId="hypoglycemiaAlert"
+                      counterLabel="Hypo Alerts"
+                      initialCounterValue={80}
+                      intervalModelPath=".preIdealInterval"
+                      label="Hypo Threshold"
+                      onUpdateThresholdLimit={[Function]}
+                      values={
+                        Object {
+                          "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        }
+                      }
+                    />,
+                    "span": 12,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "AlertsInterval-hypoglycemiaAlert",
+                    "nodeType": "function",
+                    "props": Object {
+                      "alertId": "hypoglycemiaAlert",
+                      "counterLabel": "Hypo Alerts",
+                      "initialCounterValue": 80,
+                      "intervalModelPath": ".preIdealInterval",
+                      "label": "Hypo Threshold",
+                      "onUpdateThresholdLimit": [Function],
+                      "values": Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "AlertsGridRow-upperAlert",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Unknown
+                      alertId="upperAlert"
+                      counterLabel="Upper Limit Alerts"
+                      initialCounterValue={80}
+                      intervalModelPath=".postIdealInterval"
+                      label="Upper Limit"
+                      onUpdateThresholdLimit={[Function]}
+                      values={
+                        Object {
+                          "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        }
+                      }
+                    />,
+                    "span": 12,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "AlertsInterval-upperAlert",
+                    "nodeType": "function",
+                    "props": Object {
+                      "alertId": "upperAlert",
+                      "counterLabel": "Upper Limit Alerts",
+                      "initialCounterValue": 80,
+                      "intervalModelPath": ".postIdealInterval",
+                      "label": "Upper Limit",
+                      "onUpdateThresholdLimit": [Function],
+                      "values": Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "AlertsGridRow-lowerAlert",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Unknown
+                      alertId="lowerAlert"
+                      counterLabel="Lower Limit Alerts"
+                      initialCounterValue={120}
+                      intervalModelPath=".noctIdealInterval"
+                      label="Lower Limit"
+                      onUpdateThresholdLimit={[Function]}
+                      values={
+                        Object {
+                          "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                          "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        }
+                      }
+                    />,
+                    "span": 12,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "AlertsInterval-lowerAlert",
+                    "nodeType": "function",
+                    "props": Object {
+                      "alertId": "lowerAlert",
+                      "counterLabel": "Lower Limit Alerts",
+                      "initialCounterValue": 120,
+                      "intervalModelPath": ".noctIdealInterval",
+                      "label": "Lower Limit",
+                      "onUpdateThresholdLimit": [Function],
+                      "values": Object {
+                        "noctIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "postIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                        "preIdealInterval": "125 mmg/DL (6.9 mmol/L",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <styled.div>
+                      <Unknown
+                        accessibilityLabel="saveAccessibilityLabel"
+                        component={[Function]}
+                        disabled={
+                          Object {
+                            "valid": false,
+                          }
+                        }
+                        label="Save Alerts"
+                        model="alerts"
+                      />
+                    </styled.div>,
+                    "span": 12,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Unknown
+                        accessibilityLabel="saveAccessibilityLabel"
+                        component={[Function]}
+                        disabled={
+                          Object {
+                            "valid": false,
+                          }
+                        }
+                        label="Save Alerts"
+                        model="alerts"
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "accessibilityLabel": "saveAccessibilityLabel",
+                        "component": [Function],
+                        "disabled": Object {
+                          "valid": false,
+                        },
+                        "label": "Save Alerts",
+                        "model": "alerts",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

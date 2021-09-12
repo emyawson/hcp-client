@@ -1,0 +1,772 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Patient status notification modal component Renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    destroyModal={[Function]}
+    hasLastTrafficLightStatusWithAlert={false}
+    lastTrafficLightStatus="DELIVER"
+    lastTrafficLightStatusComment="comment"
+    lastTrafficLightStatusConditions={Object {}}
+    lastTrafficLightStatusDateCalculated="2018-02-27T00:00:00.000Z"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.div>
+          <LocalizedText
+            fontSize={4}
+            textKey="modals.patientStatusNotification.title"
+          />
+          <Styled(Styled(Component))
+            onClick={[Function]}
+          >
+            <span>
+              <Unknown
+                fillColor="#FFF"
+                height={14}
+              />
+            </span>
+          </Styled(Styled(Component))>
+        </styled.div>,
+        <styled.div>
+          <GridContainer>
+            <Connect(Component)
+              displayOnly={true}
+              hideNextDeliveryDate={true}
+            >
+              <Unknown
+                conditions={Object {}}
+                hasLastDeliveryWithAlert={false}
+                trafficLightStatus="DELIVER"
+              />
+              <f1
+                validate={true}
+              >
+                <styled.div>
+                  <Unknown
+                    date="2018-02-27T00:00:00.000Z"
+                    message="comment"
+                    title="Administrative Comments"
+                  />
+                </styled.div>
+              </f1>
+              <styled.div>
+                <Button
+                  accessibilityLabel=""
+                  buttonStyle="primary"
+                  disabled={false}
+                  fontSize="0.875rem"
+                  label="Acknowledge Patient Status"
+                  loading={false}
+                  minWidth=""
+                  onClick={[Function]}
+                />
+              </styled.div>
+            </Connect(Component)>
+          </GridContainer>
+        </styled.div>,
+      ],
+      "minWidth": 960,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <LocalizedText
+              fontSize={4}
+              textKey="modals.patientStatusNotification.title"
+            />,
+            <Styled(Styled(Component))
+              onClick={[Function]}
+            >
+              <span>
+                <Unknown
+                  fillColor="#FFF"
+                  height={14}
+                />
+              </span>
+            </Styled(Styled(Component))>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "fontSize": 4,
+              "textKey": "modals.patientStatusNotification.title",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <span>
+                <Unknown
+                  fillColor="#FFF"
+                  height={14}
+                />
+              </span>,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Unknown
+                  fillColor="#FFF"
+                  height={14}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "fillColor": "#FFF",
+                  "height": 14,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "span",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <GridContainer>
+            <Connect(Component)
+              displayOnly={true}
+              hideNextDeliveryDate={true}
+            >
+              <Unknown
+                conditions={Object {}}
+                hasLastDeliveryWithAlert={false}
+                trafficLightStatus="DELIVER"
+              />
+              <f1
+                validate={true}
+              >
+                <styled.div>
+                  <Unknown
+                    date="2018-02-27T00:00:00.000Z"
+                    message="comment"
+                    title="Administrative Comments"
+                  />
+                </styled.div>
+              </f1>
+              <styled.div>
+                <Button
+                  accessibilityLabel=""
+                  buttonStyle="primary"
+                  disabled={false}
+                  fontSize="0.875rem"
+                  label="Acknowledge Patient Status"
+                  loading={false}
+                  minWidth=""
+                  onClick={[Function]}
+                />
+              </styled.div>
+            </Connect(Component)>
+          </GridContainer>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Connect(Component)
+              displayOnly={true}
+              hideNextDeliveryDate={true}
+            >
+              <Unknown
+                conditions={Object {}}
+                hasLastDeliveryWithAlert={false}
+                trafficLightStatus="DELIVER"
+              />
+              <f1
+                validate={true}
+              >
+                <styled.div>
+                  <Unknown
+                    date="2018-02-27T00:00:00.000Z"
+                    message="comment"
+                    title="Administrative Comments"
+                  />
+                </styled.div>
+              </f1>
+              <styled.div>
+                <Button
+                  accessibilityLabel=""
+                  buttonStyle="primary"
+                  disabled={false}
+                  fontSize="0.875rem"
+                  label="Acknowledge Patient Status"
+                  loading={false}
+                  minWidth=""
+                  onClick={[Function]}
+                />
+              </styled.div>
+            </Connect(Component)>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Unknown
+                  conditions={Object {}}
+                  hasLastDeliveryWithAlert={false}
+                  trafficLightStatus="DELIVER"
+                />,
+                <f1
+                  validate={true}
+                >
+                  <styled.div>
+                    <Unknown
+                      date="2018-02-27T00:00:00.000Z"
+                      message="comment"
+                      title="Administrative Comments"
+                    />
+                  </styled.div>
+                </f1>,
+                <styled.div>
+                  <Button
+                    accessibilityLabel=""
+                    buttonStyle="primary"
+                    disabled={false}
+                    fontSize="0.875rem"
+                    label="Acknowledge Patient Status"
+                    loading={false}
+                    minWidth=""
+                    onClick={[Function]}
+                  />
+                </styled.div>,
+              ],
+              "displayOnly": true,
+              "hideNextDeliveryDate": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "conditions": Object {},
+                  "hasLastDeliveryWithAlert": false,
+                  "trafficLightStatus": "DELIVER",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <styled.div>
+                    <Unknown
+                      date="2018-02-27T00:00:00.000Z"
+                      message="comment"
+                      title="Administrative Comments"
+                    />
+                  </styled.div>,
+                  "validate": true,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Unknown
+                      date="2018-02-27T00:00:00.000Z"
+                      message="comment"
+                      title="Administrative Comments"
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "date": "2018-02-27T00:00:00.000Z",
+                      "message": "comment",
+                      "title": "Administrative Comments",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Button
+                    accessibilityLabel=""
+                    buttonStyle="primary"
+                    disabled={false}
+                    fontSize="0.875rem"
+                    label="Acknowledge Patient Status"
+                    loading={false}
+                    minWidth=""
+                    onClick={[Function]}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "accessibilityLabel": "",
+                    "buttonStyle": "primary",
+                    "disabled": false,
+                    "fontSize": "0.875rem",
+                    "label": "Acknowledge Patient Status",
+                    "loading": false,
+                    "minWidth": "",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.div>
+            <LocalizedText
+              fontSize={4}
+              textKey="modals.patientStatusNotification.title"
+            />
+            <Styled(Styled(Component))
+              onClick={[Function]}
+            >
+              <span>
+                <Unknown
+                  fillColor="#FFF"
+                  height={14}
+                />
+              </span>
+            </Styled(Styled(Component))>
+          </styled.div>,
+          <styled.div>
+            <GridContainer>
+              <Connect(Component)
+                displayOnly={true}
+                hideNextDeliveryDate={true}
+              >
+                <Unknown
+                  conditions={Object {}}
+                  hasLastDeliveryWithAlert={false}
+                  trafficLightStatus="DELIVER"
+                />
+                <f1
+                  validate={true}
+                >
+                  <styled.div>
+                    <Unknown
+                      date="2018-02-27T00:00:00.000Z"
+                      message="comment"
+                      title="Administrative Comments"
+                    />
+                  </styled.div>
+                </f1>
+                <styled.div>
+                  <Button
+                    accessibilityLabel=""
+                    buttonStyle="primary"
+                    disabled={false}
+                    fontSize="0.875rem"
+                    label="Acknowledge Patient Status"
+                    loading={false}
+                    minWidth=""
+                    onClick={[Function]}
+                  />
+                </styled.div>
+              </Connect(Component)>
+            </GridContainer>
+          </styled.div>,
+        ],
+        "minWidth": 960,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <LocalizedText
+                fontSize={4}
+                textKey="modals.patientStatusNotification.title"
+              />,
+              <Styled(Styled(Component))
+                onClick={[Function]}
+              >
+                <span>
+                  <Unknown
+                    fillColor="#FFF"
+                    height={14}
+                  />
+                </span>
+              </Styled(Styled(Component))>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "fontSize": 4,
+                "textKey": "modals.patientStatusNotification.title",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <span>
+                  <Unknown
+                    fillColor="#FFF"
+                    height={14}
+                  />
+                </span>,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Unknown
+                    fillColor="#FFF"
+                    height={14}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "fillColor": "#FFF",
+                    "height": 14,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "span",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <GridContainer>
+              <Connect(Component)
+                displayOnly={true}
+                hideNextDeliveryDate={true}
+              >
+                <Unknown
+                  conditions={Object {}}
+                  hasLastDeliveryWithAlert={false}
+                  trafficLightStatus="DELIVER"
+                />
+                <f1
+                  validate={true}
+                >
+                  <styled.div>
+                    <Unknown
+                      date="2018-02-27T00:00:00.000Z"
+                      message="comment"
+                      title="Administrative Comments"
+                    />
+                  </styled.div>
+                </f1>
+                <styled.div>
+                  <Button
+                    accessibilityLabel=""
+                    buttonStyle="primary"
+                    disabled={false}
+                    fontSize="0.875rem"
+                    label="Acknowledge Patient Status"
+                    loading={false}
+                    minWidth=""
+                    onClick={[Function]}
+                  />
+                </styled.div>
+              </Connect(Component)>
+            </GridContainer>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Connect(Component)
+                displayOnly={true}
+                hideNextDeliveryDate={true}
+              >
+                <Unknown
+                  conditions={Object {}}
+                  hasLastDeliveryWithAlert={false}
+                  trafficLightStatus="DELIVER"
+                />
+                <f1
+                  validate={true}
+                >
+                  <styled.div>
+                    <Unknown
+                      date="2018-02-27T00:00:00.000Z"
+                      message="comment"
+                      title="Administrative Comments"
+                    />
+                  </styled.div>
+                </f1>
+                <styled.div>
+                  <Button
+                    accessibilityLabel=""
+                    buttonStyle="primary"
+                    disabled={false}
+                    fontSize="0.875rem"
+                    label="Acknowledge Patient Status"
+                    loading={false}
+                    minWidth=""
+                    onClick={[Function]}
+                  />
+                </styled.div>
+              </Connect(Component)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    conditions={Object {}}
+                    hasLastDeliveryWithAlert={false}
+                    trafficLightStatus="DELIVER"
+                  />,
+                  <f1
+                    validate={true}
+                  >
+                    <styled.div>
+                      <Unknown
+                        date="2018-02-27T00:00:00.000Z"
+                        message="comment"
+                        title="Administrative Comments"
+                      />
+                    </styled.div>
+                  </f1>,
+                  <styled.div>
+                    <Button
+                      accessibilityLabel=""
+                      buttonStyle="primary"
+                      disabled={false}
+                      fontSize="0.875rem"
+                      label="Acknowledge Patient Status"
+                      loading={false}
+                      minWidth=""
+                      onClick={[Function]}
+                    />
+                  </styled.div>,
+                ],
+                "displayOnly": true,
+                "hideNextDeliveryDate": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "conditions": Object {},
+                    "hasLastDeliveryWithAlert": false,
+                    "trafficLightStatus": "DELIVER",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <styled.div>
+                      <Unknown
+                        date="2018-02-27T00:00:00.000Z"
+                        message="comment"
+                        title="Administrative Comments"
+                      />
+                    </styled.div>,
+                    "validate": true,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Unknown
+                        date="2018-02-27T00:00:00.000Z"
+                        message="comment"
+                        title="Administrative Comments"
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "date": "2018-02-27T00:00:00.000Z",
+                        "message": "comment",
+                        "title": "Administrative Comments",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Button
+                      accessibilityLabel=""
+                      buttonStyle="primary"
+                      disabled={false}
+                      fontSize="0.875rem"
+                      label="Acknowledge Patient Status"
+                      loading={false}
+                      minWidth=""
+                      onClick={[Function]}
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "accessibilityLabel": "",
+                      "buttonStyle": "primary",
+                      "disabled": false,
+                      "fontSize": "0.875rem",
+                      "label": "Acknowledge Patient Status",
+                      "loading": false,
+                      "minWidth": "",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

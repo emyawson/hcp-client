@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Strip stock row component Renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    dateAdded="2018-02-27T00:00:00.000Z"
+    id="123"
+    name="Name"
+    totalStripStock={50000}
+    totalTubeStock={1000}
+    tubeStock={100}
+    unitStock={5000}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          highlighted={true}
+          isRowTitle={true}
+          label="Date Added"
+          value="2018-02-27T00:00:00.000Z"
+        />,
+        <Unknown
+          label="Model"
+          value="Name"
+        />,
+        <Unknown
+          label="Strip Containers Added"
+          value={100}
+        />,
+        <Unknown
+          label="Strips Added"
+          value={5000}
+        />,
+        <Unknown
+          highlighted={true}
+          label="Total Strip Containers"
+          value={1000}
+        />,
+        <Unknown
+          highlighted={true}
+          label="Total Strips"
+          value={50000}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "highlighted": true,
+          "isRowTitle": true,
+          "label": "Date Added",
+          "value": "2018-02-27T00:00:00.000Z",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "label": "Model",
+          "value": "Name",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "label": "Strip Containers Added",
+          "value": 100,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "label": "Strips Added",
+          "value": 5000,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "highlighted": true,
+          "label": "Total Strip Containers",
+          "value": 1000,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "highlighted": true,
+          "label": "Total Strips",
+          "value": 50000,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            highlighted={true}
+            isRowTitle={true}
+            label="Date Added"
+            value="2018-02-27T00:00:00.000Z"
+          />,
+          <Unknown
+            label="Model"
+            value="Name"
+          />,
+          <Unknown
+            label="Strip Containers Added"
+            value={100}
+          />,
+          <Unknown
+            label="Strips Added"
+            value={5000}
+          />,
+          <Unknown
+            highlighted={true}
+            label="Total Strip Containers"
+            value={1000}
+          />,
+          <Unknown
+            highlighted={true}
+            label="Total Strips"
+            value={50000}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "highlighted": true,
+            "isRowTitle": true,
+            "label": "Date Added",
+            "value": "2018-02-27T00:00:00.000Z",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "label": "Model",
+            "value": "Name",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "label": "Strip Containers Added",
+            "value": 100,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "label": "Strips Added",
+            "value": 5000,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "highlighted": true,
+            "label": "Total Strip Containers",
+            "value": 1000,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "highlighted": true,
+            "label": "Total Strips",
+            "value": 50000,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyCells test suite it renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    numberOfCells={5}
+    showBorder={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Array [
+    <Unknown
+      alternateFill={false}
+      borderRight={false}
+      flex={1}
+    >
+       
+    </Unknown>,
+    <Unknown
+      alternateFill={false}
+      borderRight={false}
+      flex={1}
+    >
+       
+    </Unknown>,
+    <Unknown
+      alternateFill={false}
+      borderRight={true}
+      flex={1}
+    >
+       
+    </Unknown>,
+    <Unknown
+      alternateFill={true}
+      borderRight={false}
+      flex={1}
+    >
+       
+    </Unknown>,
+    <Unknown
+      alternateFill={true}
+      borderRight={false}
+      flex={1}
+    >
+       
+    </Unknown>,
+  ],
+  Symbol(enzyme.__nodes__): Array [
+    Array [
+      <Unknown
+        alternateFill={false}
+        borderRight={false}
+        flex={1}
+      >
+         
+      </Unknown>,
+      <Unknown
+        alternateFill={false}
+        borderRight={false}
+        flex={1}
+      >
+         
+      </Unknown>,
+      <Unknown
+        alternateFill={false}
+        borderRight={true}
+        flex={1}
+      >
+         
+      </Unknown>,
+      <Unknown
+        alternateFill={true}
+        borderRight={false}
+        flex={1}
+      >
+         
+      </Unknown>,
+      <Unknown
+        alternateFill={true}
+        borderRight={false}
+        flex={1}
+      >
+         
+      </Unknown>,
+    ],
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

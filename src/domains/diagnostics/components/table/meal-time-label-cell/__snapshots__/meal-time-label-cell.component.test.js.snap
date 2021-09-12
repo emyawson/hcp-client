@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MealTimeLabelCell test suite it renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    keyText="test"
+    mealTime="NIGHT"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "NIGHT-test",
+    "nodeType": "function",
+    "props": Object {
+      "children": <Unknown
+        color="#5D8FDF"
+        height="1.5rem"
+        p="0.25rem"
+      >
+        <MealTime
+          bold={true}
+        >
+          <MealTitleWithTooltip
+            textAlign={undefined}
+          >
+            NIGHT
+          </MealTitleWithTooltip>
+        </MealTime>
+      </Unknown>,
+      "p": 1,
+      "width": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "function",
+      "props": Object {
+        "children": <MealTime
+          bold={true}
+        >
+          <MealTitleWithTooltip
+            textAlign={undefined}
+          >
+            NIGHT
+          </MealTitleWithTooltip>
+        </MealTime>,
+        "color": "#5D8FDF",
+        "height": "1.5rem",
+        "p": "0.25rem",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": "test",
+        "nodeType": "class",
+        "props": Object {
+          "bold": true,
+          "children": <MealTitleWithTooltip
+            textAlign={undefined}
+          >
+            NIGHT
+          </MealTitleWithTooltip>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": "NIGHT",
+            "textAlign": undefined,
+          },
+          "ref": null,
+          "rendered": "NIGHT",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "NIGHT-test",
+      "nodeType": "function",
+      "props": Object {
+        "children": <Unknown
+          color="#5D8FDF"
+          height="1.5rem"
+          p="0.25rem"
+        >
+          <MealTime
+            bold={true}
+          >
+            <MealTitleWithTooltip
+              textAlign={undefined}
+            >
+              NIGHT
+            </MealTitleWithTooltip>
+          </MealTime>
+        </Unknown>,
+        "p": 1,
+        "width": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": <MealTime
+            bold={true}
+          >
+            <MealTitleWithTooltip
+              textAlign={undefined}
+            >
+              NIGHT
+            </MealTitleWithTooltip>
+          </MealTime>,
+          "color": "#5D8FDF",
+          "height": "1.5rem",
+          "p": "0.25rem",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": "test",
+          "nodeType": "class",
+          "props": Object {
+            "bold": true,
+            "children": <MealTitleWithTooltip
+              textAlign={undefined}
+            >
+              NIGHT
+            </MealTitleWithTooltip>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": "NIGHT",
+              "textAlign": undefined,
+            },
+            "ref": null,
+            "rendered": "NIGHT",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

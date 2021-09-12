@@ -1,0 +1,2768 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`patient dashboard component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PatientDashboard
+    getClinicalData={[Function]}
+    getDeliveryRequest={[Function]}
+    getPatient={[Function]}
+    getPatientStock={[Function]}
+    getThresholds={[Function]}
+    getTimeIntervals={[Function]}
+    graph="standard-week"
+    graphType="details"
+    match={
+      Object {
+        "params": Object {
+          "id": 22,
+        },
+        "url": "/patients/123",
+      }
+    }
+    patient={
+      Object {
+        "birthdate": 19900101,
+        "diabetesType": 1,
+        "id": "123",
+        "name": Object {
+          "first": "Bob",
+          "last": "Smith",
+        },
+        "phone": 212111111,
+      }
+    }
+    permissions={
+      Object {
+        "hasPatientDeactivation": true,
+        "hasTimeBlocksManagement": true,
+        "hasTreatmentList": true,
+        "hasUserShowGraphicConfiguration": true,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <GridContainer
+          marginBottom={true}
+          span={12}
+        >
+          <GridItem
+            span="12"
+          >
+            <Connect(withRouter(lifecycle(Component))) />
+          </GridItem>
+          <GridItem
+            span="12"
+          >
+            <Unknown
+              bottomMarginHeadline="0.5rem"
+              textColor="#4A4A4A"
+              title="Detailed Patient Health Information"
+            />
+            <Connect(withRouter(GlobalGraphOptions)) />
+          </GridItem>
+          <GridItem
+            span="6"
+          >
+            <Card
+              cardStyles={
+                Array [
+                  "patientDashboard",
+                  "flexible",
+                  "noPadding",
+                ]
+              }
+              title="Distribution"
+            >
+              <Connect(Component) />
+            </Card>
+          </GridItem>
+          <GridItem
+            span="6"
+          >
+            <Card
+              cardStyles={
+                Array [
+                  "patientDashboard",
+                  "flexible",
+                  "noPadding",
+                ]
+              }
+              expandable={true}
+              link="/patients/123/advanced-indicators"
+              title="Status"
+            >
+              <Connect(Component) />
+            </Card>
+          </GridItem>
+          <GridItem
+            span="12"
+          >
+            <Card
+              cardStyles={
+                Array [
+                  "noHeaderBorder",
+                ]
+              }
+              collapsable={false}
+              customHeaderComponent={
+                <Unknown>
+                  <TabsHeader
+                    mb={4}
+                    ml="0"
+                    mr="auto"
+                    pt={1}
+                  >
+                    <Unknown
+                      activeTitle="trend"
+                      currentTitle="standard-week"
+                      name="Trend"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="standard-day"
+                      currentTitle="standard-week"
+                      name="Standard Day"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="standard-week"
+                      currentTitle="standard-week"
+                      name="Standard Week"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="logbook"
+                      currentTitle="standard-week"
+                      name="Logbook"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="metabolic-rate"
+                      currentTitle="standard-week"
+                      name="Metabolic Rate"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="insulin"
+                      currentTitle="standard-week"
+                      name="Basal / Bolus Info"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="insulin-pump"
+                      currentTitle="standard-week"
+                      name="Insulin Pump"
+                      onClick={[Function]}
+                    />
+                  </TabsHeader>
+                </Unknown>
+              }
+              expandable={true}
+              link="/patients/123/graph/standard-week"
+            >
+              <GraphContainerDiv
+                graph="standard-week"
+              >
+                <withRouter(Connect(withState(withHandlers(StandardWeekDetail))))
+                  collapsed={true}
+                  showDetails={false}
+                />
+              </GraphContainerDiv>
+            </Card>
+          </GridItem>
+        </GridContainer>,
+        <Connect(mapProps(WithPermissionsComponent))
+          hasPermissions={
+            Array [
+              "ROLE_PATIENT",
+            ]
+          }
+          onVerification={[Function]}
+          patientId={22}
+        >
+          <FlexibleGridContainer
+            marginBottom={true}
+          >
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={
+                Array [
+                  "ROLE_STRIP_MNG_VIEW_TRAFFIC_LIGHT",
+                ]
+              }
+            >
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_STRIP_MNG_PATIENT",
+                  ]
+                }
+                patientId={22}
+              >
+                <GridItem
+                  span={12}
+                >
+                  <Card
+                    cardStyles={
+                      Array [
+                        "patientDashboard",
+                        "noPadding",
+                      ]
+                    }
+                    expandable={true}
+                    link="/patients/123/strip-information"
+                    title="Strip Delivery"
+                  >
+                    <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                  </Card>
+                </GridItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+            </Connect(mapProps(WithPermissionsComponent))>
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={
+                Array [
+                  "ROLE_DELIVERY_MGMT_PROFESSIONAL",
+                ]
+              }
+            >
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_DELIVERY_MGMT_PATIENT",
+                  ]
+                }
+                patientId={22}
+              >
+                <GridItem
+                  span={12}
+                >
+                  <Card
+                    cardStyles={
+                      Array [
+                        "patientDashboard",
+                        "flexible",
+                        "noPadding",
+                      ]
+                    }
+                    title="Home Strip Delivery"
+                  >
+                    <Connect(withRouter()) />
+                  </Card>
+                </GridItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+            </Connect(mapProps(WithPermissionsComponent))>
+            <GridItem
+              span={12}
+            >
+              <Card
+                cardStyles={
+                  Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ]
+                }
+                collapsable={true}
+                expandable={true}
+                link="/patients/123/graph/blood-glucose-general-stats/all"
+                match={
+                  Object {
+                    "params": Object {
+                      "id": 22,
+                    },
+                    "url": "/patients/123",
+                  }
+                }
+                patientId={22}
+                title="BG Statistics"
+              >
+                <Connect(Component) />
+              </Card>
+            </GridItem>
+            <GridItem
+              span={12}
+            >
+              <Card
+                cardStyles={
+                  Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ]
+                }
+                title="Hypoglycemia"
+              >
+                <Connect(Component) />
+              </Card>
+            </GridItem>
+          </FlexibleGridContainer>
+        </Connect(mapProps(WithPermissionsComponent))>,
+      ],
+      "hasPermissions": Array [
+        "ROLE_USER_SHOW_GRAPHIC_CONFIGURATION",
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <GridItem
+              span="12"
+            >
+              <Connect(withRouter(lifecycle(Component))) />
+            </GridItem>,
+            <GridItem
+              span="12"
+            >
+              <Unknown
+                bottomMarginHeadline="0.5rem"
+                textColor="#4A4A4A"
+                title="Detailed Patient Health Information"
+              />
+              <Connect(withRouter(GlobalGraphOptions)) />
+            </GridItem>,
+            <GridItem
+              span="6"
+            >
+              <Card
+                cardStyles={
+                  Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ]
+                }
+                title="Distribution"
+              >
+                <Connect(Component) />
+              </Card>
+            </GridItem>,
+            <GridItem
+              span="6"
+            >
+              <Card
+                cardStyles={
+                  Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ]
+                }
+                expandable={true}
+                link="/patients/123/advanced-indicators"
+                title="Status"
+              >
+                <Connect(Component) />
+              </Card>
+            </GridItem>,
+            <GridItem
+              span="12"
+            >
+              <Card
+                cardStyles={
+                  Array [
+                    "noHeaderBorder",
+                  ]
+                }
+                collapsable={false}
+                customHeaderComponent={
+                  <Unknown>
+                    <TabsHeader
+                      mb={4}
+                      ml="0"
+                      mr="auto"
+                      pt={1}
+                    >
+                      <Unknown
+                        activeTitle="trend"
+                        currentTitle="standard-week"
+                        name="Trend"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="standard-day"
+                        currentTitle="standard-week"
+                        name="Standard Day"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="standard-week"
+                        currentTitle="standard-week"
+                        name="Standard Week"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="logbook"
+                        currentTitle="standard-week"
+                        name="Logbook"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="metabolic-rate"
+                        currentTitle="standard-week"
+                        name="Metabolic Rate"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="insulin"
+                        currentTitle="standard-week"
+                        name="Basal / Bolus Info"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="insulin-pump"
+                        currentTitle="standard-week"
+                        name="Insulin Pump"
+                        onClick={[Function]}
+                      />
+                    </TabsHeader>
+                  </Unknown>
+                }
+                expandable={true}
+                link="/patients/123/graph/standard-week"
+              >
+                <GraphContainerDiv
+                  graph="standard-week"
+                >
+                  <withRouter(Connect(withState(withHandlers(StandardWeekDetail))))
+                    collapsed={true}
+                    showDetails={false}
+                  />
+                </GraphContainerDiv>
+              </Card>
+            </GridItem>,
+          ],
+          "marginBottom": true,
+          "span": 12,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Connect(withRouter(lifecycle(Component))) />,
+              "span": "12",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Unknown
+                  bottomMarginHeadline="0.5rem"
+                  textColor="#4A4A4A"
+                  title="Detailed Patient Health Information"
+                />,
+                <Connect(withRouter(GlobalGraphOptions)) />,
+              ],
+              "span": "12",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "bottomMarginHeadline": "0.5rem",
+                  "textColor": "#4A4A4A",
+                  "title": "Detailed Patient Health Information",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Card
+                cardStyles={
+                  Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ]
+                }
+                title="Distribution"
+              >
+                <Connect(Component) />
+              </Card>,
+              "span": "6",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "cardStyles": Array [
+                  "patientDashboard",
+                  "flexible",
+                  "noPadding",
+                ],
+                "children": <Connect(Component) />,
+                "title": "Distribution",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Card
+                cardStyles={
+                  Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ]
+                }
+                expandable={true}
+                link="/patients/123/advanced-indicators"
+                title="Status"
+              >
+                <Connect(Component) />
+              </Card>,
+              "span": "6",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "cardStyles": Array [
+                  "patientDashboard",
+                  "flexible",
+                  "noPadding",
+                ],
+                "children": <Connect(Component) />,
+                "expandable": true,
+                "link": "/patients/123/advanced-indicators",
+                "title": "Status",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Card
+                cardStyles={
+                  Array [
+                    "noHeaderBorder",
+                  ]
+                }
+                collapsable={false}
+                customHeaderComponent={
+                  <Unknown>
+                    <TabsHeader
+                      mb={4}
+                      ml="0"
+                      mr="auto"
+                      pt={1}
+                    >
+                      <Unknown
+                        activeTitle="trend"
+                        currentTitle="standard-week"
+                        name="Trend"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="standard-day"
+                        currentTitle="standard-week"
+                        name="Standard Day"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="standard-week"
+                        currentTitle="standard-week"
+                        name="Standard Week"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="logbook"
+                        currentTitle="standard-week"
+                        name="Logbook"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="metabolic-rate"
+                        currentTitle="standard-week"
+                        name="Metabolic Rate"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="insulin"
+                        currentTitle="standard-week"
+                        name="Basal / Bolus Info"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="insulin-pump"
+                        currentTitle="standard-week"
+                        name="Insulin Pump"
+                        onClick={[Function]}
+                      />
+                    </TabsHeader>
+                  </Unknown>
+                }
+                expandable={true}
+                link="/patients/123/graph/standard-week"
+              >
+                <GraphContainerDiv
+                  graph="standard-week"
+                >
+                  <withRouter(Connect(withState(withHandlers(StandardWeekDetail))))
+                    collapsed={true}
+                    showDetails={false}
+                  />
+                </GraphContainerDiv>
+              </Card>,
+              "span": "12",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "cardStyles": Array [
+                  "noHeaderBorder",
+                ],
+                "children": <GraphContainerDiv
+                  graph="standard-week"
+                >
+                  <withRouter(Connect(withState(withHandlers(StandardWeekDetail))))
+                    collapsed={true}
+                    showDetails={false}
+                  />
+                </GraphContainerDiv>,
+                "collapsable": false,
+                "customHeaderComponent": <Unknown>
+                  <TabsHeader
+                    mb={4}
+                    ml="0"
+                    mr="auto"
+                    pt={1}
+                  >
+                    <Unknown
+                      activeTitle="trend"
+                      currentTitle="standard-week"
+                      name="Trend"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="standard-day"
+                      currentTitle="standard-week"
+                      name="Standard Day"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="standard-week"
+                      currentTitle="standard-week"
+                      name="Standard Week"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="logbook"
+                      currentTitle="standard-week"
+                      name="Logbook"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="metabolic-rate"
+                      currentTitle="standard-week"
+                      name="Metabolic Rate"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="insulin"
+                      currentTitle="standard-week"
+                      name="Basal / Bolus Info"
+                      onClick={[Function]}
+                    />
+                    <Unknown
+                      activeTitle="insulin-pump"
+                      currentTitle="standard-week"
+                      name="Insulin Pump"
+                      onClick={[Function]}
+                    />
+                  </TabsHeader>
+                </Unknown>,
+                "expandable": true,
+                "link": "/patients/123/graph/standard-week",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <withRouter(Connect(withState(withHandlers(StandardWeekDetail))))
+                    collapsed={true}
+                    showDetails={false}
+                  />,
+                  "graph": "standard-week",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "collapsed": true,
+                    "showDetails": false,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FlexibleGridContainer
+            marginBottom={true}
+          >
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={
+                Array [
+                  "ROLE_STRIP_MNG_VIEW_TRAFFIC_LIGHT",
+                ]
+              }
+            >
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_STRIP_MNG_PATIENT",
+                  ]
+                }
+                patientId={22}
+              >
+                <GridItem
+                  span={12}
+                >
+                  <Card
+                    cardStyles={
+                      Array [
+                        "patientDashboard",
+                        "noPadding",
+                      ]
+                    }
+                    expandable={true}
+                    link="/patients/123/strip-information"
+                    title="Strip Delivery"
+                  >
+                    <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                  </Card>
+                </GridItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+            </Connect(mapProps(WithPermissionsComponent))>
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={
+                Array [
+                  "ROLE_DELIVERY_MGMT_PROFESSIONAL",
+                ]
+              }
+            >
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_DELIVERY_MGMT_PATIENT",
+                  ]
+                }
+                patientId={22}
+              >
+                <GridItem
+                  span={12}
+                >
+                  <Card
+                    cardStyles={
+                      Array [
+                        "patientDashboard",
+                        "flexible",
+                        "noPadding",
+                      ]
+                    }
+                    title="Home Strip Delivery"
+                  >
+                    <Connect(withRouter()) />
+                  </Card>
+                </GridItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+            </Connect(mapProps(WithPermissionsComponent))>
+            <GridItem
+              span={12}
+            >
+              <Card
+                cardStyles={
+                  Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ]
+                }
+                collapsable={true}
+                expandable={true}
+                link="/patients/123/graph/blood-glucose-general-stats/all"
+                match={
+                  Object {
+                    "params": Object {
+                      "id": 22,
+                    },
+                    "url": "/patients/123",
+                  }
+                }
+                patientId={22}
+                title="BG Statistics"
+              >
+                <Connect(Component) />
+              </Card>
+            </GridItem>
+            <GridItem
+              span={12}
+            >
+              <Card
+                cardStyles={
+                  Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ]
+                }
+                title="Hypoglycemia"
+              >
+                <Connect(Component) />
+              </Card>
+            </GridItem>
+          </FlexibleGridContainer>,
+          "hasPermissions": Array [
+            "ROLE_PATIENT",
+          ],
+          "onVerification": [Function],
+          "patientId": 22,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_STRIP_MNG_VIEW_TRAFFIC_LIGHT",
+                  ]
+                }
+              >
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_STRIP_MNG_PATIENT",
+                    ]
+                  }
+                  patientId={22}
+                >
+                  <GridItem
+                    span={12}
+                  >
+                    <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "noPadding",
+                        ]
+                      }
+                      expandable={true}
+                      link="/patients/123/strip-information"
+                      title="Strip Delivery"
+                    >
+                      <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                    </Card>
+                  </GridItem>
+                </Connect(mapProps(WithPermissionsComponent))>
+              </Connect(mapProps(WithPermissionsComponent))>,
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_DELIVERY_MGMT_PROFESSIONAL",
+                  ]
+                }
+              >
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_DELIVERY_MGMT_PATIENT",
+                    ]
+                  }
+                  patientId={22}
+                >
+                  <GridItem
+                    span={12}
+                  >
+                    <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "flexible",
+                          "noPadding",
+                        ]
+                      }
+                      title="Home Strip Delivery"
+                    >
+                      <Connect(withRouter()) />
+                    </Card>
+                  </GridItem>
+                </Connect(mapProps(WithPermissionsComponent))>
+              </Connect(mapProps(WithPermissionsComponent))>,
+              <GridItem
+                span={12}
+              >
+                <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  collapsable={true}
+                  expandable={true}
+                  link="/patients/123/graph/blood-glucose-general-stats/all"
+                  match={
+                    Object {
+                      "params": Object {
+                        "id": 22,
+                      },
+                      "url": "/patients/123",
+                    }
+                  }
+                  patientId={22}
+                  title="BG Statistics"
+                >
+                  <Connect(Component) />
+                </Card>
+              </GridItem>,
+              <GridItem
+                span={12}
+              >
+                <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  title="Hypoglycemia"
+                >
+                  <Connect(Component) />
+                </Card>
+              </GridItem>,
+            ],
+            "marginBottom": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_STRIP_MNG_PATIENT",
+                    ]
+                  }
+                  patientId={22}
+                >
+                  <GridItem
+                    span={12}
+                  >
+                    <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "noPadding",
+                        ]
+                      }
+                      expandable={true}
+                      link="/patients/123/strip-information"
+                      title="Strip Delivery"
+                    >
+                      <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                    </Card>
+                  </GridItem>
+                </Connect(mapProps(WithPermissionsComponent))>,
+                "hasPermissions": Array [
+                  "ROLE_STRIP_MNG_VIEW_TRAFFIC_LIGHT",
+                ],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <GridItem
+                    span={12}
+                  >
+                    <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "noPadding",
+                        ]
+                      }
+                      expandable={true}
+                      link="/patients/123/strip-information"
+                      title="Strip Delivery"
+                    >
+                      <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                    </Card>
+                  </GridItem>,
+                  "hasPermissions": Array [
+                    "ROLE_STRIP_MNG_PATIENT",
+                  ],
+                  "patientId": 22,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "noPadding",
+                        ]
+                      }
+                      expandable={true}
+                      link="/patients/123/strip-information"
+                      title="Strip Delivery"
+                    >
+                      <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                    </Card>,
+                    "span": 12,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "cardStyles": Array [
+                        "patientDashboard",
+                        "noPadding",
+                      ],
+                      "children": <mapProps(Connect(mapProps(WithPermissionsComponent))) />,
+                      "expandable": true,
+                      "link": "/patients/123/strip-information",
+                      "title": "Strip Delivery",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_DELIVERY_MGMT_PATIENT",
+                    ]
+                  }
+                  patientId={22}
+                >
+                  <GridItem
+                    span={12}
+                  >
+                    <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "flexible",
+                          "noPadding",
+                        ]
+                      }
+                      title="Home Strip Delivery"
+                    >
+                      <Connect(withRouter()) />
+                    </Card>
+                  </GridItem>
+                </Connect(mapProps(WithPermissionsComponent))>,
+                "hasPermissions": Array [
+                  "ROLE_DELIVERY_MGMT_PROFESSIONAL",
+                ],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <GridItem
+                    span={12}
+                  >
+                    <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "flexible",
+                          "noPadding",
+                        ]
+                      }
+                      title="Home Strip Delivery"
+                    >
+                      <Connect(withRouter()) />
+                    </Card>
+                  </GridItem>,
+                  "hasPermissions": Array [
+                    "ROLE_DELIVERY_MGMT_PATIENT",
+                  ],
+                  "patientId": 22,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "flexible",
+                          "noPadding",
+                        ]
+                      }
+                      title="Home Strip Delivery"
+                    >
+                      <Connect(withRouter()) />
+                    </Card>,
+                    "span": 12,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "cardStyles": Array [
+                        "patientDashboard",
+                        "flexible",
+                        "noPadding",
+                      ],
+                      "children": <Connect(withRouter()) />,
+                      "title": "Home Strip Delivery",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  collapsable={true}
+                  expandable={true}
+                  link="/patients/123/graph/blood-glucose-general-stats/all"
+                  match={
+                    Object {
+                      "params": Object {
+                        "id": 22,
+                      },
+                      "url": "/patients/123",
+                    }
+                  }
+                  patientId={22}
+                  title="BG Statistics"
+                >
+                  <Connect(Component) />
+                </Card>,
+                "span": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "cardStyles": Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ],
+                  "children": <Connect(Component) />,
+                  "collapsable": true,
+                  "expandable": true,
+                  "link": "/patients/123/graph/blood-glucose-general-stats/all",
+                  "match": Object {
+                    "params": Object {
+                      "id": 22,
+                    },
+                    "url": "/patients/123",
+                  },
+                  "patientId": 22,
+                  "title": "BG Statistics",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  title="Hypoglycemia"
+                >
+                  <Connect(Component) />
+                </Card>,
+                "span": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "cardStyles": Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ],
+                  "children": <Connect(Component) />,
+                  "title": "Hypoglycemia",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <GridContainer
+            marginBottom={true}
+            span={12}
+          >
+            <GridItem
+              span="12"
+            >
+              <Connect(withRouter(lifecycle(Component))) />
+            </GridItem>
+            <GridItem
+              span="12"
+            >
+              <Unknown
+                bottomMarginHeadline="0.5rem"
+                textColor="#4A4A4A"
+                title="Detailed Patient Health Information"
+              />
+              <Connect(withRouter(GlobalGraphOptions)) />
+            </GridItem>
+            <GridItem
+              span="6"
+            >
+              <Card
+                cardStyles={
+                  Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ]
+                }
+                title="Distribution"
+              >
+                <Connect(Component) />
+              </Card>
+            </GridItem>
+            <GridItem
+              span="6"
+            >
+              <Card
+                cardStyles={
+                  Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ]
+                }
+                expandable={true}
+                link="/patients/123/advanced-indicators"
+                title="Status"
+              >
+                <Connect(Component) />
+              </Card>
+            </GridItem>
+            <GridItem
+              span="12"
+            >
+              <Card
+                cardStyles={
+                  Array [
+                    "noHeaderBorder",
+                  ]
+                }
+                collapsable={false}
+                customHeaderComponent={
+                  <Unknown>
+                    <TabsHeader
+                      mb={4}
+                      ml="0"
+                      mr="auto"
+                      pt={1}
+                    >
+                      <Unknown
+                        activeTitle="trend"
+                        currentTitle="standard-week"
+                        name="Trend"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="standard-day"
+                        currentTitle="standard-week"
+                        name="Standard Day"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="standard-week"
+                        currentTitle="standard-week"
+                        name="Standard Week"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="logbook"
+                        currentTitle="standard-week"
+                        name="Logbook"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="metabolic-rate"
+                        currentTitle="standard-week"
+                        name="Metabolic Rate"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="insulin"
+                        currentTitle="standard-week"
+                        name="Basal / Bolus Info"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="insulin-pump"
+                        currentTitle="standard-week"
+                        name="Insulin Pump"
+                        onClick={[Function]}
+                      />
+                    </TabsHeader>
+                  </Unknown>
+                }
+                expandable={true}
+                link="/patients/123/graph/standard-week"
+              >
+                <GraphContainerDiv
+                  graph="standard-week"
+                >
+                  <withRouter(Connect(withState(withHandlers(StandardWeekDetail))))
+                    collapsed={true}
+                    showDetails={false}
+                  />
+                </GraphContainerDiv>
+              </Card>
+            </GridItem>
+          </GridContainer>,
+          <Connect(mapProps(WithPermissionsComponent))
+            hasPermissions={
+              Array [
+                "ROLE_PATIENT",
+              ]
+            }
+            onVerification={[Function]}
+            patientId={22}
+          >
+            <FlexibleGridContainer
+              marginBottom={true}
+            >
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_STRIP_MNG_VIEW_TRAFFIC_LIGHT",
+                  ]
+                }
+              >
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_STRIP_MNG_PATIENT",
+                    ]
+                  }
+                  patientId={22}
+                >
+                  <GridItem
+                    span={12}
+                  >
+                    <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "noPadding",
+                        ]
+                      }
+                      expandable={true}
+                      link="/patients/123/strip-information"
+                      title="Strip Delivery"
+                    >
+                      <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                    </Card>
+                  </GridItem>
+                </Connect(mapProps(WithPermissionsComponent))>
+              </Connect(mapProps(WithPermissionsComponent))>
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_DELIVERY_MGMT_PROFESSIONAL",
+                  ]
+                }
+              >
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_DELIVERY_MGMT_PATIENT",
+                    ]
+                  }
+                  patientId={22}
+                >
+                  <GridItem
+                    span={12}
+                  >
+                    <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "flexible",
+                          "noPadding",
+                        ]
+                      }
+                      title="Home Strip Delivery"
+                    >
+                      <Connect(withRouter()) />
+                    </Card>
+                  </GridItem>
+                </Connect(mapProps(WithPermissionsComponent))>
+              </Connect(mapProps(WithPermissionsComponent))>
+              <GridItem
+                span={12}
+              >
+                <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  collapsable={true}
+                  expandable={true}
+                  link="/patients/123/graph/blood-glucose-general-stats/all"
+                  match={
+                    Object {
+                      "params": Object {
+                        "id": 22,
+                      },
+                      "url": "/patients/123",
+                    }
+                  }
+                  patientId={22}
+                  title="BG Statistics"
+                >
+                  <Connect(Component) />
+                </Card>
+              </GridItem>
+              <GridItem
+                span={12}
+              >
+                <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  title="Hypoglycemia"
+                >
+                  <Connect(Component) />
+                </Card>
+              </GridItem>
+            </FlexibleGridContainer>
+          </Connect(mapProps(WithPermissionsComponent))>,
+        ],
+        "hasPermissions": Array [
+          "ROLE_USER_SHOW_GRAPHIC_CONFIGURATION",
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <GridItem
+                span="12"
+              >
+                <Connect(withRouter(lifecycle(Component))) />
+              </GridItem>,
+              <GridItem
+                span="12"
+              >
+                <Unknown
+                  bottomMarginHeadline="0.5rem"
+                  textColor="#4A4A4A"
+                  title="Detailed Patient Health Information"
+                />
+                <Connect(withRouter(GlobalGraphOptions)) />
+              </GridItem>,
+              <GridItem
+                span="6"
+              >
+                <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  title="Distribution"
+                >
+                  <Connect(Component) />
+                </Card>
+              </GridItem>,
+              <GridItem
+                span="6"
+              >
+                <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  expandable={true}
+                  link="/patients/123/advanced-indicators"
+                  title="Status"
+                >
+                  <Connect(Component) />
+                </Card>
+              </GridItem>,
+              <GridItem
+                span="12"
+              >
+                <Card
+                  cardStyles={
+                    Array [
+                      "noHeaderBorder",
+                    ]
+                  }
+                  collapsable={false}
+                  customHeaderComponent={
+                    <Unknown>
+                      <TabsHeader
+                        mb={4}
+                        ml="0"
+                        mr="auto"
+                        pt={1}
+                      >
+                        <Unknown
+                          activeTitle="trend"
+                          currentTitle="standard-week"
+                          name="Trend"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="standard-day"
+                          currentTitle="standard-week"
+                          name="Standard Day"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="standard-week"
+                          currentTitle="standard-week"
+                          name="Standard Week"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="logbook"
+                          currentTitle="standard-week"
+                          name="Logbook"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="metabolic-rate"
+                          currentTitle="standard-week"
+                          name="Metabolic Rate"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="insulin"
+                          currentTitle="standard-week"
+                          name="Basal / Bolus Info"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="insulin-pump"
+                          currentTitle="standard-week"
+                          name="Insulin Pump"
+                          onClick={[Function]}
+                        />
+                      </TabsHeader>
+                    </Unknown>
+                  }
+                  expandable={true}
+                  link="/patients/123/graph/standard-week"
+                >
+                  <GraphContainerDiv
+                    graph="standard-week"
+                  >
+                    <withRouter(Connect(withState(withHandlers(StandardWeekDetail))))
+                      collapsed={true}
+                      showDetails={false}
+                    />
+                  </GraphContainerDiv>
+                </Card>
+              </GridItem>,
+            ],
+            "marginBottom": true,
+            "span": 12,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Connect(withRouter(lifecycle(Component))) />,
+                "span": "12",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    bottomMarginHeadline="0.5rem"
+                    textColor="#4A4A4A"
+                    title="Detailed Patient Health Information"
+                  />,
+                  <Connect(withRouter(GlobalGraphOptions)) />,
+                ],
+                "span": "12",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "bottomMarginHeadline": "0.5rem",
+                    "textColor": "#4A4A4A",
+                    "title": "Detailed Patient Health Information",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  title="Distribution"
+                >
+                  <Connect(Component) />
+                </Card>,
+                "span": "6",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "cardStyles": Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ],
+                  "children": <Connect(Component) />,
+                  "title": "Distribution",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  expandable={true}
+                  link="/patients/123/advanced-indicators"
+                  title="Status"
+                >
+                  <Connect(Component) />
+                </Card>,
+                "span": "6",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "cardStyles": Array [
+                    "patientDashboard",
+                    "flexible",
+                    "noPadding",
+                  ],
+                  "children": <Connect(Component) />,
+                  "expandable": true,
+                  "link": "/patients/123/advanced-indicators",
+                  "title": "Status",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Card
+                  cardStyles={
+                    Array [
+                      "noHeaderBorder",
+                    ]
+                  }
+                  collapsable={false}
+                  customHeaderComponent={
+                    <Unknown>
+                      <TabsHeader
+                        mb={4}
+                        ml="0"
+                        mr="auto"
+                        pt={1}
+                      >
+                        <Unknown
+                          activeTitle="trend"
+                          currentTitle="standard-week"
+                          name="Trend"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="standard-day"
+                          currentTitle="standard-week"
+                          name="Standard Day"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="standard-week"
+                          currentTitle="standard-week"
+                          name="Standard Week"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="logbook"
+                          currentTitle="standard-week"
+                          name="Logbook"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="metabolic-rate"
+                          currentTitle="standard-week"
+                          name="Metabolic Rate"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="insulin"
+                          currentTitle="standard-week"
+                          name="Basal / Bolus Info"
+                          onClick={[Function]}
+                        />
+                        <Unknown
+                          activeTitle="insulin-pump"
+                          currentTitle="standard-week"
+                          name="Insulin Pump"
+                          onClick={[Function]}
+                        />
+                      </TabsHeader>
+                    </Unknown>
+                  }
+                  expandable={true}
+                  link="/patients/123/graph/standard-week"
+                >
+                  <GraphContainerDiv
+                    graph="standard-week"
+                  >
+                    <withRouter(Connect(withState(withHandlers(StandardWeekDetail))))
+                      collapsed={true}
+                      showDetails={false}
+                    />
+                  </GraphContainerDiv>
+                </Card>,
+                "span": "12",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "cardStyles": Array [
+                    "noHeaderBorder",
+                  ],
+                  "children": <GraphContainerDiv
+                    graph="standard-week"
+                  >
+                    <withRouter(Connect(withState(withHandlers(StandardWeekDetail))))
+                      collapsed={true}
+                      showDetails={false}
+                    />
+                  </GraphContainerDiv>,
+                  "collapsable": false,
+                  "customHeaderComponent": <Unknown>
+                    <TabsHeader
+                      mb={4}
+                      ml="0"
+                      mr="auto"
+                      pt={1}
+                    >
+                      <Unknown
+                        activeTitle="trend"
+                        currentTitle="standard-week"
+                        name="Trend"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="standard-day"
+                        currentTitle="standard-week"
+                        name="Standard Day"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="standard-week"
+                        currentTitle="standard-week"
+                        name="Standard Week"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="logbook"
+                        currentTitle="standard-week"
+                        name="Logbook"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="metabolic-rate"
+                        currentTitle="standard-week"
+                        name="Metabolic Rate"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="insulin"
+                        currentTitle="standard-week"
+                        name="Basal / Bolus Info"
+                        onClick={[Function]}
+                      />
+                      <Unknown
+                        activeTitle="insulin-pump"
+                        currentTitle="standard-week"
+                        name="Insulin Pump"
+                        onClick={[Function]}
+                      />
+                    </TabsHeader>
+                  </Unknown>,
+                  "expandable": true,
+                  "link": "/patients/123/graph/standard-week",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <withRouter(Connect(withState(withHandlers(StandardWeekDetail))))
+                      collapsed={true}
+                      showDetails={false}
+                    />,
+                    "graph": "standard-week",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "collapsed": true,
+                      "showDetails": false,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FlexibleGridContainer
+              marginBottom={true}
+            >
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_STRIP_MNG_VIEW_TRAFFIC_LIGHT",
+                  ]
+                }
+              >
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_STRIP_MNG_PATIENT",
+                    ]
+                  }
+                  patientId={22}
+                >
+                  <GridItem
+                    span={12}
+                  >
+                    <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "noPadding",
+                        ]
+                      }
+                      expandable={true}
+                      link="/patients/123/strip-information"
+                      title="Strip Delivery"
+                    >
+                      <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                    </Card>
+                  </GridItem>
+                </Connect(mapProps(WithPermissionsComponent))>
+              </Connect(mapProps(WithPermissionsComponent))>
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_DELIVERY_MGMT_PROFESSIONAL",
+                  ]
+                }
+              >
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_DELIVERY_MGMT_PATIENT",
+                    ]
+                  }
+                  patientId={22}
+                >
+                  <GridItem
+                    span={12}
+                  >
+                    <Card
+                      cardStyles={
+                        Array [
+                          "patientDashboard",
+                          "flexible",
+                          "noPadding",
+                        ]
+                      }
+                      title="Home Strip Delivery"
+                    >
+                      <Connect(withRouter()) />
+                    </Card>
+                  </GridItem>
+                </Connect(mapProps(WithPermissionsComponent))>
+              </Connect(mapProps(WithPermissionsComponent))>
+              <GridItem
+                span={12}
+              >
+                <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  collapsable={true}
+                  expandable={true}
+                  link="/patients/123/graph/blood-glucose-general-stats/all"
+                  match={
+                    Object {
+                      "params": Object {
+                        "id": 22,
+                      },
+                      "url": "/patients/123",
+                    }
+                  }
+                  patientId={22}
+                  title="BG Statistics"
+                >
+                  <Connect(Component) />
+                </Card>
+              </GridItem>
+              <GridItem
+                span={12}
+              >
+                <Card
+                  cardStyles={
+                    Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ]
+                  }
+                  title="Hypoglycemia"
+                >
+                  <Connect(Component) />
+                </Card>
+              </GridItem>
+            </FlexibleGridContainer>,
+            "hasPermissions": Array [
+              "ROLE_PATIENT",
+            ],
+            "onVerification": [Function],
+            "patientId": 22,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_STRIP_MNG_VIEW_TRAFFIC_LIGHT",
+                    ]
+                  }
+                >
+                  <Connect(mapProps(WithPermissionsComponent))
+                    hasPermissions={
+                      Array [
+                        "ROLE_STRIP_MNG_PATIENT",
+                      ]
+                    }
+                    patientId={22}
+                  >
+                    <GridItem
+                      span={12}
+                    >
+                      <Card
+                        cardStyles={
+                          Array [
+                            "patientDashboard",
+                            "noPadding",
+                          ]
+                        }
+                        expandable={true}
+                        link="/patients/123/strip-information"
+                        title="Strip Delivery"
+                      >
+                        <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                      </Card>
+                    </GridItem>
+                  </Connect(mapProps(WithPermissionsComponent))>
+                </Connect(mapProps(WithPermissionsComponent))>,
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_DELIVERY_MGMT_PROFESSIONAL",
+                    ]
+                  }
+                >
+                  <Connect(mapProps(WithPermissionsComponent))
+                    hasPermissions={
+                      Array [
+                        "ROLE_DELIVERY_MGMT_PATIENT",
+                      ]
+                    }
+                    patientId={22}
+                  >
+                    <GridItem
+                      span={12}
+                    >
+                      <Card
+                        cardStyles={
+                          Array [
+                            "patientDashboard",
+                            "flexible",
+                            "noPadding",
+                          ]
+                        }
+                        title="Home Strip Delivery"
+                      >
+                        <Connect(withRouter()) />
+                      </Card>
+                    </GridItem>
+                  </Connect(mapProps(WithPermissionsComponent))>
+                </Connect(mapProps(WithPermissionsComponent))>,
+                <GridItem
+                  span={12}
+                >
+                  <Card
+                    cardStyles={
+                      Array [
+                        "patientDashboard",
+                        "flexible",
+                        "noPadding",
+                      ]
+                    }
+                    collapsable={true}
+                    expandable={true}
+                    link="/patients/123/graph/blood-glucose-general-stats/all"
+                    match={
+                      Object {
+                        "params": Object {
+                          "id": 22,
+                        },
+                        "url": "/patients/123",
+                      }
+                    }
+                    patientId={22}
+                    title="BG Statistics"
+                  >
+                    <Connect(Component) />
+                  </Card>
+                </GridItem>,
+                <GridItem
+                  span={12}
+                >
+                  <Card
+                    cardStyles={
+                      Array [
+                        "patientDashboard",
+                        "flexible",
+                        "noPadding",
+                      ]
+                    }
+                    title="Hypoglycemia"
+                  >
+                    <Connect(Component) />
+                  </Card>
+                </GridItem>,
+              ],
+              "marginBottom": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Connect(mapProps(WithPermissionsComponent))
+                    hasPermissions={
+                      Array [
+                        "ROLE_STRIP_MNG_PATIENT",
+                      ]
+                    }
+                    patientId={22}
+                  >
+                    <GridItem
+                      span={12}
+                    >
+                      <Card
+                        cardStyles={
+                          Array [
+                            "patientDashboard",
+                            "noPadding",
+                          ]
+                        }
+                        expandable={true}
+                        link="/patients/123/strip-information"
+                        title="Strip Delivery"
+                      >
+                        <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                      </Card>
+                    </GridItem>
+                  </Connect(mapProps(WithPermissionsComponent))>,
+                  "hasPermissions": Array [
+                    "ROLE_STRIP_MNG_VIEW_TRAFFIC_LIGHT",
+                  ],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <GridItem
+                      span={12}
+                    >
+                      <Card
+                        cardStyles={
+                          Array [
+                            "patientDashboard",
+                            "noPadding",
+                          ]
+                        }
+                        expandable={true}
+                        link="/patients/123/strip-information"
+                        title="Strip Delivery"
+                      >
+                        <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                      </Card>
+                    </GridItem>,
+                    "hasPermissions": Array [
+                      "ROLE_STRIP_MNG_PATIENT",
+                    ],
+                    "patientId": 22,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Card
+                        cardStyles={
+                          Array [
+                            "patientDashboard",
+                            "noPadding",
+                          ]
+                        }
+                        expandable={true}
+                        link="/patients/123/strip-information"
+                        title="Strip Delivery"
+                      >
+                        <mapProps(Connect(mapProps(WithPermissionsComponent))) />
+                      </Card>,
+                      "span": 12,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "cardStyles": Array [
+                          "patientDashboard",
+                          "noPadding",
+                        ],
+                        "children": <mapProps(Connect(mapProps(WithPermissionsComponent))) />,
+                        "expandable": true,
+                        "link": "/patients/123/strip-information",
+                        "title": "Strip Delivery",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "function",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Connect(mapProps(WithPermissionsComponent))
+                    hasPermissions={
+                      Array [
+                        "ROLE_DELIVERY_MGMT_PATIENT",
+                      ]
+                    }
+                    patientId={22}
+                  >
+                    <GridItem
+                      span={12}
+                    >
+                      <Card
+                        cardStyles={
+                          Array [
+                            "patientDashboard",
+                            "flexible",
+                            "noPadding",
+                          ]
+                        }
+                        title="Home Strip Delivery"
+                      >
+                        <Connect(withRouter()) />
+                      </Card>
+                    </GridItem>
+                  </Connect(mapProps(WithPermissionsComponent))>,
+                  "hasPermissions": Array [
+                    "ROLE_DELIVERY_MGMT_PROFESSIONAL",
+                  ],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <GridItem
+                      span={12}
+                    >
+                      <Card
+                        cardStyles={
+                          Array [
+                            "patientDashboard",
+                            "flexible",
+                            "noPadding",
+                          ]
+                        }
+                        title="Home Strip Delivery"
+                      >
+                        <Connect(withRouter()) />
+                      </Card>
+                    </GridItem>,
+                    "hasPermissions": Array [
+                      "ROLE_DELIVERY_MGMT_PATIENT",
+                    ],
+                    "patientId": 22,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Card
+                        cardStyles={
+                          Array [
+                            "patientDashboard",
+                            "flexible",
+                            "noPadding",
+                          ]
+                        }
+                        title="Home Strip Delivery"
+                      >
+                        <Connect(withRouter()) />
+                      </Card>,
+                      "span": 12,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "cardStyles": Array [
+                          "patientDashboard",
+                          "flexible",
+                          "noPadding",
+                        ],
+                        "children": <Connect(withRouter()) />,
+                        "title": "Home Strip Delivery",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Card
+                    cardStyles={
+                      Array [
+                        "patientDashboard",
+                        "flexible",
+                        "noPadding",
+                      ]
+                    }
+                    collapsable={true}
+                    expandable={true}
+                    link="/patients/123/graph/blood-glucose-general-stats/all"
+                    match={
+                      Object {
+                        "params": Object {
+                          "id": 22,
+                        },
+                        "url": "/patients/123",
+                      }
+                    }
+                    patientId={22}
+                    title="BG Statistics"
+                  >
+                    <Connect(Component) />
+                  </Card>,
+                  "span": 12,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "cardStyles": Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ],
+                    "children": <Connect(Component) />,
+                    "collapsable": true,
+                    "expandable": true,
+                    "link": "/patients/123/graph/blood-glucose-general-stats/all",
+                    "match": Object {
+                      "params": Object {
+                        "id": 22,
+                      },
+                      "url": "/patients/123",
+                    },
+                    "patientId": 22,
+                    "title": "BG Statistics",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Card
+                    cardStyles={
+                      Array [
+                        "patientDashboard",
+                        "flexible",
+                        "noPadding",
+                      ]
+                    }
+                    title="Hypoglycemia"
+                  >
+                    <Connect(Component) />
+                  </Card>,
+                  "span": 12,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "cardStyles": Array [
+                      "patientDashboard",
+                      "flexible",
+                      "noPadding",
+                    ],
+                    "children": <Connect(Component) />,
+                    "title": "Hypoglycemia",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

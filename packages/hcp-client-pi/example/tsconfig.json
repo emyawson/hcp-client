@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDirs": ["src", "../src"],
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "keyofStringsOnly": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "paths": {
+      "src/*": ["src/*"],
+      "@roche/patterns-indicators/*": ["../src/*"],
+      "rxjs/*": ["./node_modules/rxjs/*"], /* since both sources use rxjs, let's make it clear which one to use */
+      "*": [
+        "node_modules/@types/*",
+        "*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "./images.d.ts"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+  ]
+}

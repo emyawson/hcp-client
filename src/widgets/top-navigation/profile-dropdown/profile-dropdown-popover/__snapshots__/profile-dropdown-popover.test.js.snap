@@ -1,0 +1,1340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`profile-dropdown-popover test suite it renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    onSignOut={[Function]}
+    pushLeft={50}
+    show={true}
+    width={50}
+  >
+    <div>
+      test
+    </div>
+  </Unknown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <PopoverListContainerDiv>
+          <PopoverListHeader>
+            <LocalizedText
+              textKey="profileDropdown.manageYourProfile"
+            />
+          </PopoverListHeader>
+          <PopoverList>
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={Array []}
+            >
+              <PopoverListItem>
+                <PopoverListItemLink
+                  activeClassName="selected"
+                  to="/profile/edit"
+                >
+                  <PopoverListItemLinkTextSpan>
+                    <LocalizedText
+                      textKey="profileDropdownPopover.updateDetails"
+                    />
+                  </PopoverListItemLinkTextSpan>
+                </PopoverListItemLink>
+              </PopoverListItem>
+            </Connect(mapProps(WithPermissionsComponent))>
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={Array []}
+            >
+              <PopoverListItem>
+                <PopoverListItemLink
+                  activeClassName="selected"
+                  to="/profile/change-password"
+                >
+                  <PopoverListItemLinkTextSpan>
+                    <LocalizedText
+                      textKey="profileDropdownPopover.changePassword"
+                    />
+                  </PopoverListItemLinkTextSpan>
+                </PopoverListItemLink>
+              </PopoverListItem>
+            </Connect(mapProps(WithPermissionsComponent))>
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={
+                Array [
+                  "ROLE_PROFESSIONAL_MANAGEMENT_CREATE",
+                ]
+              }
+            >
+              <PopoverListItem>
+                <PopoverListItemLink
+                  activeClassName="selected"
+                  to="/professional/create"
+                >
+                  <PopoverListItemLinkTextSpan>
+                    <LocalizedText
+                      textKey="profileDropdownPopover.addProfessional"
+                    />
+                  </PopoverListItemLinkTextSpan>
+                </PopoverListItemLink>
+              </PopoverListItem>
+            </Connect(mapProps(WithPermissionsComponent))>
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={
+                Array [
+                  "ROLE_USER_SHOW_GRAPHIC_CONFIGURATION",
+                ]
+              }
+            >
+              <PopoverListItem>
+                <PopoverListItemLink
+                  activeClassName="selected"
+                  to="/professional/default-graphic-settings"
+                >
+                  <PopoverListItemLinkTextSpan>
+                    <LocalizedText
+                      textKey="profileDropdownPopover.defaultGraphicSettings"
+                    />
+                  </PopoverListItemLinkTextSpan>
+                </PopoverListItemLink>
+              </PopoverListItem>
+            </Connect(mapProps(WithPermissionsComponent))>
+          </PopoverList>
+        </PopoverListContainerDiv>,
+        <SignOutLink
+          onClick={[Function]}
+        >
+          <LocalizedText
+            textKey="profileDropdown.signOut"
+          />
+        </SignOutLink>,
+      ],
+      "onSignOut": [Function],
+      "pushLeft": 50,
+      "show": true,
+      "width": 50,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <PopoverListHeader>
+              <LocalizedText
+                textKey="profileDropdown.manageYourProfile"
+              />
+            </PopoverListHeader>,
+            <PopoverList>
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={Array []}
+              >
+                <PopoverListItem>
+                  <PopoverListItemLink
+                    activeClassName="selected"
+                    to="/profile/edit"
+                  >
+                    <PopoverListItemLinkTextSpan>
+                      <LocalizedText
+                        textKey="profileDropdownPopover.updateDetails"
+                      />
+                    </PopoverListItemLinkTextSpan>
+                  </PopoverListItemLink>
+                </PopoverListItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={Array []}
+              >
+                <PopoverListItem>
+                  <PopoverListItemLink
+                    activeClassName="selected"
+                    to="/profile/change-password"
+                  >
+                    <PopoverListItemLinkTextSpan>
+                      <LocalizedText
+                        textKey="profileDropdownPopover.changePassword"
+                      />
+                    </PopoverListItemLinkTextSpan>
+                  </PopoverListItemLink>
+                </PopoverListItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_PROFESSIONAL_MANAGEMENT_CREATE",
+                  ]
+                }
+              >
+                <PopoverListItem>
+                  <PopoverListItemLink
+                    activeClassName="selected"
+                    to="/professional/create"
+                  >
+                    <PopoverListItemLinkTextSpan>
+                      <LocalizedText
+                        textKey="profileDropdownPopover.addProfessional"
+                      />
+                    </PopoverListItemLinkTextSpan>
+                  </PopoverListItemLink>
+                </PopoverListItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_USER_SHOW_GRAPHIC_CONFIGURATION",
+                  ]
+                }
+              >
+                <PopoverListItem>
+                  <PopoverListItemLink
+                    activeClassName="selected"
+                    to="/professional/default-graphic-settings"
+                  >
+                    <PopoverListItemLinkTextSpan>
+                      <LocalizedText
+                        textKey="profileDropdownPopover.defaultGraphicSettings"
+                      />
+                    </PopoverListItemLinkTextSpan>
+                  </PopoverListItemLink>
+                </PopoverListItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+            </PopoverList>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <LocalizedText
+                textKey="profileDropdown.manageYourProfile"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "textKey": "profileDropdown.manageYourProfile",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={Array []}
+                >
+                  <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/profile/edit"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.updateDetails"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>
+                </Connect(mapProps(WithPermissionsComponent))>,
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={Array []}
+                >
+                  <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/profile/change-password"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.changePassword"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>
+                </Connect(mapProps(WithPermissionsComponent))>,
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_PROFESSIONAL_MANAGEMENT_CREATE",
+                    ]
+                  }
+                >
+                  <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/professional/create"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.addProfessional"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>
+                </Connect(mapProps(WithPermissionsComponent))>,
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_USER_SHOW_GRAPHIC_CONFIGURATION",
+                    ]
+                  }
+                >
+                  <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/professional/default-graphic-settings"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.defaultGraphicSettings"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>
+                </Connect(mapProps(WithPermissionsComponent))>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "profile-management-action--0",
+                "nodeType": "class",
+                "props": Object {
+                  "children": <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/profile/edit"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.updateDetails"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>,
+                  "hasPermissions": Array [],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "profile-management-action-updateDetails",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/profile/edit"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.updateDetails"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "activeClassName": "selected",
+                      "children": <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.updateDetails"
+                        />
+                      </PopoverListItemLinkTextSpan>,
+                      "to": "/profile/edit",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <LocalizedText
+                          textKey="profileDropdownPopover.updateDetails"
+                        />,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "function",
+                        "props": Object {
+                          "textKey": "profileDropdownPopover.updateDetails",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "profile-management-action--1",
+                "nodeType": "class",
+                "props": Object {
+                  "children": <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/profile/change-password"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.changePassword"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>,
+                  "hasPermissions": Array [],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "profile-management-action-changePassword",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/profile/change-password"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.changePassword"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "activeClassName": "selected",
+                      "children": <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.changePassword"
+                        />
+                      </PopoverListItemLinkTextSpan>,
+                      "to": "/profile/change-password",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <LocalizedText
+                          textKey="profileDropdownPopover.changePassword"
+                        />,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "function",
+                        "props": Object {
+                          "textKey": "profileDropdownPopover.changePassword",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "profile-management-action-ROLE_PROFESSIONAL_MANAGEMENT_CREATE-2",
+                "nodeType": "class",
+                "props": Object {
+                  "children": <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/professional/create"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.addProfessional"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>,
+                  "hasPermissions": Array [
+                    "ROLE_PROFESSIONAL_MANAGEMENT_CREATE",
+                  ],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "profile-management-action-addProfessional",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/professional/create"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.addProfessional"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "activeClassName": "selected",
+                      "children": <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.addProfessional"
+                        />
+                      </PopoverListItemLinkTextSpan>,
+                      "to": "/professional/create",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <LocalizedText
+                          textKey="profileDropdownPopover.addProfessional"
+                        />,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "function",
+                        "props": Object {
+                          "textKey": "profileDropdownPopover.addProfessional",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "profile-management-action-ROLE_USER_SHOW_GRAPHIC_CONFIGURATION-3",
+                "nodeType": "class",
+                "props": Object {
+                  "children": <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/professional/default-graphic-settings"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.defaultGraphicSettings"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>,
+                  "hasPermissions": Array [
+                    "ROLE_USER_SHOW_GRAPHIC_CONFIGURATION",
+                  ],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "profile-management-action-defaultGraphicSettings",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/professional/default-graphic-settings"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.defaultGraphicSettings"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "activeClassName": "selected",
+                      "children": <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.defaultGraphicSettings"
+                        />
+                      </PopoverListItemLinkTextSpan>,
+                      "to": "/professional/default-graphic-settings",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <LocalizedText
+                          textKey="profileDropdownPopover.defaultGraphicSettings"
+                        />,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "function",
+                        "props": Object {
+                          "textKey": "profileDropdownPopover.defaultGraphicSettings",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <LocalizedText
+            textKey="profileDropdown.signOut"
+          />,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "textKey": "profileDropdown.signOut",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <PopoverListContainerDiv>
+            <PopoverListHeader>
+              <LocalizedText
+                textKey="profileDropdown.manageYourProfile"
+              />
+            </PopoverListHeader>
+            <PopoverList>
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={Array []}
+              >
+                <PopoverListItem>
+                  <PopoverListItemLink
+                    activeClassName="selected"
+                    to="/profile/edit"
+                  >
+                    <PopoverListItemLinkTextSpan>
+                      <LocalizedText
+                        textKey="profileDropdownPopover.updateDetails"
+                      />
+                    </PopoverListItemLinkTextSpan>
+                  </PopoverListItemLink>
+                </PopoverListItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={Array []}
+              >
+                <PopoverListItem>
+                  <PopoverListItemLink
+                    activeClassName="selected"
+                    to="/profile/change-password"
+                  >
+                    <PopoverListItemLinkTextSpan>
+                      <LocalizedText
+                        textKey="profileDropdownPopover.changePassword"
+                      />
+                    </PopoverListItemLinkTextSpan>
+                  </PopoverListItemLink>
+                </PopoverListItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_PROFESSIONAL_MANAGEMENT_CREATE",
+                  ]
+                }
+              >
+                <PopoverListItem>
+                  <PopoverListItemLink
+                    activeClassName="selected"
+                    to="/professional/create"
+                  >
+                    <PopoverListItemLinkTextSpan>
+                      <LocalizedText
+                        textKey="profileDropdownPopover.addProfessional"
+                      />
+                    </PopoverListItemLinkTextSpan>
+                  </PopoverListItemLink>
+                </PopoverListItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_USER_SHOW_GRAPHIC_CONFIGURATION",
+                  ]
+                }
+              >
+                <PopoverListItem>
+                  <PopoverListItemLink
+                    activeClassName="selected"
+                    to="/professional/default-graphic-settings"
+                  >
+                    <PopoverListItemLinkTextSpan>
+                      <LocalizedText
+                        textKey="profileDropdownPopover.defaultGraphicSettings"
+                      />
+                    </PopoverListItemLinkTextSpan>
+                  </PopoverListItemLink>
+                </PopoverListItem>
+              </Connect(mapProps(WithPermissionsComponent))>
+            </PopoverList>
+          </PopoverListContainerDiv>,
+          <SignOutLink
+            onClick={[Function]}
+          >
+            <LocalizedText
+              textKey="profileDropdown.signOut"
+            />
+          </SignOutLink>,
+        ],
+        "onSignOut": [Function],
+        "pushLeft": 50,
+        "show": true,
+        "width": 50,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <PopoverListHeader>
+                <LocalizedText
+                  textKey="profileDropdown.manageYourProfile"
+                />
+              </PopoverListHeader>,
+              <PopoverList>
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={Array []}
+                >
+                  <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/profile/edit"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.updateDetails"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>
+                </Connect(mapProps(WithPermissionsComponent))>
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={Array []}
+                >
+                  <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/profile/change-password"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.changePassword"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>
+                </Connect(mapProps(WithPermissionsComponent))>
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_PROFESSIONAL_MANAGEMENT_CREATE",
+                    ]
+                  }
+                >
+                  <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/professional/create"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.addProfessional"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>
+                </Connect(mapProps(WithPermissionsComponent))>
+                <Connect(mapProps(WithPermissionsComponent))
+                  hasPermissions={
+                    Array [
+                      "ROLE_USER_SHOW_GRAPHIC_CONFIGURATION",
+                    ]
+                  }
+                >
+                  <PopoverListItem>
+                    <PopoverListItemLink
+                      activeClassName="selected"
+                      to="/professional/default-graphic-settings"
+                    >
+                      <PopoverListItemLinkTextSpan>
+                        <LocalizedText
+                          textKey="profileDropdownPopover.defaultGraphicSettings"
+                        />
+                      </PopoverListItemLinkTextSpan>
+                    </PopoverListItemLink>
+                  </PopoverListItem>
+                </Connect(mapProps(WithPermissionsComponent))>
+              </PopoverList>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <LocalizedText
+                  textKey="profileDropdown.manageYourProfile"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "textKey": "profileDropdown.manageYourProfile",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Connect(mapProps(WithPermissionsComponent))
+                    hasPermissions={Array []}
+                  >
+                    <PopoverListItem>
+                      <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/profile/edit"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.updateDetails"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>
+                    </PopoverListItem>
+                  </Connect(mapProps(WithPermissionsComponent))>,
+                  <Connect(mapProps(WithPermissionsComponent))
+                    hasPermissions={Array []}
+                  >
+                    <PopoverListItem>
+                      <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/profile/change-password"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.changePassword"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>
+                    </PopoverListItem>
+                  </Connect(mapProps(WithPermissionsComponent))>,
+                  <Connect(mapProps(WithPermissionsComponent))
+                    hasPermissions={
+                      Array [
+                        "ROLE_PROFESSIONAL_MANAGEMENT_CREATE",
+                      ]
+                    }
+                  >
+                    <PopoverListItem>
+                      <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/professional/create"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.addProfessional"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>
+                    </PopoverListItem>
+                  </Connect(mapProps(WithPermissionsComponent))>,
+                  <Connect(mapProps(WithPermissionsComponent))
+                    hasPermissions={
+                      Array [
+                        "ROLE_USER_SHOW_GRAPHIC_CONFIGURATION",
+                      ]
+                    }
+                  >
+                    <PopoverListItem>
+                      <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/professional/default-graphic-settings"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.defaultGraphicSettings"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>
+                    </PopoverListItem>
+                  </Connect(mapProps(WithPermissionsComponent))>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "profile-management-action--0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <PopoverListItem>
+                      <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/profile/edit"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.updateDetails"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>
+                    </PopoverListItem>,
+                    "hasPermissions": Array [],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "profile-management-action-updateDetails",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/profile/edit"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.updateDetails"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "activeClassName": "selected",
+                        "children": <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.updateDetails"
+                          />
+                        </PopoverListItemLinkTextSpan>,
+                        "to": "/profile/edit",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <LocalizedText
+                            textKey="profileDropdownPopover.updateDetails"
+                          />,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": null,
+                          "nodeType": "function",
+                          "props": Object {
+                            "textKey": "profileDropdownPopover.updateDetails",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "profile-management-action--1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <PopoverListItem>
+                      <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/profile/change-password"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.changePassword"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>
+                    </PopoverListItem>,
+                    "hasPermissions": Array [],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "profile-management-action-changePassword",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/profile/change-password"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.changePassword"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "activeClassName": "selected",
+                        "children": <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.changePassword"
+                          />
+                        </PopoverListItemLinkTextSpan>,
+                        "to": "/profile/change-password",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <LocalizedText
+                            textKey="profileDropdownPopover.changePassword"
+                          />,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": null,
+                          "nodeType": "function",
+                          "props": Object {
+                            "textKey": "profileDropdownPopover.changePassword",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "profile-management-action-ROLE_PROFESSIONAL_MANAGEMENT_CREATE-2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <PopoverListItem>
+                      <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/professional/create"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.addProfessional"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>
+                    </PopoverListItem>,
+                    "hasPermissions": Array [
+                      "ROLE_PROFESSIONAL_MANAGEMENT_CREATE",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "profile-management-action-addProfessional",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/professional/create"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.addProfessional"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "activeClassName": "selected",
+                        "children": <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.addProfessional"
+                          />
+                        </PopoverListItemLinkTextSpan>,
+                        "to": "/professional/create",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <LocalizedText
+                            textKey="profileDropdownPopover.addProfessional"
+                          />,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": null,
+                          "nodeType": "function",
+                          "props": Object {
+                            "textKey": "profileDropdownPopover.addProfessional",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "profile-management-action-ROLE_USER_SHOW_GRAPHIC_CONFIGURATION-3",
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <PopoverListItem>
+                      <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/professional/default-graphic-settings"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.defaultGraphicSettings"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>
+                    </PopoverListItem>,
+                    "hasPermissions": Array [
+                      "ROLE_USER_SHOW_GRAPHIC_CONFIGURATION",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "profile-management-action-defaultGraphicSettings",
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <PopoverListItemLink
+                        activeClassName="selected"
+                        to="/professional/default-graphic-settings"
+                      >
+                        <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.defaultGraphicSettings"
+                          />
+                        </PopoverListItemLinkTextSpan>
+                      </PopoverListItemLink>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "activeClassName": "selected",
+                        "children": <PopoverListItemLinkTextSpan>
+                          <LocalizedText
+                            textKey="profileDropdownPopover.defaultGraphicSettings"
+                          />
+                        </PopoverListItemLinkTextSpan>,
+                        "to": "/professional/default-graphic-settings",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <LocalizedText
+                            textKey="profileDropdownPopover.defaultGraphicSettings"
+                          />,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": null,
+                          "nodeType": "function",
+                          "props": Object {
+                            "textKey": "profileDropdownPopover.defaultGraphicSettings",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <LocalizedText
+              textKey="profileDropdown.signOut"
+            />,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "textKey": "profileDropdown.signOut",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,10 @@
+export { P, TitleSm } from './body';
+export { Caption } from './caption';
+export { Display1 } from './display-1';
+export { Display2 } from './display-2';
+export { Display3 } from './display-3';
+export { Display4 } from './display-4';
+export { Headline } from './headline';
+export { Subheading, TitleMed } from './subheading';
+export { Title, TitleName } from './title';
+export { weight } from './weights';

@@ -1,0 +1,547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`org stock component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    stripsHistory={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <GridItem
+          span="12"
+        >
+          <styled.div>
+            <GridContainerCard
+              cardStyles={
+                Array [
+                  "primary",
+                ]
+              }
+            >
+              <GridItemWithoutPadding
+                span="6"
+              >
+                <Unknown
+                  aggregateStock={undefined}
+                />
+              </GridItemWithoutPadding>
+              <GridItemWithoutPadding
+                span="6"
+              >
+                <Card>
+                  <withState(withHandlers(withHandlers(Component)))
+                    onAddOrgStock={undefined}
+                    stripModels={undefined}
+                  />
+                </Card>
+              </GridItemWithoutPadding>
+            </GridContainerCard>
+          </styled.div>
+        </GridItem>,
+        <GridItem
+          span="12"
+        >
+          <styled.div>
+            <Unknown
+              stripModelStockAndHistory={undefined}
+            />
+          </styled.div>
+        </GridItem>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <styled.div>
+            <GridContainerCard
+              cardStyles={
+                Array [
+                  "primary",
+                ]
+              }
+            >
+              <GridItemWithoutPadding
+                span="6"
+              >
+                <Unknown
+                  aggregateStock={undefined}
+                />
+              </GridItemWithoutPadding>
+              <GridItemWithoutPadding
+                span="6"
+              >
+                <Card>
+                  <withState(withHandlers(withHandlers(Component)))
+                    onAddOrgStock={undefined}
+                    stripModels={undefined}
+                  />
+                </Card>
+              </GridItemWithoutPadding>
+            </GridContainerCard>
+          </styled.div>,
+          "span": "12",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <GridContainerCard
+              cardStyles={
+                Array [
+                  "primary",
+                ]
+              }
+            >
+              <GridItemWithoutPadding
+                span="6"
+              >
+                <Unknown
+                  aggregateStock={undefined}
+                />
+              </GridItemWithoutPadding>
+              <GridItemWithoutPadding
+                span="6"
+              >
+                <Card>
+                  <withState(withHandlers(withHandlers(Component)))
+                    onAddOrgStock={undefined}
+                    stripModels={undefined}
+                  />
+                </Card>
+              </GridItemWithoutPadding>
+            </GridContainerCard>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "cardStyles": Array [
+                "primary",
+              ],
+              "children": Array [
+                <GridItemWithoutPadding
+                  span="6"
+                >
+                  <Unknown
+                    aggregateStock={undefined}
+                  />
+                </GridItemWithoutPadding>,
+                <GridItemWithoutPadding
+                  span="6"
+                >
+                  <Card>
+                    <withState(withHandlers(withHandlers(Component)))
+                      onAddOrgStock={undefined}
+                      stripModels={undefined}
+                    />
+                  </Card>
+                </GridItemWithoutPadding>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Unknown
+                    aggregateStock={undefined}
+                  />,
+                  "span": "6",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "aggregateStock": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Card>
+                    <withState(withHandlers(withHandlers(Component)))
+                      onAddOrgStock={undefined}
+                      stripModels={undefined}
+                    />
+                  </Card>,
+                  "span": "6",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <withState(withHandlers(withHandlers(Component)))
+                      onAddOrgStock={undefined}
+                      stripModels={undefined}
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "onAddOrgStock": undefined,
+                      "stripModels": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <styled.div>
+            <Unknown
+              stripModelStockAndHistory={undefined}
+            />
+          </styled.div>,
+          "span": "12",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Unknown
+              stripModelStockAndHistory={undefined}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "stripModelStockAndHistory": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <GridItem
+            span="12"
+          >
+            <styled.div>
+              <GridContainerCard
+                cardStyles={
+                  Array [
+                    "primary",
+                  ]
+                }
+              >
+                <GridItemWithoutPadding
+                  span="6"
+                >
+                  <Unknown
+                    aggregateStock={undefined}
+                  />
+                </GridItemWithoutPadding>
+                <GridItemWithoutPadding
+                  span="6"
+                >
+                  <Card>
+                    <withState(withHandlers(withHandlers(Component)))
+                      onAddOrgStock={undefined}
+                      stripModels={undefined}
+                    />
+                  </Card>
+                </GridItemWithoutPadding>
+              </GridContainerCard>
+            </styled.div>
+          </GridItem>,
+          <GridItem
+            span="12"
+          >
+            <styled.div>
+              <Unknown
+                stripModelStockAndHistory={undefined}
+              />
+            </styled.div>
+          </GridItem>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <styled.div>
+              <GridContainerCard
+                cardStyles={
+                  Array [
+                    "primary",
+                  ]
+                }
+              >
+                <GridItemWithoutPadding
+                  span="6"
+                >
+                  <Unknown
+                    aggregateStock={undefined}
+                  />
+                </GridItemWithoutPadding>
+                <GridItemWithoutPadding
+                  span="6"
+                >
+                  <Card>
+                    <withState(withHandlers(withHandlers(Component)))
+                      onAddOrgStock={undefined}
+                      stripModels={undefined}
+                    />
+                  </Card>
+                </GridItemWithoutPadding>
+              </GridContainerCard>
+            </styled.div>,
+            "span": "12",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <GridContainerCard
+                cardStyles={
+                  Array [
+                    "primary",
+                  ]
+                }
+              >
+                <GridItemWithoutPadding
+                  span="6"
+                >
+                  <Unknown
+                    aggregateStock={undefined}
+                  />
+                </GridItemWithoutPadding>
+                <GridItemWithoutPadding
+                  span="6"
+                >
+                  <Card>
+                    <withState(withHandlers(withHandlers(Component)))
+                      onAddOrgStock={undefined}
+                      stripModels={undefined}
+                    />
+                  </Card>
+                </GridItemWithoutPadding>
+              </GridContainerCard>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "cardStyles": Array [
+                  "primary",
+                ],
+                "children": Array [
+                  <GridItemWithoutPadding
+                    span="6"
+                  >
+                    <Unknown
+                      aggregateStock={undefined}
+                    />
+                  </GridItemWithoutPadding>,
+                  <GridItemWithoutPadding
+                    span="6"
+                  >
+                    <Card>
+                      <withState(withHandlers(withHandlers(Component)))
+                        onAddOrgStock={undefined}
+                        stripModels={undefined}
+                      />
+                    </Card>
+                  </GridItemWithoutPadding>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Unknown
+                      aggregateStock={undefined}
+                    />,
+                    "span": "6",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "aggregateStock": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Card>
+                      <withState(withHandlers(withHandlers(Component)))
+                        onAddOrgStock={undefined}
+                        stripModels={undefined}
+                      />
+                    </Card>,
+                    "span": "6",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <withState(withHandlers(withHandlers(Component)))
+                        onAddOrgStock={undefined}
+                        stripModels={undefined}
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "onAddOrgStock": undefined,
+                        "stripModels": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <styled.div>
+              <Unknown
+                stripModelStockAndHistory={undefined}
+              />
+            </styled.div>,
+            "span": "12",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Unknown
+                stripModelStockAndHistory={undefined}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "stripModelStockAndHistory": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,711 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom guide history component Renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    currentGuidePage={1}
+    customClinicGuides={Array []}
+    guideHistoryFilter="ALL"
+    guidePageNumbers={
+      Array [
+        1,
+        2,
+        3,
+      ]
+    }
+    onClickRemoveCustomGuide={[Function]}
+    setGuideHistoryFilter={[Function]}
+    setGuideHistoryPage={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          guideHistoryFilter="ALL"
+          setGuideHistoryFilter={[Function]}
+        >
+          Custom Clinic Guide History
+        </Unknown>,
+        <Accordion
+          activeItems={
+            Array [
+              "example1",
+            ]
+          }
+          allowAllItemsClosed={false}
+          allowMultiple={true}
+          label=""
+          labelDisplayLogic={[Function]}
+          labelled={false}
+          onChange={[Function]}
+          sendInitialChangeEvent={true}
+        />,
+        <f1
+          validate={true}
+        >
+          <styled.div>
+            <styled.button
+              disabled={true}
+              onClick={[Function]}
+            >
+              <Unknown
+                fillColor="#0066CC"
+              />
+              <styled.span>
+                Prev
+              </styled.span>
+            </styled.button>
+            <Styled(Button)
+              isSelected={true}
+              label={1}
+              onClick={[Function]}
+            />
+            <Styled(Button)
+              isSelected={false}
+              label={2}
+              onClick={[Function]}
+            />
+            <Styled(Button)
+              isSelected={false}
+              label={3}
+              onClick={[Function]}
+            />
+            <styled.button
+              disabled={false}
+              onClick={[Function]}
+            >
+              <styled.span>
+                Next
+              </styled.span>
+              <Unknown
+                fillColor="#0066CC"
+              />
+            </styled.button>
+          </styled.div>
+        </f1>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Custom Clinic Guide History",
+          "guideHistoryFilter": "ALL",
+          "setGuideHistoryFilter": [Function],
+        },
+        "ref": null,
+        "rendered": "Custom Clinic Guide History",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "activeItems": Array [
+            "example1",
+          ],
+          "allowAllItemsClosed": false,
+          "allowMultiple": true,
+          "children": Array [],
+          "label": "",
+          "labelDisplayLogic": [Function],
+          "labelled": false,
+          "onChange": [Function],
+          "sendInitialChangeEvent": true,
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": <styled.div>
+            <styled.button
+              disabled={true}
+              onClick={[Function]}
+            >
+              <Unknown
+                fillColor="#0066CC"
+              />
+              <styled.span>
+                Prev
+              </styled.span>
+            </styled.button>
+            <Styled(Button)
+              isSelected={true}
+              label={1}
+              onClick={[Function]}
+            />
+            <Styled(Button)
+              isSelected={false}
+              label={2}
+              onClick={[Function]}
+            />
+            <Styled(Button)
+              isSelected={false}
+              label={3}
+              onClick={[Function]}
+            />
+            <styled.button
+              disabled={false}
+              onClick={[Function]}
+            >
+              <styled.span>
+                Next
+              </styled.span>
+              <Unknown
+                fillColor="#0066CC"
+              />
+            </styled.button>
+          </styled.div>,
+          "validate": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.button
+                disabled={true}
+                onClick={[Function]}
+              >
+                <Unknown
+                  fillColor="#0066CC"
+                />
+                <styled.span>
+                  Prev
+                </styled.span>
+              </styled.button>,
+              Array [
+                <Styled(Button)
+                  isSelected={true}
+                  label={1}
+                  onClick={[Function]}
+                />,
+                <Styled(Button)
+                  isSelected={false}
+                  label={2}
+                  onClick={[Function]}
+                />,
+                <Styled(Button)
+                  isSelected={false}
+                  label={3}
+                  onClick={[Function]}
+                />,
+              ],
+              <styled.button
+                disabled={false}
+                onClick={[Function]}
+              >
+                <styled.span>
+                  Next
+                </styled.span>
+                <Unknown
+                  fillColor="#0066CC"
+                />
+              </styled.button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    fillColor="#0066CC"
+                  />,
+                  <styled.span>
+                    Prev
+                  </styled.span>,
+                ],
+                "disabled": true,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "fillColor": "#0066CC",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Prev",
+                  },
+                  "ref": null,
+                  "rendered": "Prev",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "isSelected": true,
+                "label": 1,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "isSelected": false,
+                "label": 2,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "class",
+              "props": Object {
+                "isSelected": false,
+                "label": 3,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.span>
+                    Next
+                  </styled.span>,
+                  <Unknown
+                    fillColor="#0066CC"
+                  />,
+                ],
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Next",
+                  },
+                  "ref": null,
+                  "rendered": "Next",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "fillColor": "#0066CC",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            guideHistoryFilter="ALL"
+            setGuideHistoryFilter={[Function]}
+          >
+            Custom Clinic Guide History
+          </Unknown>,
+          <Accordion
+            activeItems={
+              Array [
+                "example1",
+              ]
+            }
+            allowAllItemsClosed={false}
+            allowMultiple={true}
+            label=""
+            labelDisplayLogic={[Function]}
+            labelled={false}
+            onChange={[Function]}
+            sendInitialChangeEvent={true}
+          />,
+          <f1
+            validate={true}
+          >
+            <styled.div>
+              <styled.button
+                disabled={true}
+                onClick={[Function]}
+              >
+                <Unknown
+                  fillColor="#0066CC"
+                />
+                <styled.span>
+                  Prev
+                </styled.span>
+              </styled.button>
+              <Styled(Button)
+                isSelected={true}
+                label={1}
+                onClick={[Function]}
+              />
+              <Styled(Button)
+                isSelected={false}
+                label={2}
+                onClick={[Function]}
+              />
+              <Styled(Button)
+                isSelected={false}
+                label={3}
+                onClick={[Function]}
+              />
+              <styled.button
+                disabled={false}
+                onClick={[Function]}
+              >
+                <styled.span>
+                  Next
+                </styled.span>
+                <Unknown
+                  fillColor="#0066CC"
+                />
+              </styled.button>
+            </styled.div>
+          </f1>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Custom Clinic Guide History",
+            "guideHistoryFilter": "ALL",
+            "setGuideHistoryFilter": [Function],
+          },
+          "ref": null,
+          "rendered": "Custom Clinic Guide History",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "activeItems": Array [
+              "example1",
+            ],
+            "allowAllItemsClosed": false,
+            "allowMultiple": true,
+            "children": Array [],
+            "label": "",
+            "labelDisplayLogic": [Function],
+            "labelled": false,
+            "onChange": [Function],
+            "sendInitialChangeEvent": true,
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": <styled.div>
+              <styled.button
+                disabled={true}
+                onClick={[Function]}
+              >
+                <Unknown
+                  fillColor="#0066CC"
+                />
+                <styled.span>
+                  Prev
+                </styled.span>
+              </styled.button>
+              <Styled(Button)
+                isSelected={true}
+                label={1}
+                onClick={[Function]}
+              />
+              <Styled(Button)
+                isSelected={false}
+                label={2}
+                onClick={[Function]}
+              />
+              <Styled(Button)
+                isSelected={false}
+                label={3}
+                onClick={[Function]}
+              />
+              <styled.button
+                disabled={false}
+                onClick={[Function]}
+              >
+                <styled.span>
+                  Next
+                </styled.span>
+                <Unknown
+                  fillColor="#0066CC"
+                />
+              </styled.button>
+            </styled.div>,
+            "validate": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <styled.button
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <Unknown
+                    fillColor="#0066CC"
+                  />
+                  <styled.span>
+                    Prev
+                  </styled.span>
+                </styled.button>,
+                Array [
+                  <Styled(Button)
+                    isSelected={true}
+                    label={1}
+                    onClick={[Function]}
+                  />,
+                  <Styled(Button)
+                    isSelected={false}
+                    label={2}
+                    onClick={[Function]}
+                  />,
+                  <Styled(Button)
+                    isSelected={false}
+                    label={3}
+                    onClick={[Function]}
+                  />,
+                ],
+                <styled.button
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <styled.span>
+                    Next
+                  </styled.span>
+                  <Unknown
+                    fillColor="#0066CC"
+                  />
+                </styled.button>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <Unknown
+                      fillColor="#0066CC"
+                    />,
+                    <styled.span>
+                      Prev
+                    </styled.span>,
+                  ],
+                  "disabled": true,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "fillColor": "#0066CC",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Prev",
+                    },
+                    "ref": null,
+                    "rendered": "Prev",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "class",
+                "props": Object {
+                  "isSelected": true,
+                  "label": 1,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "class",
+                "props": Object {
+                  "isSelected": false,
+                  "label": 2,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "class",
+                "props": Object {
+                  "isSelected": false,
+                  "label": 3,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <styled.span>
+                      Next
+                    </styled.span>,
+                    <Unknown
+                      fillColor="#0066CC"
+                    />,
+                  ],
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Next",
+                    },
+                    "ref": null,
+                    "rendered": "Next",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "fillColor": "#0066CC",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,1320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`patient-search widget component it renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    onSearch={[Function]}
+    results={
+      Array [
+        Object {
+          "birthDate": "12/11/1992",
+          "diabetesType": "type 1",
+          "fullName": "Jack Peters",
+          "id": "1234",
+          "treatment": "treatment XYZ",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.div>
+          <Form
+            model="patientSearch"
+            onSubmit={[Function]}
+          >
+            <styled.div
+              wrap="wrap"
+            >
+              <styled.div>
+                <styled.div>
+                  <styled.h6>
+                    <LocalizedText
+                      textKey="patientSearch.title"
+                    />
+                  </styled.h6>
+                </styled.div>
+                <styled.div>
+                  <styled.div
+                    pt={3}
+                  >
+                    <styled.div
+                      justifyContent="flex-end"
+                      onClick={undefined}
+                    >
+                      <styled.div>
+                        <Unknown
+                          height={20}
+                        />
+                        <LocalizedText
+                          color="brandBlue"
+                          pl={3}
+                          textKey="patientSearch.addPatient"
+                        />
+                      </styled.div>
+                    </styled.div>
+                  </styled.div>
+                </styled.div>
+              </styled.div>
+            </styled.div>
+            <styled.div
+              justify="space-between"
+              py={4}
+            >
+              <styled.div>
+                <Unknown
+                  id="patient-id"
+                  model="patientSearch.patientID"
+                  mr={3}
+                  p={2}
+                  placeholder="Patient ID"
+                />
+                <Unknown
+                  id="patient-name"
+                  model="patientSearch.fullName"
+                  mr={3}
+                  p={2}
+                  placeholder="Name"
+                />
+              </styled.div>
+              <Button
+                accessibilityLabel=""
+                buttonStyle="primary"
+                disabled={false}
+                fontSize="0.875rem"
+                label="Search"
+                loading={false}
+                minWidth=""
+              />
+            </styled.div>
+          </Form>
+        </styled.div>,
+        <Unknown>
+          <Unknown
+            birthDate="12/11/1992"
+            diabetesType="type 1"
+            fullName="Jack Peters"
+            id="1234"
+            switchPatient={undefined}
+            treatment="treatment XYZ"
+          />
+        </Unknown>,
+      ],
+      "flexDirection": "column",
+      "mb": 4,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Form
+            model="patientSearch"
+            onSubmit={[Function]}
+          >
+            <styled.div
+              wrap="wrap"
+            >
+              <styled.div>
+                <styled.div>
+                  <styled.h6>
+                    <LocalizedText
+                      textKey="patientSearch.title"
+                    />
+                  </styled.h6>
+                </styled.div>
+                <styled.div>
+                  <styled.div
+                    pt={3}
+                  >
+                    <styled.div
+                      justifyContent="flex-end"
+                      onClick={undefined}
+                    >
+                      <styled.div>
+                        <Unknown
+                          height={20}
+                        />
+                        <LocalizedText
+                          color="brandBlue"
+                          pl={3}
+                          textKey="patientSearch.addPatient"
+                        />
+                      </styled.div>
+                    </styled.div>
+                  </styled.div>
+                </styled.div>
+              </styled.div>
+            </styled.div>
+            <styled.div
+              justify="space-between"
+              py={4}
+            >
+              <styled.div>
+                <Unknown
+                  id="patient-id"
+                  model="patientSearch.patientID"
+                  mr={3}
+                  p={2}
+                  placeholder="Patient ID"
+                />
+                <Unknown
+                  id="patient-name"
+                  model="patientSearch.fullName"
+                  mr={3}
+                  p={2}
+                  placeholder="Name"
+                />
+              </styled.div>
+              <Button
+                accessibilityLabel=""
+                buttonStyle="primary"
+                disabled={false}
+                fontSize="0.875rem"
+                label="Search"
+                loading={false}
+                minWidth=""
+              />
+            </styled.div>
+          </Form>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <styled.div
+                wrap="wrap"
+              >
+                <styled.div>
+                  <styled.div>
+                    <styled.h6>
+                      <LocalizedText
+                        textKey="patientSearch.title"
+                      />
+                    </styled.h6>
+                  </styled.div>
+                  <styled.div>
+                    <styled.div
+                      pt={3}
+                    >
+                      <styled.div
+                        justifyContent="flex-end"
+                        onClick={undefined}
+                      >
+                        <styled.div>
+                          <Unknown
+                            height={20}
+                          />
+                          <LocalizedText
+                            color="brandBlue"
+                            pl={3}
+                            textKey="patientSearch.addPatient"
+                          />
+                        </styled.div>
+                      </styled.div>
+                    </styled.div>
+                  </styled.div>
+                </styled.div>
+              </styled.div>,
+              <styled.div
+                justify="space-between"
+                py={4}
+              >
+                <styled.div>
+                  <Unknown
+                    id="patient-id"
+                    model="patientSearch.patientID"
+                    mr={3}
+                    p={2}
+                    placeholder="Patient ID"
+                  />
+                  <Unknown
+                    id="patient-name"
+                    model="patientSearch.fullName"
+                    mr={3}
+                    p={2}
+                    placeholder="Name"
+                  />
+                </styled.div>
+                <Button
+                  accessibilityLabel=""
+                  buttonStyle="primary"
+                  disabled={false}
+                  fontSize="0.875rem"
+                  label="Search"
+                  loading={false}
+                  minWidth=""
+                />
+              </styled.div>,
+            ],
+            "model": "patientSearch",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <styled.div>
+                  <styled.div>
+                    <styled.h6>
+                      <LocalizedText
+                        textKey="patientSearch.title"
+                      />
+                    </styled.h6>
+                  </styled.div>
+                  <styled.div>
+                    <styled.div
+                      pt={3}
+                    >
+                      <styled.div
+                        justifyContent="flex-end"
+                        onClick={undefined}
+                      >
+                        <styled.div>
+                          <Unknown
+                            height={20}
+                          />
+                          <LocalizedText
+                            color="brandBlue"
+                            pl={3}
+                            textKey="patientSearch.addPatient"
+                          />
+                        </styled.div>
+                      </styled.div>
+                    </styled.div>
+                  </styled.div>
+                </styled.div>,
+                "wrap": "wrap",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <styled.div>
+                      <styled.h6>
+                        <LocalizedText
+                          textKey="patientSearch.title"
+                        />
+                      </styled.h6>
+                    </styled.div>,
+                    <styled.div>
+                      <styled.div
+                        pt={3}
+                      >
+                        <styled.div
+                          justifyContent="flex-end"
+                          onClick={undefined}
+                        >
+                          <styled.div>
+                            <Unknown
+                              height={20}
+                            />
+                            <LocalizedText
+                              color="brandBlue"
+                              pl={3}
+                              textKey="patientSearch.addPatient"
+                            />
+                          </styled.div>
+                        </styled.div>
+                      </styled.div>
+                    </styled.div>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <styled.h6>
+                        <LocalizedText
+                          textKey="patientSearch.title"
+                        />
+                      </styled.h6>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <LocalizedText
+                          textKey="patientSearch.title"
+                        />,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "function",
+                        "props": Object {
+                          "textKey": "patientSearch.title",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <styled.div
+                        pt={3}
+                      >
+                        <styled.div
+                          justifyContent="flex-end"
+                          onClick={undefined}
+                        >
+                          <styled.div>
+                            <Unknown
+                              height={20}
+                            />
+                            <LocalizedText
+                              color="brandBlue"
+                              pl={3}
+                              textKey="patientSearch.addPatient"
+                            />
+                          </styled.div>
+                        </styled.div>
+                      </styled.div>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <styled.div
+                          justifyContent="flex-end"
+                          onClick={undefined}
+                        >
+                          <styled.div>
+                            <Unknown
+                              height={20}
+                            />
+                            <LocalizedText
+                              color="brandBlue"
+                              pl={3}
+                              textKey="patientSearch.addPatient"
+                            />
+                          </styled.div>
+                        </styled.div>,
+                        "pt": 3,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <styled.div>
+                            <Unknown
+                              height={20}
+                            />
+                            <LocalizedText
+                              color="brandBlue"
+                              pl={3}
+                              textKey="patientSearch.addPatient"
+                            />
+                          </styled.div>,
+                          "justifyContent": "flex-end",
+                          "onClick": undefined,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": null,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": Array [
+                              <Unknown
+                                height={20}
+                              />,
+                              <LocalizedText
+                                color="brandBlue"
+                                pl={3}
+                                textKey="patientSearch.addPatient"
+                              />,
+                            ],
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": null,
+                              "nodeType": "function",
+                              "props": Object {
+                                "height": 20,
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": [Function],
+                            },
+                            Object {
+                              "instance": null,
+                              "key": null,
+                              "nodeType": "function",
+                              "props": Object {
+                                "color": "brandBlue",
+                                "pl": 3,
+                                "textKey": "patientSearch.addPatient",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": [Function],
+                            },
+                          ],
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.div>
+                    <Unknown
+                      id="patient-id"
+                      model="patientSearch.patientID"
+                      mr={3}
+                      p={2}
+                      placeholder="Patient ID"
+                    />
+                    <Unknown
+                      id="patient-name"
+                      model="patientSearch.fullName"
+                      mr={3}
+                      p={2}
+                      placeholder="Name"
+                    />
+                  </styled.div>,
+                  <Button
+                    accessibilityLabel=""
+                    buttonStyle="primary"
+                    disabled={false}
+                    fontSize="0.875rem"
+                    label="Search"
+                    loading={false}
+                    minWidth=""
+                  />,
+                ],
+                "justify": "space-between",
+                "py": 4,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <Unknown
+                        id="patient-id"
+                        model="patientSearch.patientID"
+                        mr={3}
+                        p={2}
+                        placeholder="Patient ID"
+                      />,
+                      <Unknown
+                        id="patient-name"
+                        model="patientSearch.fullName"
+                        mr={3}
+                        p={2}
+                        placeholder="Name"
+                      />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "id": "patient-id",
+                        "model": "patientSearch.patientID",
+                        "mr": 3,
+                        "p": 2,
+                        "placeholder": "Patient ID",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "id": "patient-name",
+                        "model": "patientSearch.fullName",
+                        "mr": 3,
+                        "p": 2,
+                        "placeholder": "Name",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "accessibilityLabel": "",
+                    "buttonStyle": "primary",
+                    "disabled": false,
+                    "fontSize": "0.875rem",
+                    "label": "Search",
+                    "loading": false,
+                    "minWidth": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Unknown
+              birthDate="12/11/1992"
+              diabetesType="type 1"
+              fullName="Jack Peters"
+              id="1234"
+              switchPatient={undefined}
+              treatment="treatment XYZ"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "patient-search-result--1234",
+            "nodeType": "function",
+            "props": Object {
+              "birthDate": "12/11/1992",
+              "diabetesType": "type 1",
+              "fullName": "Jack Peters",
+              "id": "1234",
+              "switchPatient": undefined,
+              "treatment": "treatment XYZ",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.div>
+            <Form
+              model="patientSearch"
+              onSubmit={[Function]}
+            >
+              <styled.div
+                wrap="wrap"
+              >
+                <styled.div>
+                  <styled.div>
+                    <styled.h6>
+                      <LocalizedText
+                        textKey="patientSearch.title"
+                      />
+                    </styled.h6>
+                  </styled.div>
+                  <styled.div>
+                    <styled.div
+                      pt={3}
+                    >
+                      <styled.div
+                        justifyContent="flex-end"
+                        onClick={undefined}
+                      >
+                        <styled.div>
+                          <Unknown
+                            height={20}
+                          />
+                          <LocalizedText
+                            color="brandBlue"
+                            pl={3}
+                            textKey="patientSearch.addPatient"
+                          />
+                        </styled.div>
+                      </styled.div>
+                    </styled.div>
+                  </styled.div>
+                </styled.div>
+              </styled.div>
+              <styled.div
+                justify="space-between"
+                py={4}
+              >
+                <styled.div>
+                  <Unknown
+                    id="patient-id"
+                    model="patientSearch.patientID"
+                    mr={3}
+                    p={2}
+                    placeholder="Patient ID"
+                  />
+                  <Unknown
+                    id="patient-name"
+                    model="patientSearch.fullName"
+                    mr={3}
+                    p={2}
+                    placeholder="Name"
+                  />
+                </styled.div>
+                <Button
+                  accessibilityLabel=""
+                  buttonStyle="primary"
+                  disabled={false}
+                  fontSize="0.875rem"
+                  label="Search"
+                  loading={false}
+                  minWidth=""
+                />
+              </styled.div>
+            </Form>
+          </styled.div>,
+          <Unknown>
+            <Unknown
+              birthDate="12/11/1992"
+              diabetesType="type 1"
+              fullName="Jack Peters"
+              id="1234"
+              switchPatient={undefined}
+              treatment="treatment XYZ"
+            />
+          </Unknown>,
+        ],
+        "flexDirection": "column",
+        "mb": 4,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Form
+              model="patientSearch"
+              onSubmit={[Function]}
+            >
+              <styled.div
+                wrap="wrap"
+              >
+                <styled.div>
+                  <styled.div>
+                    <styled.h6>
+                      <LocalizedText
+                        textKey="patientSearch.title"
+                      />
+                    </styled.h6>
+                  </styled.div>
+                  <styled.div>
+                    <styled.div
+                      pt={3}
+                    >
+                      <styled.div
+                        justifyContent="flex-end"
+                        onClick={undefined}
+                      >
+                        <styled.div>
+                          <Unknown
+                            height={20}
+                          />
+                          <LocalizedText
+                            color="brandBlue"
+                            pl={3}
+                            textKey="patientSearch.addPatient"
+                          />
+                        </styled.div>
+                      </styled.div>
+                    </styled.div>
+                  </styled.div>
+                </styled.div>
+              </styled.div>
+              <styled.div
+                justify="space-between"
+                py={4}
+              >
+                <styled.div>
+                  <Unknown
+                    id="patient-id"
+                    model="patientSearch.patientID"
+                    mr={3}
+                    p={2}
+                    placeholder="Patient ID"
+                  />
+                  <Unknown
+                    id="patient-name"
+                    model="patientSearch.fullName"
+                    mr={3}
+                    p={2}
+                    placeholder="Name"
+                  />
+                </styled.div>
+                <Button
+                  accessibilityLabel=""
+                  buttonStyle="primary"
+                  disabled={false}
+                  fontSize="0.875rem"
+                  label="Search"
+                  loading={false}
+                  minWidth=""
+                />
+              </styled.div>
+            </Form>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <styled.div
+                  wrap="wrap"
+                >
+                  <styled.div>
+                    <styled.div>
+                      <styled.h6>
+                        <LocalizedText
+                          textKey="patientSearch.title"
+                        />
+                      </styled.h6>
+                    </styled.div>
+                    <styled.div>
+                      <styled.div
+                        pt={3}
+                      >
+                        <styled.div
+                          justifyContent="flex-end"
+                          onClick={undefined}
+                        >
+                          <styled.div>
+                            <Unknown
+                              height={20}
+                            />
+                            <LocalizedText
+                              color="brandBlue"
+                              pl={3}
+                              textKey="patientSearch.addPatient"
+                            />
+                          </styled.div>
+                        </styled.div>
+                      </styled.div>
+                    </styled.div>
+                  </styled.div>
+                </styled.div>,
+                <styled.div
+                  justify="space-between"
+                  py={4}
+                >
+                  <styled.div>
+                    <Unknown
+                      id="patient-id"
+                      model="patientSearch.patientID"
+                      mr={3}
+                      p={2}
+                      placeholder="Patient ID"
+                    />
+                    <Unknown
+                      id="patient-name"
+                      model="patientSearch.fullName"
+                      mr={3}
+                      p={2}
+                      placeholder="Name"
+                    />
+                  </styled.div>
+                  <Button
+                    accessibilityLabel=""
+                    buttonStyle="primary"
+                    disabled={false}
+                    fontSize="0.875rem"
+                    label="Search"
+                    loading={false}
+                    minWidth=""
+                  />
+                </styled.div>,
+              ],
+              "model": "patientSearch",
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <styled.div>
+                    <styled.div>
+                      <styled.h6>
+                        <LocalizedText
+                          textKey="patientSearch.title"
+                        />
+                      </styled.h6>
+                    </styled.div>
+                    <styled.div>
+                      <styled.div
+                        pt={3}
+                      >
+                        <styled.div
+                          justifyContent="flex-end"
+                          onClick={undefined}
+                        >
+                          <styled.div>
+                            <Unknown
+                              height={20}
+                            />
+                            <LocalizedText
+                              color="brandBlue"
+                              pl={3}
+                              textKey="patientSearch.addPatient"
+                            />
+                          </styled.div>
+                        </styled.div>
+                      </styled.div>
+                    </styled.div>
+                  </styled.div>,
+                  "wrap": "wrap",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <styled.div>
+                        <styled.h6>
+                          <LocalizedText
+                            textKey="patientSearch.title"
+                          />
+                        </styled.h6>
+                      </styled.div>,
+                      <styled.div>
+                        <styled.div
+                          pt={3}
+                        >
+                          <styled.div
+                            justifyContent="flex-end"
+                            onClick={undefined}
+                          >
+                            <styled.div>
+                              <Unknown
+                                height={20}
+                              />
+                              <LocalizedText
+                                color="brandBlue"
+                                pl={3}
+                                textKey="patientSearch.addPatient"
+                              />
+                            </styled.div>
+                          </styled.div>
+                        </styled.div>
+                      </styled.div>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <styled.h6>
+                          <LocalizedText
+                            textKey="patientSearch.title"
+                          />
+                        </styled.h6>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <LocalizedText
+                            textKey="patientSearch.title"
+                          />,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": null,
+                          "nodeType": "function",
+                          "props": Object {
+                            "textKey": "patientSearch.title",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <styled.div
+                          pt={3}
+                        >
+                          <styled.div
+                            justifyContent="flex-end"
+                            onClick={undefined}
+                          >
+                            <styled.div>
+                              <Unknown
+                                height={20}
+                              />
+                              <LocalizedText
+                                color="brandBlue"
+                                pl={3}
+                                textKey="patientSearch.addPatient"
+                              />
+                            </styled.div>
+                          </styled.div>
+                        </styled.div>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <styled.div
+                            justifyContent="flex-end"
+                            onClick={undefined}
+                          >
+                            <styled.div>
+                              <Unknown
+                                height={20}
+                              />
+                              <LocalizedText
+                                color="brandBlue"
+                                pl={3}
+                                textKey="patientSearch.addPatient"
+                              />
+                            </styled.div>
+                          </styled.div>,
+                          "pt": 3,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": null,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": <styled.div>
+                              <Unknown
+                                height={20}
+                              />
+                              <LocalizedText
+                                color="brandBlue"
+                                pl={3}
+                                textKey="patientSearch.addPatient"
+                              />
+                            </styled.div>,
+                            "justifyContent": "flex-end",
+                            "onClick": undefined,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": null,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": Array [
+                                <Unknown
+                                  height={20}
+                                />,
+                                <LocalizedText
+                                  color="brandBlue"
+                                  pl={3}
+                                  textKey="patientSearch.addPatient"
+                                />,
+                              ],
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": null,
+                                "nodeType": "function",
+                                "props": Object {
+                                  "height": 20,
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": [Function],
+                              },
+                              Object {
+                                "instance": null,
+                                "key": null,
+                                "nodeType": "function",
+                                "props": Object {
+                                  "color": "brandBlue",
+                                  "pl": 3,
+                                  "textKey": "patientSearch.addPatient",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": [Function],
+                              },
+                            ],
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <styled.div>
+                      <Unknown
+                        id="patient-id"
+                        model="patientSearch.patientID"
+                        mr={3}
+                        p={2}
+                        placeholder="Patient ID"
+                      />
+                      <Unknown
+                        id="patient-name"
+                        model="patientSearch.fullName"
+                        mr={3}
+                        p={2}
+                        placeholder="Name"
+                      />
+                    </styled.div>,
+                    <Button
+                      accessibilityLabel=""
+                      buttonStyle="primary"
+                      disabled={false}
+                      fontSize="0.875rem"
+                      label="Search"
+                      loading={false}
+                      minWidth=""
+                    />,
+                  ],
+                  "justify": "space-between",
+                  "py": 4,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <Unknown
+                          id="patient-id"
+                          model="patientSearch.patientID"
+                          mr={3}
+                          p={2}
+                          placeholder="Patient ID"
+                        />,
+                        <Unknown
+                          id="patient-name"
+                          model="patientSearch.fullName"
+                          mr={3}
+                          p={2}
+                          placeholder="Name"
+                        />,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "function",
+                        "props": Object {
+                          "id": "patient-id",
+                          "model": "patientSearch.patientID",
+                          "mr": 3,
+                          "p": 2,
+                          "placeholder": "Patient ID",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "function",
+                        "props": Object {
+                          "id": "patient-name",
+                          "model": "patientSearch.fullName",
+                          "mr": 3,
+                          "p": 2,
+                          "placeholder": "Name",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "accessibilityLabel": "",
+                      "buttonStyle": "primary",
+                      "disabled": false,
+                      "fontSize": "0.875rem",
+                      "label": "Search",
+                      "loading": false,
+                      "minWidth": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Unknown
+                birthDate="12/11/1992"
+                diabetesType="type 1"
+                fullName="Jack Peters"
+                id="1234"
+                switchPatient={undefined}
+                treatment="treatment XYZ"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "patient-search-result--1234",
+              "nodeType": "function",
+              "props": Object {
+                "birthDate": "12/11/1992",
+                "diabetesType": "type 1",
+                "fullName": "Jack Peters",
+                "id": "1234",
+                "switchPatient": undefined,
+                "treatment": "treatment XYZ",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

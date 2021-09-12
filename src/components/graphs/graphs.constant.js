@@ -1,0 +1,1 @@
+export const MIN_EXPANDED_STD_GRAPH_HEIGHT = 420;

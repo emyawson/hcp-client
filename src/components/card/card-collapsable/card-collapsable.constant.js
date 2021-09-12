@@ -1,0 +1,5 @@
+export const HEADER_MODE = {
+  ACTIVE: 'ACTIVE',
+  DEFAULT: 'DEFAULT',
+  DISABLED: 'DISABLED',
+};

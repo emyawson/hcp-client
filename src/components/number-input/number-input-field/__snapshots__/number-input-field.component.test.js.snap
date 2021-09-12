@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Number input field component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NumberInputField
+    disabled={true}
+    id="1"
+    max={99}
+    min={0}
+    model="numberOfStrips"
+    updateField={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "disabled": true,
+      "id": "NumberInput--1",
+      "mapProps": Object {
+        "value": [Function],
+      },
+      "max": 99,
+      "min": 0,
+      "model": "numberOfStrips",
+      "onBlur": [Function],
+      "onChange": [Function],
+      "onInvalid": [Function],
+      "parser": [Function],
+      "step": "1",
+      "type": "number",
+      "updateOn": "change",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "disabled": true,
+        "id": "NumberInput--1",
+        "mapProps": Object {
+          "value": [Function],
+        },
+        "max": 99,
+        "min": 0,
+        "model": "numberOfStrips",
+        "onBlur": [Function],
+        "onChange": [Function],
+        "onInvalid": [Function],
+        "parser": [Function],
+        "step": "1",
+        "type": "number",
+        "updateOn": "change",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Number input field component renders with default props 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NumberInputField
+    id="1"
+    max={99}
+    min={0}
+    model="numberOfStrips"
+    updateField={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "disabled": false,
+      "id": "NumberInput--1",
+      "mapProps": Object {
+        "value": [Function],
+      },
+      "max": 99,
+      "min": 0,
+      "model": "numberOfStrips",
+      "onBlur": [Function],
+      "onChange": [Function],
+      "onInvalid": [Function],
+      "parser": [Function],
+      "step": "1",
+      "type": "number",
+      "updateOn": "change",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "disabled": false,
+        "id": "NumberInput--1",
+        "mapProps": Object {
+          "value": [Function],
+        },
+        "max": 99,
+        "min": 0,
+        "model": "numberOfStrips",
+        "onBlur": [Function],
+        "onChange": [Function],
+        "onInvalid": [Function],
+        "parser": [Function],
+        "step": "1",
+        "type": "number",
+        "updateOn": "change",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusCard StatusCard renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    hasReliableInfo={true}
+    hypoRisk={
+      Object {
+        "status": Object {
+          "color": "GREEN",
+          "label": "Low",
+          "sufficientInfo": true,
+        },
+        "value": Object {
+          "lbgi": 0.1,
+          "numberOfMeasurements": 4,
+        },
+      }
+    }
+    meanBloodGlucose={
+      Object {
+        "status": Object {
+          "color": "GREEN",
+          "label": "within target range",
+          "sufficientInfo": true,
+        },
+        "value": 115,
+      }
+    }
+    placeholderStatusLabel={true}
+    showPlaceholderStatusLabelAndHideValues={false}
+    showStatusLabels={true}
+    threshold={
+      Object {
+        "glucoseIdealIntervalMax": 125,
+        "glucoseIdealIntervalMin": 80,
+        "hypoglycemiaThreshold": 60,
+      }
+    }
+    variability={
+      Object {
+        "status": Object {
+          "color": "GREEN",
+          "label": "Low",
+          "sufficientInfo": true,
+        },
+        "value": 11.2,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          color="GREEN"
+          hasReliableInfo={true}
+          showLabels={true}
+          statusLabel="Low Hypo Risk"
+          value={0.1}
+        />,
+        <Unknown
+          caption="(target range: 80-125 mg/dL)"
+          color="GREEN"
+          hasReliableInfo={true}
+          showLabels={true}
+          statusLabel="Mean blood glucose within target range"
+          value="115 mg/dL"
+        />,
+        <Unknown
+          color="GREEN"
+          hasReliableInfo={true}
+          showLabels={true}
+          statusLabel="Low Variability"
+          value={11.2}
+        />,
+      ],
+      "hasError": true,
+      "isLoading": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "color": "GREEN",
+          "hasReliableInfo": true,
+          "showLabels": true,
+          "statusLabel": "Low Hypo Risk",
+          "value": 0.1,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "caption": "(target range: 80-125 mg/dL)",
+          "color": "GREEN",
+          "hasReliableInfo": true,
+          "showLabels": true,
+          "statusLabel": "Mean blood glucose within target range",
+          "value": "115 mg/dL",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "color": "GREEN",
+          "hasReliableInfo": true,
+          "showLabels": true,
+          "statusLabel": "Low Variability",
+          "value": 11.2,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            color="GREEN"
+            hasReliableInfo={true}
+            showLabels={true}
+            statusLabel="Low Hypo Risk"
+            value={0.1}
+          />,
+          <Unknown
+            caption="(target range: 80-125 mg/dL)"
+            color="GREEN"
+            hasReliableInfo={true}
+            showLabels={true}
+            statusLabel="Mean blood glucose within target range"
+            value="115 mg/dL"
+          />,
+          <Unknown
+            color="GREEN"
+            hasReliableInfo={true}
+            showLabels={true}
+            statusLabel="Low Variability"
+            value={11.2}
+          />,
+        ],
+        "hasError": true,
+        "isLoading": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "color": "GREEN",
+            "hasReliableInfo": true,
+            "showLabels": true,
+            "statusLabel": "Low Hypo Risk",
+            "value": 0.1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "caption": "(target range: 80-125 mg/dL)",
+            "color": "GREEN",
+            "hasReliableInfo": true,
+            "showLabels": true,
+            "statusLabel": "Mean blood glucose within target range",
+            "value": "115 mg/dL",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "color": "GREEN",
+            "hasReliableInfo": true,
+            "showLabels": true,
+            "statusLabel": "Low Variability",
+            "value": 11.2,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

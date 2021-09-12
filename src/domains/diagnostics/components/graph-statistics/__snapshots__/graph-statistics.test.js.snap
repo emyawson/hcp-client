@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`graph-statistics test suite it renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    graphDetails={
+      Object {
+        "bloodGlucoseValues": Object {
+          "bloodGlucoseMean": 158.4,
+          "bloodGlucoseStandardDeviation": 137.6,
+          "testsPerDay": 10,
+        },
+        "targetRangesValues": Object {
+          "abovePercentage": 40,
+          "belowPercentage": 20,
+          "hypoglycaemiaNumber": 3,
+          "hypoglycaemiaPercentage": 30,
+          "targetBloodGlucoseMaximum": 125,
+          "targetBloodGlucoseMinimum": 80,
+          "withinPercentage": 20,
+        },
+      }
+    }
+    graphStartTime="0:00"
+  >
+    <div>
+      test
+    </div>
+  </Unknown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "minHeight": "12rem",
+      "navItemLabelSelectedStyle": "
+  path,
+  circle {
+    fill: #0D79D6;
+  }
+  .horizontalLines {
+    stroke: #0D79D6;
+  }
+  color: #0D79D6;
+",
+      "tabs": Array [
+        Object {
+          "content": <Unknown
+            graphDetails={undefined}
+            graphType={undefined}
+          />,
+          "keyText": "statistics",
+          "label": "%",
+        },
+        Object {
+          "content": <Unknown
+            graphType={undefined}
+          />,
+          "keyText": "legend",
+          "label": <Unknown />,
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "minHeight": "12rem",
+        "navItemLabelSelectedStyle": "
+  path,
+  circle {
+    fill: #0D79D6;
+  }
+  .horizontalLines {
+    stroke: #0D79D6;
+  }
+  color: #0D79D6;
+",
+        "tabs": Array [
+          Object {
+            "content": <Unknown
+              graphDetails={undefined}
+              graphType={undefined}
+            />,
+            "keyText": "statistics",
+            "label": "%",
+          },
+          Object {
+            "content": <Unknown
+              graphType={undefined}
+            />,
+            "keyText": "legend",
+            "label": <Unknown />,
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

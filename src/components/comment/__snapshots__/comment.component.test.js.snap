@@ -1,0 +1,519 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment Component tests should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    date="June 01 2018"
+    isExpanded={false}
+    message="The patient has not achieved the required conditions and must see the practitioner for the strips."
+    showIcon={false}
+    title="Force Status"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": <styled.div
+        isExpanded={false}
+      >
+        <f1
+          validate={false}
+        >
+          <styled.div
+            isExpanded={false}
+          >
+            <Styled(Badge)
+              bgColor="#CF021B"
+              icon={
+                <Unknown
+                  fillColor="#FFF"
+                  height={20}
+                />
+              }
+              size={38}
+            />
+          </styled.div>
+        </f1>
+        <styled.div>
+          <styled.div>
+            <styled.h2
+              isExpanded={false}
+            >
+              Force Status
+            </styled.h2>
+            <styled.span>
+              - 
+              June 01 2018
+            </styled.span>
+          </styled.div>
+          <styled.p>
+            The patient has not achieved the required conditions and must see the practitioner for the strips.
+          </styled.p>
+        </styled.div>
+      </styled.div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <f1
+            validate={false}
+          >
+            <styled.div
+              isExpanded={false}
+            >
+              <Styled(Badge)
+                bgColor="#CF021B"
+                icon={
+                  <Unknown
+                    fillColor="#FFF"
+                    height={20}
+                  />
+                }
+                size={38}
+              />
+            </styled.div>
+          </f1>,
+          <styled.div>
+            <styled.div>
+              <styled.h2
+                isExpanded={false}
+              >
+                Force Status
+              </styled.h2>
+              <styled.span>
+                - 
+                June 01 2018
+              </styled.span>
+            </styled.div>
+            <styled.p>
+              The patient has not achieved the required conditions and must see the practitioner for the strips.
+            </styled.p>
+          </styled.div>,
+        ],
+        "isExpanded": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": <styled.div
+              isExpanded={false}
+            >
+              <Styled(Badge)
+                bgColor="#CF021B"
+                icon={
+                  <Unknown
+                    fillColor="#FFF"
+                    height={20}
+                  />
+                }
+                size={38}
+              />
+            </styled.div>,
+            "validate": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Styled(Badge)
+                bgColor="#CF021B"
+                icon={
+                  <Unknown
+                    fillColor="#FFF"
+                    height={20}
+                  />
+                }
+                size={38}
+              />,
+              "isExpanded": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "bgColor": "#CF021B",
+                "icon": <Unknown
+                  fillColor="#FFF"
+                  height={20}
+                />,
+                "size": 38,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.div>
+                <styled.h2
+                  isExpanded={false}
+                >
+                  Force Status
+                </styled.h2>
+                <styled.span>
+                  - 
+                  June 01 2018
+                </styled.span>
+              </styled.div>,
+              <styled.p>
+                The patient has not achieved the required conditions and must see the practitioner for the strips.
+              </styled.p>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.h2
+                    isExpanded={false}
+                  >
+                    Force Status
+                  </styled.h2>,
+                  <styled.span>
+                    - 
+                    June 01 2018
+                  </styled.span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Force Status",
+                    "isExpanded": false,
+                  },
+                  "ref": null,
+                  "rendered": "Force Status",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      "- ",
+                      "June 01 2018",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "- ",
+                    "June 01 2018",
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "The patient has not achieved the required conditions and must see the practitioner for the strips.",
+              },
+              "ref": null,
+              "rendered": "The patient has not achieved the required conditions and must see the practitioner for the strips.",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": <styled.div
+          isExpanded={false}
+        >
+          <f1
+            validate={false}
+          >
+            <styled.div
+              isExpanded={false}
+            >
+              <Styled(Badge)
+                bgColor="#CF021B"
+                icon={
+                  <Unknown
+                    fillColor="#FFF"
+                    height={20}
+                  />
+                }
+                size={38}
+              />
+            </styled.div>
+          </f1>
+          <styled.div>
+            <styled.div>
+              <styled.h2
+                isExpanded={false}
+              >
+                Force Status
+              </styled.h2>
+              <styled.span>
+                - 
+                June 01 2018
+              </styled.span>
+            </styled.div>
+            <styled.p>
+              The patient has not achieved the required conditions and must see the practitioner for the strips.
+            </styled.p>
+          </styled.div>
+        </styled.div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <f1
+              validate={false}
+            >
+              <styled.div
+                isExpanded={false}
+              >
+                <Styled(Badge)
+                  bgColor="#CF021B"
+                  icon={
+                    <Unknown
+                      fillColor="#FFF"
+                      height={20}
+                    />
+                  }
+                  size={38}
+                />
+              </styled.div>
+            </f1>,
+            <styled.div>
+              <styled.div>
+                <styled.h2
+                  isExpanded={false}
+                >
+                  Force Status
+                </styled.h2>
+                <styled.span>
+                  - 
+                  June 01 2018
+                </styled.span>
+              </styled.div>
+              <styled.p>
+                The patient has not achieved the required conditions and must see the practitioner for the strips.
+              </styled.p>
+            </styled.div>,
+          ],
+          "isExpanded": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": <styled.div
+                isExpanded={false}
+              >
+                <Styled(Badge)
+                  bgColor="#CF021B"
+                  icon={
+                    <Unknown
+                      fillColor="#FFF"
+                      height={20}
+                    />
+                  }
+                  size={38}
+                />
+              </styled.div>,
+              "validate": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Styled(Badge)
+                  bgColor="#CF021B"
+                  icon={
+                    <Unknown
+                      fillColor="#FFF"
+                      height={20}
+                    />
+                  }
+                  size={38}
+                />,
+                "isExpanded": false,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bgColor": "#CF021B",
+                  "icon": <Unknown
+                    fillColor="#FFF"
+                    height={20}
+                  />,
+                  "size": 38,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <styled.div>
+                  <styled.h2
+                    isExpanded={false}
+                  >
+                    Force Status
+                  </styled.h2>
+                  <styled.span>
+                    - 
+                    June 01 2018
+                  </styled.span>
+                </styled.div>,
+                <styled.p>
+                  The patient has not achieved the required conditions and must see the practitioner for the strips.
+                </styled.p>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <styled.h2
+                      isExpanded={false}
+                    >
+                      Force Status
+                    </styled.h2>,
+                    <styled.span>
+                      - 
+                      June 01 2018
+                    </styled.span>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Force Status",
+                      "isExpanded": false,
+                    },
+                    "ref": null,
+                    "rendered": "Force Status",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        "- ",
+                        "June 01 2018",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "- ",
+                      "June 01 2018",
+                    ],
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "The patient has not achieved the required conditions and must see the practitioner for the strips.",
+                },
+                "ref": null,
+                "rendered": "The patient has not achieved the required conditions and must see the practitioner for the strips.",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

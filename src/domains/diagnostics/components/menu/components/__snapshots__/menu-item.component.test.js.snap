@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu item component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    item={
+      Object {
+        "icon": [Function],
+        "name": "dtcIcon",
+        "type": "BUTTON",
+      }
+    }
+    onClick={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "dtcIcon",
+    "nodeType": "class",
+    "props": Object {
+      "children": <styled.button
+        activeClassName="selected"
+        id="dtcIcon"
+        item={
+          Object {
+            "icon": [Function],
+            "name": "dtcIcon",
+            "type": "BUTTON",
+          }
+        }
+        onClick={[Function]}
+      >
+        <styled.div />
+        <styled.div>
+          <mockIcon
+            color="#D8D8D8"
+            height={20}
+          />
+        </styled.div>
+        <span>
+          upload data
+        </span>
+      </styled.button>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "activeClassName": "selected",
+        "children": Array [
+          <styled.div />,
+          <styled.div>
+            <mockIcon
+              color="#D8D8D8"
+              height={20}
+            />
+          </styled.div>,
+          <span>
+            upload data
+          </span>,
+        ],
+        "id": "dtcIcon",
+        "item": Object {
+          "icon": [Function],
+          "name": "dtcIcon",
+          "type": "BUTTON",
+        },
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <mockIcon
+              color="#D8D8D8"
+              height={20}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "color": "#D8D8D8",
+              "height": 20,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "upload data",
+          },
+          "ref": null,
+          "rendered": "upload data",
+          "type": "span",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "dtcIcon",
+      "nodeType": "class",
+      "props": Object {
+        "children": <styled.button
+          activeClassName="selected"
+          id="dtcIcon"
+          item={
+            Object {
+              "icon": [Function],
+              "name": "dtcIcon",
+              "type": "BUTTON",
+            }
+          }
+          onClick={[Function]}
+        >
+          <styled.div />
+          <styled.div>
+            <mockIcon
+              color="#D8D8D8"
+              height={20}
+            />
+          </styled.div>
+          <span>
+            upload data
+          </span>
+        </styled.button>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "activeClassName": "selected",
+          "children": Array [
+            <styled.div />,
+            <styled.div>
+              <mockIcon
+                color="#D8D8D8"
+                height={20}
+              />
+            </styled.div>,
+            <span>
+              upload data
+            </span>,
+          ],
+          "id": "dtcIcon",
+          "item": Object {
+            "icon": [Function],
+            "name": "dtcIcon",
+            "type": "BUTTON",
+          },
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <mockIcon
+                color="#D8D8D8"
+                height={20}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#D8D8D8",
+                "height": 20,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": "upload data",
+            },
+            "ref": null,
+            "rendered": "upload data",
+            "type": "span",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

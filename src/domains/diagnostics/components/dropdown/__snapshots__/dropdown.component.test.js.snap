@@ -1,0 +1,366 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dropdown test suite it renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    autosize={false}
+    backspaceRemoves={false}
+    clearable={false}
+    disabled={false}
+    id=""
+    label="Drop down"
+    modelPath=".dropdown"
+    multi={false}
+    onChange={[Function]}
+    optionFontSize="0.875rem"
+    options={
+      Array [
+        Object {
+          "label": "Uno",
+          "value": 1,
+        },
+        Object {
+          "label": "Dos",
+          "value": 2,
+        },
+        Object {
+          "label": "Tres",
+          "value": 3,
+        },
+      ]
+    }
+    placeholder="The placeholder"
+    required={false}
+    searchable={true}
+    selectHeight="3rem"
+    selectedOptionPadding="1rem"
+    simpleValue={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "borderless": undefined,
+      "children": <Unknown
+        aria-label="Drop down"
+        autosize={false}
+        backspaceRemoves={false}
+        clearable={false}
+        component={[Function]}
+        controlProps={
+          Object {
+            "arrowRenderer": [Function],
+            "autosize": false,
+            "backspaceRemoves": false,
+            "borderless": undefined,
+            "clearable": false,
+            "disabled": false,
+            "id": "",
+            "menuContainerStyle": Object {},
+            "menuStyle": Object {},
+            "multi": false,
+            "optionFontSize": "0.875rem",
+            "options": Array [
+              Object {
+                "label": "Uno",
+                "value": 1,
+              },
+              Object {
+                "label": "Dos",
+                "value": 2,
+              },
+              Object {
+                "label": "Tres",
+                "value": 3,
+              },
+            ],
+            "required": false,
+            "searchable": true,
+            "selectHeight": "3rem",
+            "selectedOptionPadding": "1rem",
+            "simpleValue": true,
+            "style": Object {},
+          }
+        }
+        disabled={false}
+        id=""
+        model=".dropdown"
+        multi={false}
+        onChange={[Function]}
+        optionFontSize="0.875rem"
+        options={
+          Array [
+            Object {
+              "label": "Uno",
+              "value": 1,
+            },
+            Object {
+              "label": "Dos",
+              "value": 2,
+            },
+            Object {
+              "label": "Tres",
+              "value": 3,
+            },
+          ]
+        }
+        placeholder="The placeholder"
+        searchable={true}
+        selectHeight="3rem"
+        selectedOptionPadding="1rem"
+        simpleValue={true}
+        validators={Object {}}
+      />,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "function",
+      "props": Object {
+        "aria-label": "Drop down",
+        "autosize": false,
+        "backspaceRemoves": false,
+        "clearable": false,
+        "component": [Function],
+        "controlProps": Object {
+          "arrowRenderer": [Function],
+          "autosize": false,
+          "backspaceRemoves": false,
+          "borderless": undefined,
+          "clearable": false,
+          "disabled": false,
+          "id": "",
+          "menuContainerStyle": Object {},
+          "menuStyle": Object {},
+          "multi": false,
+          "optionFontSize": "0.875rem",
+          "options": Array [
+            Object {
+              "label": "Uno",
+              "value": 1,
+            },
+            Object {
+              "label": "Dos",
+              "value": 2,
+            },
+            Object {
+              "label": "Tres",
+              "value": 3,
+            },
+          ],
+          "required": false,
+          "searchable": true,
+          "selectHeight": "3rem",
+          "selectedOptionPadding": "1rem",
+          "simpleValue": true,
+          "style": Object {},
+        },
+        "disabled": false,
+        "id": "",
+        "model": ".dropdown",
+        "multi": false,
+        "onChange": [Function],
+        "optionFontSize": "0.875rem",
+        "options": Array [
+          Object {
+            "label": "Uno",
+            "value": 1,
+          },
+          Object {
+            "label": "Dos",
+            "value": 2,
+          },
+          Object {
+            "label": "Tres",
+            "value": 3,
+          },
+        ],
+        "placeholder": "The placeholder",
+        "searchable": true,
+        "selectHeight": "3rem",
+        "selectedOptionPadding": "1rem",
+        "simpleValue": true,
+        "validators": Object {},
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "borderless": undefined,
+        "children": <Unknown
+          aria-label="Drop down"
+          autosize={false}
+          backspaceRemoves={false}
+          clearable={false}
+          component={[Function]}
+          controlProps={
+            Object {
+              "arrowRenderer": [Function],
+              "autosize": false,
+              "backspaceRemoves": false,
+              "borderless": undefined,
+              "clearable": false,
+              "disabled": false,
+              "id": "",
+              "menuContainerStyle": Object {},
+              "menuStyle": Object {},
+              "multi": false,
+              "optionFontSize": "0.875rem",
+              "options": Array [
+                Object {
+                  "label": "Uno",
+                  "value": 1,
+                },
+                Object {
+                  "label": "Dos",
+                  "value": 2,
+                },
+                Object {
+                  "label": "Tres",
+                  "value": 3,
+                },
+              ],
+              "required": false,
+              "searchable": true,
+              "selectHeight": "3rem",
+              "selectedOptionPadding": "1rem",
+              "simpleValue": true,
+              "style": Object {},
+            }
+          }
+          disabled={false}
+          id=""
+          model=".dropdown"
+          multi={false}
+          onChange={[Function]}
+          optionFontSize="0.875rem"
+          options={
+            Array [
+              Object {
+                "label": "Uno",
+                "value": 1,
+              },
+              Object {
+                "label": "Dos",
+                "value": 2,
+              },
+              Object {
+                "label": "Tres",
+                "value": 3,
+              },
+            ]
+          }
+          placeholder="The placeholder"
+          searchable={true}
+          selectHeight="3rem"
+          selectedOptionPadding="1rem"
+          simpleValue={true}
+          validators={Object {}}
+        />,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "aria-label": "Drop down",
+          "autosize": false,
+          "backspaceRemoves": false,
+          "clearable": false,
+          "component": [Function],
+          "controlProps": Object {
+            "arrowRenderer": [Function],
+            "autosize": false,
+            "backspaceRemoves": false,
+            "borderless": undefined,
+            "clearable": false,
+            "disabled": false,
+            "id": "",
+            "menuContainerStyle": Object {},
+            "menuStyle": Object {},
+            "multi": false,
+            "optionFontSize": "0.875rem",
+            "options": Array [
+              Object {
+                "label": "Uno",
+                "value": 1,
+              },
+              Object {
+                "label": "Dos",
+                "value": 2,
+              },
+              Object {
+                "label": "Tres",
+                "value": 3,
+              },
+            ],
+            "required": false,
+            "searchable": true,
+            "selectHeight": "3rem",
+            "selectedOptionPadding": "1rem",
+            "simpleValue": true,
+            "style": Object {},
+          },
+          "disabled": false,
+          "id": "",
+          "model": ".dropdown",
+          "multi": false,
+          "onChange": [Function],
+          "optionFontSize": "0.875rem",
+          "options": Array [
+            Object {
+              "label": "Uno",
+              "value": 1,
+            },
+            Object {
+              "label": "Dos",
+              "value": 2,
+            },
+            Object {
+              "label": "Tres",
+              "value": 3,
+            },
+          ],
+          "placeholder": "The placeholder",
+          "searchable": true,
+          "selectHeight": "3rem",
+          "selectedOptionPadding": "1rem",
+          "simpleValue": true,
+          "validators": Object {},
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

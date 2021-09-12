@@ -1,0 +1,908 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Labelled Date Picker test suite renders correctly with a range picker 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    label="Test Dropdown Datepicker"
+    modelPath="testPath"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.label
+          htmlFor="testPath"
+          labelIsInline={false}
+        >
+          Test Dropdown Datepicker
+        </styled.label>,
+        <LabelledDatePickerDiv
+          showIcon={false}
+        >
+          <Unknown
+            component={[Function]}
+            mapProps={
+              Object {
+                "checkIfDateOutOfRange": undefined,
+                "date": [Function],
+                "displayFormat": undefined,
+                "endDate": [Function],
+                "isPresetsPanelDisplayed": undefined,
+                "onDateChange": [Function],
+                "onDatesChange": [Function],
+                "readOnly": [Function],
+                "single": false,
+                "startDate": [Function],
+              }
+            }
+            model="testPath"
+          />
+          <f1
+            validate={false}
+          >
+            <DatePickerIconSpan>
+              <Unknown
+                height={20}
+              />
+            </DatePickerIconSpan>
+          </f1>
+          <f1
+            validate={false}
+          >
+            <DatePickerArrowSpan>
+              <Unknown />
+            </DatePickerArrowSpan>
+          </f1>
+        </LabelledDatePickerDiv>,
+      ],
+      "labelIsInline": false,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Test Dropdown Datepicker",
+          "htmlFor": "testPath",
+          "labelIsInline": false,
+        },
+        "ref": null,
+        "rendered": "Test Dropdown Datepicker",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Unknown
+              component={[Function]}
+              mapProps={
+                Object {
+                  "checkIfDateOutOfRange": undefined,
+                  "date": [Function],
+                  "displayFormat": undefined,
+                  "endDate": [Function],
+                  "isPresetsPanelDisplayed": undefined,
+                  "onDateChange": [Function],
+                  "onDatesChange": [Function],
+                  "readOnly": [Function],
+                  "single": false,
+                  "startDate": [Function],
+                }
+              }
+              model="testPath"
+            />,
+            <f1
+              validate={false}
+            >
+              <DatePickerIconSpan>
+                <Unknown
+                  height={20}
+                />
+              </DatePickerIconSpan>
+            </f1>,
+            <f1
+              validate={false}
+            >
+              <DatePickerArrowSpan>
+                <Unknown />
+              </DatePickerArrowSpan>
+            </f1>,
+          ],
+          "showIcon": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "component": [Function],
+              "mapProps": Object {
+                "checkIfDateOutOfRange": undefined,
+                "date": [Function],
+                "displayFormat": undefined,
+                "endDate": [Function],
+                "isPresetsPanelDisplayed": undefined,
+                "onDateChange": [Function],
+                "onDatesChange": [Function],
+                "readOnly": [Function],
+                "single": false,
+                "startDate": [Function],
+              },
+              "model": "testPath",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": <DatePickerIconSpan>
+                <Unknown
+                  height={20}
+                />
+              </DatePickerIconSpan>,
+              "validate": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Unknown
+                  height={20}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "height": 20,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": <DatePickerArrowSpan>
+                <Unknown />
+              </DatePickerArrowSpan>,
+              "validate": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Unknown />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.label
+            htmlFor="testPath"
+            labelIsInline={false}
+          >
+            Test Dropdown Datepicker
+          </styled.label>,
+          <LabelledDatePickerDiv
+            showIcon={false}
+          >
+            <Unknown
+              component={[Function]}
+              mapProps={
+                Object {
+                  "checkIfDateOutOfRange": undefined,
+                  "date": [Function],
+                  "displayFormat": undefined,
+                  "endDate": [Function],
+                  "isPresetsPanelDisplayed": undefined,
+                  "onDateChange": [Function],
+                  "onDatesChange": [Function],
+                  "readOnly": [Function],
+                  "single": false,
+                  "startDate": [Function],
+                }
+              }
+              model="testPath"
+            />
+            <f1
+              validate={false}
+            >
+              <DatePickerIconSpan>
+                <Unknown
+                  height={20}
+                />
+              </DatePickerIconSpan>
+            </f1>
+            <f1
+              validate={false}
+            >
+              <DatePickerArrowSpan>
+                <Unknown />
+              </DatePickerArrowSpan>
+            </f1>
+          </LabelledDatePickerDiv>,
+        ],
+        "labelIsInline": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Test Dropdown Datepicker",
+            "htmlFor": "testPath",
+            "labelIsInline": false,
+          },
+          "ref": null,
+          "rendered": "Test Dropdown Datepicker",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Unknown
+                component={[Function]}
+                mapProps={
+                  Object {
+                    "checkIfDateOutOfRange": undefined,
+                    "date": [Function],
+                    "displayFormat": undefined,
+                    "endDate": [Function],
+                    "isPresetsPanelDisplayed": undefined,
+                    "onDateChange": [Function],
+                    "onDatesChange": [Function],
+                    "readOnly": [Function],
+                    "single": false,
+                    "startDate": [Function],
+                  }
+                }
+                model="testPath"
+              />,
+              <f1
+                validate={false}
+              >
+                <DatePickerIconSpan>
+                  <Unknown
+                    height={20}
+                  />
+                </DatePickerIconSpan>
+              </f1>,
+              <f1
+                validate={false}
+              >
+                <DatePickerArrowSpan>
+                  <Unknown />
+                </DatePickerArrowSpan>
+              </f1>,
+            ],
+            "showIcon": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "component": [Function],
+                "mapProps": Object {
+                  "checkIfDateOutOfRange": undefined,
+                  "date": [Function],
+                  "displayFormat": undefined,
+                  "endDate": [Function],
+                  "isPresetsPanelDisplayed": undefined,
+                  "onDateChange": [Function],
+                  "onDatesChange": [Function],
+                  "readOnly": [Function],
+                  "single": false,
+                  "startDate": [Function],
+                },
+                "model": "testPath",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "children": <DatePickerIconSpan>
+                  <Unknown
+                    height={20}
+                  />
+                </DatePickerIconSpan>,
+                "validate": false,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Unknown
+                    height={20}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "height": 20,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "children": <DatePickerArrowSpan>
+                  <Unknown />
+                </DatePickerArrowSpan>,
+                "validate": false,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Unknown />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Labelled Date Picker test suite renders correctly with a single picker 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    label="Test Dropdown Datepicker"
+    modelPath="testPath"
+    single={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.label
+          htmlFor="testPath"
+          labelIsInline={false}
+        >
+          Test Dropdown Datepicker
+        </styled.label>,
+        <LabelledDatePickerDiv
+          showIcon={false}
+        >
+          <Unknown
+            component={[Function]}
+            mapProps={
+              Object {
+                "checkIfDateOutOfRange": undefined,
+                "date": [Function],
+                "displayFormat": undefined,
+                "endDate": [Function],
+                "isPresetsPanelDisplayed": undefined,
+                "onDateChange": [Function],
+                "onDatesChange": [Function],
+                "readOnly": [Function],
+                "single": true,
+                "startDate": [Function],
+              }
+            }
+            model="testPath"
+          />
+          <f1
+            validate={false}
+          >
+            <DatePickerIconSpan>
+              <Unknown
+                height={20}
+              />
+            </DatePickerIconSpan>
+          </f1>
+          <f1
+            validate={true}
+          >
+            <DatePickerArrowSpan>
+              <Unknown />
+            </DatePickerArrowSpan>
+          </f1>
+        </LabelledDatePickerDiv>,
+      ],
+      "labelIsInline": false,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Test Dropdown Datepicker",
+          "htmlFor": "testPath",
+          "labelIsInline": false,
+        },
+        "ref": null,
+        "rendered": "Test Dropdown Datepicker",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Unknown
+              component={[Function]}
+              mapProps={
+                Object {
+                  "checkIfDateOutOfRange": undefined,
+                  "date": [Function],
+                  "displayFormat": undefined,
+                  "endDate": [Function],
+                  "isPresetsPanelDisplayed": undefined,
+                  "onDateChange": [Function],
+                  "onDatesChange": [Function],
+                  "readOnly": [Function],
+                  "single": true,
+                  "startDate": [Function],
+                }
+              }
+              model="testPath"
+            />,
+            <f1
+              validate={false}
+            >
+              <DatePickerIconSpan>
+                <Unknown
+                  height={20}
+                />
+              </DatePickerIconSpan>
+            </f1>,
+            <f1
+              validate={true}
+            >
+              <DatePickerArrowSpan>
+                <Unknown />
+              </DatePickerArrowSpan>
+            </f1>,
+          ],
+          "showIcon": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "component": [Function],
+              "mapProps": Object {
+                "checkIfDateOutOfRange": undefined,
+                "date": [Function],
+                "displayFormat": undefined,
+                "endDate": [Function],
+                "isPresetsPanelDisplayed": undefined,
+                "onDateChange": [Function],
+                "onDatesChange": [Function],
+                "readOnly": [Function],
+                "single": true,
+                "startDate": [Function],
+              },
+              "model": "testPath",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": <DatePickerIconSpan>
+                <Unknown
+                  height={20}
+                />
+              </DatePickerIconSpan>,
+              "validate": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Unknown
+                  height={20}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "height": 20,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": <DatePickerArrowSpan>
+                <Unknown />
+              </DatePickerArrowSpan>,
+              "validate": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Unknown />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.label
+            htmlFor="testPath"
+            labelIsInline={false}
+          >
+            Test Dropdown Datepicker
+          </styled.label>,
+          <LabelledDatePickerDiv
+            showIcon={false}
+          >
+            <Unknown
+              component={[Function]}
+              mapProps={
+                Object {
+                  "checkIfDateOutOfRange": undefined,
+                  "date": [Function],
+                  "displayFormat": undefined,
+                  "endDate": [Function],
+                  "isPresetsPanelDisplayed": undefined,
+                  "onDateChange": [Function],
+                  "onDatesChange": [Function],
+                  "readOnly": [Function],
+                  "single": true,
+                  "startDate": [Function],
+                }
+              }
+              model="testPath"
+            />
+            <f1
+              validate={false}
+            >
+              <DatePickerIconSpan>
+                <Unknown
+                  height={20}
+                />
+              </DatePickerIconSpan>
+            </f1>
+            <f1
+              validate={true}
+            >
+              <DatePickerArrowSpan>
+                <Unknown />
+              </DatePickerArrowSpan>
+            </f1>
+          </LabelledDatePickerDiv>,
+        ],
+        "labelIsInline": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Test Dropdown Datepicker",
+            "htmlFor": "testPath",
+            "labelIsInline": false,
+          },
+          "ref": null,
+          "rendered": "Test Dropdown Datepicker",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Unknown
+                component={[Function]}
+                mapProps={
+                  Object {
+                    "checkIfDateOutOfRange": undefined,
+                    "date": [Function],
+                    "displayFormat": undefined,
+                    "endDate": [Function],
+                    "isPresetsPanelDisplayed": undefined,
+                    "onDateChange": [Function],
+                    "onDatesChange": [Function],
+                    "readOnly": [Function],
+                    "single": true,
+                    "startDate": [Function],
+                  }
+                }
+                model="testPath"
+              />,
+              <f1
+                validate={false}
+              >
+                <DatePickerIconSpan>
+                  <Unknown
+                    height={20}
+                  />
+                </DatePickerIconSpan>
+              </f1>,
+              <f1
+                validate={true}
+              >
+                <DatePickerArrowSpan>
+                  <Unknown />
+                </DatePickerArrowSpan>
+              </f1>,
+            ],
+            "showIcon": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "component": [Function],
+                "mapProps": Object {
+                  "checkIfDateOutOfRange": undefined,
+                  "date": [Function],
+                  "displayFormat": undefined,
+                  "endDate": [Function],
+                  "isPresetsPanelDisplayed": undefined,
+                  "onDateChange": [Function],
+                  "onDatesChange": [Function],
+                  "readOnly": [Function],
+                  "single": true,
+                  "startDate": [Function],
+                },
+                "model": "testPath",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "children": <DatePickerIconSpan>
+                  <Unknown
+                    height={20}
+                  />
+                </DatePickerIconSpan>,
+                "validate": false,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Unknown
+                    height={20}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "height": 20,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "children": <DatePickerArrowSpan>
+                  <Unknown />
+                </DatePickerArrowSpan>,
+                "validate": true,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Unknown />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

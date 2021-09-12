@@ -1,0 +1,88 @@
+import { convertISOToJsGMT } from 'src/domains/diagnostics/utils';
+
+export const insulinBolusMock = [
+  {
+    date: convertISOToJsGMT('2018-03-07 00:00:00 GMT+0000'),
+    value: 20.68,
+    remark: 'Bolus+Basal Total',
+    registerType: 'BolusPlusBasalTotal',
+    bolusType: null,
+  },
+  {
+    date: convertISOToJsGMT('2018-03-07 00:00:00 GMT+0000'),
+    value: 0.9,
+    remark: 'Bolus Total',
+    registerType: 'BolusTotal',
+    bolusType: null,
+  },
+  {
+    date: convertISOToJsGMT('2018-03-07 18:19:00 GMT+0000'),
+    value: 0.9,
+    remark: null,
+    registerType: 'Bolus',
+    bolusType: 'Std',
+  },
+  {
+    date: convertISOToJsGMT('2018-03-08 00:00:00 GMT+0000'),
+    value: 19.83,
+    remark: 'Bolus+Basal Total',
+    registerType: 'BolusPlusBasalTotal',
+    bolusType: null,
+  },
+  {
+    date: convertISOToJsGMT('2018-03-08 00:00:00 GMT+0000'),
+    value: 0,
+    remark: 'Bolus Total',
+    registerType: 'BolusTotal',
+    bolusType: null,
+  },
+  {
+    date: convertISOToJsGMT('2018-03-09 00:00:00 GMT+0000'),
+    value: 21.85,
+    remark: 'Bolus+Basal Total',
+    registerType: 'BolusPlusBasalTotal',
+    bolusType: null,
+  },
+  {
+    date: convertISOToJsGMT('2018-03-09 00:00:00 GMT+0000'),
+    value: 5,
+    remark: 'Bolus Total',
+    registerType: 'BolusTotal',
+    bolusType: null,
+  },
+  {
+    date: convertISOToJsGMT('2018-03-09 15:19:00 GMT+0000'),
+    value: 3,
+    remark: null,
+    registerType: 'Bolus',
+    bolusType: 'Std',
+  },
+  {
+    date: convertISOToJsGMT('2018-03-09 16:46:00 GMT+0000'),
+    value: 1,
+    remark: null,
+    registerType: 'Bolus',
+    bolusType: 'Std',
+  },
+  {
+    date: convertISOToJsGMT('2018-03-09 22:09:00 GMT+0000'),
+    value: 1,
+    remark: null,
+    registerType: 'Bolus',
+    bolusType: 'Std',
+  },
+  {
+    date: convertISOToJsGMT('2018-03-10 00:00:00 GMT+0000'),
+    value: 10.58,
+    remark: 'Bolus+Basal Total',
+    registerType: 'BolusPlusBasalTotal',
+    bolusType: null,
+  },
+  {
+    date: convertISOToJsGMT('2018-03-10 00:00:00 GMT+0000'),
+    value: 0,
+    remark: 'Bolus Total',
+    registerType: 'BolusTotal',
+    bolusType: null,
+  },
+];

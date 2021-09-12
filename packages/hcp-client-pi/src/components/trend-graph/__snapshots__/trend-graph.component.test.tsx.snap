@@ -1,0 +1,3647 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Trend Graph test suite it renders Axes correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    height={350}
+    horizontalDayTicks={
+      Array [
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "18",
+          "value": 0,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "19",
+          "value": 0.07142857142857142,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "20",
+          "value": 0.14285714285714285,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "21",
+          "value": 0.21428571428571427,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "22",
+          "value": 0.2857142857142857,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "23",
+          "value": 0.35714285714285715,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "24",
+          "value": 0.42857142857142855,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "25",
+          "value": 0.5,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "26",
+          "value": 0.5714285714285714,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "27",
+          "value": 0.6428571428571429,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "28",
+          "value": 0.7142857142857143,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "29",
+          "value": 0.7857142857142857,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "30",
+          "value": 0.8571428571428571,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "31",
+          "value": 0.9285714285714286,
+        },
+      ]
+    }
+    horizontalMonthTicks={
+      Array [
+        Object {
+          "daysLeftInMonth": 14,
+          "label": "OCT / 2017",
+          "value": 0,
+        },
+      ]
+    }
+    verticalLabel={
+      Array [
+        Object {
+          "label": "Blood Glucose (mg/dL)",
+          "value": 0.5,
+        },
+      ]
+    }
+    verticalTicks={
+      Array [
+        Object {
+          "label": "0",
+          "value": 0,
+        },
+        Object {
+          "label": "100",
+          "value": 0.25,
+        },
+        Object {
+          "label": "200",
+          "value": 0.5,
+        },
+        Object {
+          "label": "300",
+          "value": 0.75,
+        },
+        Object {
+          "label": "400",
+          "value": 1,
+        },
+      ]
+    }
+    width={1100}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          height={350}
+          verticalLabel={
+            Array [
+              Object {
+                "label": "Blood Glucose (mg/dL)",
+                "value": 0.5,
+              },
+            ]
+          }
+          verticalTicks={
+            Array [
+              Object {
+                "label": "0",
+                "value": 0,
+              },
+              Object {
+                "label": "100",
+                "value": 0.25,
+              },
+              Object {
+                "label": "200",
+                "value": 0.5,
+              },
+              Object {
+                "label": "300",
+                "value": 0.75,
+              },
+              Object {
+                "label": "400",
+                "value": 1,
+              },
+            ]
+          }
+          width={1100}
+        />,
+        <Unknown
+          height={350}
+          horizontalDayTicks={
+            Array [
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "18",
+                "value": 0,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "19",
+                "value": 0.07142857142857142,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "20",
+                "value": 0.14285714285714285,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "21",
+                "value": 0.21428571428571427,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "22",
+                "value": 0.2857142857142857,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "23",
+                "value": 0.35714285714285715,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "24",
+                "value": 0.42857142857142855,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "25",
+                "value": 0.5,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "26",
+                "value": 0.5714285714285714,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "27",
+                "value": 0.6428571428571429,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "28",
+                "value": 0.7142857142857143,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "29",
+                "value": 0.7857142857142857,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "30",
+                "value": 0.8571428571428571,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "31",
+                "value": 0.9285714285714286,
+              },
+            ]
+          }
+          horizontalMonthTicks={
+            Array [
+              Object {
+                "daysLeftInMonth": 14,
+                "label": "OCT / 2017",
+                "value": 0,
+              },
+            ]
+          }
+          width={1100}
+        />,
+        <Unknown
+          height={350}
+          width={1100}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "height": 350,
+          "verticalLabel": Array [
+            Object {
+              "label": "Blood Glucose (mg/dL)",
+              "value": 0.5,
+            },
+          ],
+          "verticalTicks": Array [
+            Object {
+              "label": "0",
+              "value": 0,
+            },
+            Object {
+              "label": "100",
+              "value": 0.25,
+            },
+            Object {
+              "label": "200",
+              "value": 0.5,
+            },
+            Object {
+              "label": "300",
+              "value": 0.75,
+            },
+            Object {
+              "label": "400",
+              "value": 1,
+            },
+          ],
+          "width": 1100,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "height": 350,
+          "horizontalDayTicks": Array [
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "18",
+              "value": 0,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "19",
+              "value": 0.07142857142857142,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "20",
+              "value": 0.14285714285714285,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": true,
+              "label": "21",
+              "value": 0.21428571428571427,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": true,
+              "label": "22",
+              "value": 0.2857142857142857,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "23",
+              "value": 0.35714285714285715,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "24",
+              "value": 0.42857142857142855,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "25",
+              "value": 0.5,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "26",
+              "value": 0.5714285714285714,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "27",
+              "value": 0.6428571428571429,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": true,
+              "label": "28",
+              "value": 0.7142857142857143,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": true,
+              "label": "29",
+              "value": 0.7857142857142857,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "30",
+              "value": 0.8571428571428571,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "31",
+              "value": 0.9285714285714286,
+            },
+          ],
+          "horizontalMonthTicks": Array [
+            Object {
+              "daysLeftInMonth": 14,
+              "label": "OCT / 2017",
+              "value": 0,
+            },
+          ],
+          "width": 1100,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "height": 350,
+          "width": 1100,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            height={350}
+            verticalLabel={
+              Array [
+                Object {
+                  "label": "Blood Glucose (mg/dL)",
+                  "value": 0.5,
+                },
+              ]
+            }
+            verticalTicks={
+              Array [
+                Object {
+                  "label": "0",
+                  "value": 0,
+                },
+                Object {
+                  "label": "100",
+                  "value": 0.25,
+                },
+                Object {
+                  "label": "200",
+                  "value": 0.5,
+                },
+                Object {
+                  "label": "300",
+                  "value": 0.75,
+                },
+                Object {
+                  "label": "400",
+                  "value": 1,
+                },
+              ]
+            }
+            width={1100}
+          />,
+          <Unknown
+            height={350}
+            horizontalDayTicks={
+              Array [
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "18",
+                  "value": 0,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "19",
+                  "value": 0.07142857142857142,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "20",
+                  "value": 0.14285714285714285,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "21",
+                  "value": 0.21428571428571427,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "22",
+                  "value": 0.2857142857142857,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "23",
+                  "value": 0.35714285714285715,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "24",
+                  "value": 0.42857142857142855,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "25",
+                  "value": 0.5,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "26",
+                  "value": 0.5714285714285714,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "27",
+                  "value": 0.6428571428571429,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "28",
+                  "value": 0.7142857142857143,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "29",
+                  "value": 0.7857142857142857,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "30",
+                  "value": 0.8571428571428571,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "31",
+                  "value": 0.9285714285714286,
+                },
+              ]
+            }
+            horizontalMonthTicks={
+              Array [
+                Object {
+                  "daysLeftInMonth": 14,
+                  "label": "OCT / 2017",
+                  "value": 0,
+                },
+              ]
+            }
+            width={1100}
+          />,
+          <Unknown
+            height={350}
+            width={1100}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "height": 350,
+            "verticalLabel": Array [
+              Object {
+                "label": "Blood Glucose (mg/dL)",
+                "value": 0.5,
+              },
+            ],
+            "verticalTicks": Array [
+              Object {
+                "label": "0",
+                "value": 0,
+              },
+              Object {
+                "label": "100",
+                "value": 0.25,
+              },
+              Object {
+                "label": "200",
+                "value": 0.5,
+              },
+              Object {
+                "label": "300",
+                "value": 0.75,
+              },
+              Object {
+                "label": "400",
+                "value": 1,
+              },
+            ],
+            "width": 1100,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "height": 350,
+            "horizontalDayTicks": Array [
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "18",
+                "value": 0,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "19",
+                "value": 0.07142857142857142,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "20",
+                "value": 0.14285714285714285,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "21",
+                "value": 0.21428571428571427,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "22",
+                "value": 0.2857142857142857,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "23",
+                "value": 0.35714285714285715,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "24",
+                "value": 0.42857142857142855,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "25",
+                "value": 0.5,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "26",
+                "value": 0.5714285714285714,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "27",
+                "value": 0.6428571428571429,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "28",
+                "value": 0.7142857142857143,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "29",
+                "value": 0.7857142857142857,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "30",
+                "value": 0.8571428571428571,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "31",
+                "value": 0.9285714285714286,
+              },
+            ],
+            "horizontalMonthTicks": Array [
+              Object {
+                "daysLeftInMonth": 14,
+                "label": "OCT / 2017",
+                "value": 0,
+              },
+            ],
+            "width": 1100,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "height": 350,
+            "width": 1100,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Trend Graph test suite it renders Frame correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    height={350}
+    horizontalDayTicks={
+      Array [
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "18",
+          "value": 0,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "19",
+          "value": 0.07142857142857142,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "20",
+          "value": 0.14285714285714285,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "21",
+          "value": 0.21428571428571427,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "22",
+          "value": 0.2857142857142857,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "23",
+          "value": 0.35714285714285715,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "24",
+          "value": 0.42857142857142855,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "25",
+          "value": 0.5,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "26",
+          "value": 0.5714285714285714,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "27",
+          "value": 0.6428571428571429,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "28",
+          "value": 0.7142857142857143,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "29",
+          "value": 0.7857142857142857,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "30",
+          "value": 0.8571428571428571,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "31",
+          "value": 0.9285714285714286,
+        },
+      ]
+    }
+    horizontalMonthTicks={
+      Array [
+        Object {
+          "daysLeftInMonth": 14,
+          "label": "OCT / 2017",
+          "value": 0,
+        },
+      ]
+    }
+    verticalLabel={
+      Array [
+        Object {
+          "label": "Blood Glucose (mg/dL)",
+          "value": 0.5,
+        },
+      ]
+    }
+    verticalTicks={
+      Array [
+        Object {
+          "label": "0",
+          "value": 0,
+        },
+        Object {
+          "label": "100",
+          "value": 0.25,
+        },
+        Object {
+          "label": "200",
+          "value": 0.5,
+        },
+        Object {
+          "label": "300",
+          "value": 0.75,
+        },
+        Object {
+          "label": "400",
+          "value": 1,
+        },
+      ]
+    }
+    width={1100}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <line
+          stroke="#D8D8D8"
+          strokeWidth={1}
+          x1={55}
+          x2={55}
+          y1={-45.5}
+          y2={-325.5}
+        />,
+        <line
+          stroke="#D8D8D8"
+          strokeWidth={1}
+          x1={55}
+          x2={1100}
+          y1={-45.5}
+          y2={-45.5}
+        />,
+        <line
+          stroke="#D8D8D8"
+          strokeWidth={1}
+          x1={55}
+          x2={1100}
+          y1={-325.5}
+          y2={-325.5}
+        />,
+        <line
+          stroke="#D8D8D8"
+          strokeWidth={1}
+          x1={1100}
+          x2={1100}
+          y1={-45.5}
+          y2={-325.5}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "stroke": "#D8D8D8",
+          "strokeWidth": 1,
+          "x1": 55,
+          "x2": 55,
+          "y1": -45.5,
+          "y2": -325.5,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "line",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "stroke": "#D8D8D8",
+          "strokeWidth": 1,
+          "x1": 55,
+          "x2": 1100,
+          "y1": -45.5,
+          "y2": -45.5,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "line",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "stroke": "#D8D8D8",
+          "strokeWidth": 1,
+          "x1": 55,
+          "x2": 1100,
+          "y1": -325.5,
+          "y2": -325.5,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "line",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "stroke": "#D8D8D8",
+          "strokeWidth": 1,
+          "x1": 1100,
+          "x2": 1100,
+          "y1": -45.5,
+          "y2": -325.5,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "line",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <line
+            stroke="#D8D8D8"
+            strokeWidth={1}
+            x1={55}
+            x2={55}
+            y1={-45.5}
+            y2={-325.5}
+          />,
+          <line
+            stroke="#D8D8D8"
+            strokeWidth={1}
+            x1={55}
+            x2={1100}
+            y1={-45.5}
+            y2={-45.5}
+          />,
+          <line
+            stroke="#D8D8D8"
+            strokeWidth={1}
+            x1={55}
+            x2={1100}
+            y1={-325.5}
+            y2={-325.5}
+          />,
+          <line
+            stroke="#D8D8D8"
+            strokeWidth={1}
+            x1={1100}
+            x2={1100}
+            y1={-45.5}
+            y2={-325.5}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "stroke": "#D8D8D8",
+            "strokeWidth": 1,
+            "x1": 55,
+            "x2": 55,
+            "y1": -45.5,
+            "y2": -325.5,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "line",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "stroke": "#D8D8D8",
+            "strokeWidth": 1,
+            "x1": 55,
+            "x2": 1100,
+            "y1": -45.5,
+            "y2": -45.5,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "line",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "stroke": "#D8D8D8",
+            "strokeWidth": 1,
+            "x1": 55,
+            "x2": 1100,
+            "y1": -325.5,
+            "y2": -325.5,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "line",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "stroke": "#D8D8D8",
+            "strokeWidth": 1,
+            "x1": 1100,
+            "x2": 1100,
+            "y1": -45.5,
+            "y2": -325.5,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "line",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Trend Graph test suite it renders horizontal axis correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    height={350}
+    horizontalDayTicks={
+      Array [
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "18",
+          "value": 0,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "19",
+          "value": 0.07142857142857142,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "20",
+          "value": 0.14285714285714285,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "21",
+          "value": 0.21428571428571427,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "22",
+          "value": 0.2857142857142857,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "23",
+          "value": 0.35714285714285715,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "24",
+          "value": 0.42857142857142855,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "25",
+          "value": 0.5,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "26",
+          "value": 0.5714285714285714,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "27",
+          "value": 0.6428571428571429,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "28",
+          "value": 0.7142857142857143,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "29",
+          "value": 0.7857142857142857,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "30",
+          "value": 0.8571428571428571,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "31",
+          "value": 0.9285714285714286,
+        },
+      ]
+    }
+    horizontalMonthTicks={
+      Array [
+        Object {
+          "daysLeftInMonth": 14,
+          "label": "OCT / 2017",
+          "value": 0,
+        },
+      ]
+    }
+    verticalLabel={
+      Array [
+        Object {
+          "label": "Blood Glucose (mg/dL)",
+          "value": 0.5,
+        },
+      ]
+    }
+    verticalTicks={
+      Array [
+        Object {
+          "label": "0",
+          "value": 0,
+        },
+        Object {
+          "label": "100",
+          "value": 0.25,
+        },
+        Object {
+          "label": "200",
+          "value": 0.5,
+        },
+        Object {
+          "label": "300",
+          "value": 0.75,
+        },
+        Object {
+          "label": "400",
+          "value": 1,
+        },
+      ]
+    }
+    width={1100}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          Tick={[Function]}
+          ticks={
+            Array [
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "18",
+                "value": 0,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "19",
+                "value": 0.07142857142857142,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "20",
+                "value": 0.14285714285714285,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "21",
+                "value": 0.21428571428571427,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "22",
+                "value": 0.2857142857142857,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "23",
+                "value": 0.35714285714285715,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "24",
+                "value": 0.42857142857142855,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "25",
+                "value": 0.5,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "26",
+                "value": 0.5714285714285714,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "27",
+                "value": 0.6428571428571429,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "28",
+                "value": 0.7142857142857143,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "29",
+                "value": 0.7857142857142857,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "30",
+                "value": 0.8571428571428571,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "31",
+                "value": 0.9285714285714286,
+              },
+            ]
+          }
+          width={1045}
+          x={55}
+          y={21}
+        />,
+        <Unknown
+          Tick={[Function]}
+          ticks={
+            Array [
+              Object {
+                "daysLeftInMonth": 14,
+                "label": "OCT / 2017",
+                "value": 0,
+              },
+            ]
+          }
+          width={1045}
+          x={55}
+          y={1.75}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "Tick": [Function],
+          "ticks": Array [
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "18",
+              "value": 0,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "19",
+              "value": 0.07142857142857142,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "20",
+              "value": 0.14285714285714285,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": true,
+              "label": "21",
+              "value": 0.21428571428571427,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": true,
+              "label": "22",
+              "value": 0.2857142857142857,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "23",
+              "value": 0.35714285714285715,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "24",
+              "value": 0.42857142857142855,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "25",
+              "value": 0.5,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "26",
+              "value": 0.5714285714285714,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "27",
+              "value": 0.6428571428571429,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": true,
+              "label": "28",
+              "value": 0.7142857142857143,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": true,
+              "label": "29",
+              "value": 0.7857142857142857,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "30",
+              "value": 0.8571428571428571,
+            },
+            Object {
+              "drawLongTick": false,
+              "isWeekend": false,
+              "label": "31",
+              "value": 0.9285714285714286,
+            },
+          ],
+          "width": 1045,
+          "x": 55,
+          "y": 21,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "Tick": [Function],
+          "ticks": Array [
+            Object {
+              "daysLeftInMonth": 14,
+              "label": "OCT / 2017",
+              "value": 0,
+            },
+          ],
+          "width": 1045,
+          "x": 55,
+          "y": 1.75,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            Tick={[Function]}
+            ticks={
+              Array [
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "18",
+                  "value": 0,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "19",
+                  "value": 0.07142857142857142,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "20",
+                  "value": 0.14285714285714285,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "21",
+                  "value": 0.21428571428571427,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "22",
+                  "value": 0.2857142857142857,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "23",
+                  "value": 0.35714285714285715,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "24",
+                  "value": 0.42857142857142855,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "25",
+                  "value": 0.5,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "26",
+                  "value": 0.5714285714285714,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "27",
+                  "value": 0.6428571428571429,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "28",
+                  "value": 0.7142857142857143,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "29",
+                  "value": 0.7857142857142857,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "30",
+                  "value": 0.8571428571428571,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "31",
+                  "value": 0.9285714285714286,
+                },
+              ]
+            }
+            width={1045}
+            x={55}
+            y={21}
+          />,
+          <Unknown
+            Tick={[Function]}
+            ticks={
+              Array [
+                Object {
+                  "daysLeftInMonth": 14,
+                  "label": "OCT / 2017",
+                  "value": 0,
+                },
+              ]
+            }
+            width={1045}
+            x={55}
+            y={1.75}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "Tick": [Function],
+            "ticks": Array [
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "18",
+                "value": 0,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "19",
+                "value": 0.07142857142857142,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "20",
+                "value": 0.14285714285714285,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "21",
+                "value": 0.21428571428571427,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "22",
+                "value": 0.2857142857142857,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "23",
+                "value": 0.35714285714285715,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "24",
+                "value": 0.42857142857142855,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "25",
+                "value": 0.5,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "26",
+                "value": 0.5714285714285714,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "27",
+                "value": 0.6428571428571429,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "28",
+                "value": 0.7142857142857143,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": true,
+                "label": "29",
+                "value": 0.7857142857142857,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "30",
+                "value": 0.8571428571428571,
+              },
+              Object {
+                "drawLongTick": false,
+                "isWeekend": false,
+                "label": "31",
+                "value": 0.9285714285714286,
+              },
+            ],
+            "width": 1045,
+            "x": 55,
+            "y": 21,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "Tick": [Function],
+            "ticks": Array [
+              Object {
+                "daysLeftInMonth": 14,
+                "label": "OCT / 2017",
+                "value": 0,
+              },
+            ],
+            "width": 1045,
+            "x": 55,
+            "y": 1.75,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Trend Graph test suite it renders trend graph correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    height={350}
+    horizontalDayTicks={
+      Array [
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "18",
+          "value": 0,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "19",
+          "value": 0.07142857142857142,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "20",
+          "value": 0.14285714285714285,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "21",
+          "value": 0.21428571428571427,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "22",
+          "value": 0.2857142857142857,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "23",
+          "value": 0.35714285714285715,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "24",
+          "value": 0.42857142857142855,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "25",
+          "value": 0.5,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "26",
+          "value": 0.5714285714285714,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "27",
+          "value": 0.6428571428571429,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "28",
+          "value": 0.7142857142857143,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "29",
+          "value": 0.7857142857142857,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "30",
+          "value": 0.8571428571428571,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "31",
+          "value": 0.9285714285714286,
+        },
+      ]
+    }
+    horizontalMonthTicks={
+      Array [
+        Object {
+          "daysLeftInMonth": 14,
+          "label": "OCT / 2017",
+          "value": 0,
+        },
+      ]
+    }
+    verticalLabel={
+      Array [
+        Object {
+          "label": "Blood Glucose (mg/dL)",
+          "value": 0.5,
+        },
+      ]
+    }
+    verticalTicks={
+      Array [
+        Object {
+          "label": "0",
+          "value": 0,
+        },
+        Object {
+          "label": "100",
+          "value": 0.25,
+        },
+        Object {
+          "label": "200",
+          "value": 0.5,
+        },
+        Object {
+          "label": "300",
+          "value": 0.75,
+        },
+        Object {
+          "label": "400",
+          "value": 1,
+        },
+      ]
+    }
+    width={1100}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Graph
+        anchor="xMidYMid"
+        height={350}
+        viewportBottom={350}
+        viewportRight={1100}
+      >
+        <Plot
+          height={350}
+          id="trend-plot"
+          width={1100}
+          x={0}
+          y={0}
+        >
+          <Unknown
+            height={350}
+            horizontalDayTicks={
+              Array [
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "18",
+                  "value": 0,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "19",
+                  "value": 0.07142857142857142,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "20",
+                  "value": 0.14285714285714285,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "21",
+                  "value": 0.21428571428571427,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "22",
+                  "value": 0.2857142857142857,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "23",
+                  "value": 0.35714285714285715,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "24",
+                  "value": 0.42857142857142855,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "25",
+                  "value": 0.5,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "26",
+                  "value": 0.5714285714285714,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "27",
+                  "value": 0.6428571428571429,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "28",
+                  "value": 0.7142857142857143,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "29",
+                  "value": 0.7857142857142857,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "30",
+                  "value": 0.8571428571428571,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "31",
+                  "value": 0.9285714285714286,
+                },
+              ]
+            }
+            horizontalMonthTicks={
+              Array [
+                Object {
+                  "daysLeftInMonth": 14,
+                  "label": "OCT / 2017",
+                  "value": 0,
+                },
+              ]
+            }
+            verticalLabel={
+              Array [
+                Object {
+                  "label": "Blood Glucose (mg/dL)",
+                  "value": 0.5,
+                },
+              ]
+            }
+            verticalTicks={
+              Array [
+                Object {
+                  "label": "0",
+                  "value": 0,
+                },
+                Object {
+                  "label": "100",
+                  "value": 0.25,
+                },
+                Object {
+                  "label": "200",
+                  "value": 0.5,
+                },
+                Object {
+                  "label": "300",
+                  "value": 0.75,
+                },
+                Object {
+                  "label": "400",
+                  "value": 1,
+                },
+              ]
+            }
+            width={1100}
+          />
+        </Plot>
+        <Plot
+          height={280}
+          id="trend-trend"
+          width={1045}
+          x={55}
+          y={24.500000000000004}
+        >
+          <Unknown
+            height={280}
+            horizontalCount={4}
+            verticalCount={14}
+            width={1045}
+          />
+        </Plot>
+      </Graph>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "anchor": "xMidYMid",
+        "children": Array [
+          <Plot
+            height={350}
+            id="trend-plot"
+            width={1100}
+            x={0}
+            y={0}
+          >
+            <Unknown
+              height={350}
+              horizontalDayTicks={
+                Array [
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "18",
+                    "value": 0,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "19",
+                    "value": 0.07142857142857142,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "20",
+                    "value": 0.14285714285714285,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "21",
+                    "value": 0.21428571428571427,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "22",
+                    "value": 0.2857142857142857,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "23",
+                    "value": 0.35714285714285715,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "24",
+                    "value": 0.42857142857142855,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "25",
+                    "value": 0.5,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "26",
+                    "value": 0.5714285714285714,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "27",
+                    "value": 0.6428571428571429,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "28",
+                    "value": 0.7142857142857143,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "29",
+                    "value": 0.7857142857142857,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "30",
+                    "value": 0.8571428571428571,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "31",
+                    "value": 0.9285714285714286,
+                  },
+                ]
+              }
+              horizontalMonthTicks={
+                Array [
+                  Object {
+                    "daysLeftInMonth": 14,
+                    "label": "OCT / 2017",
+                    "value": 0,
+                  },
+                ]
+              }
+              verticalLabel={
+                Array [
+                  Object {
+                    "label": "Blood Glucose (mg/dL)",
+                    "value": 0.5,
+                  },
+                ]
+              }
+              verticalTicks={
+                Array [
+                  Object {
+                    "label": "0",
+                    "value": 0,
+                  },
+                  Object {
+                    "label": "100",
+                    "value": 0.25,
+                  },
+                  Object {
+                    "label": "200",
+                    "value": 0.5,
+                  },
+                  Object {
+                    "label": "300",
+                    "value": 0.75,
+                  },
+                  Object {
+                    "label": "400",
+                    "value": 1,
+                  },
+                ]
+              }
+              width={1100}
+            />
+          </Plot>,
+          <Plot
+            height={280}
+            id="trend-trend"
+            width={1045}
+            x={55}
+            y={24.500000000000004}
+          >
+            <Unknown
+              height={280}
+              horizontalCount={4}
+              verticalCount={14}
+              width={1045}
+            />
+          </Plot>,
+        ],
+        "height": 350,
+        "viewportBottom": 350,
+        "viewportRight": 1100,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Unknown
+              height={350}
+              horizontalDayTicks={
+                Array [
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "18",
+                    "value": 0,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "19",
+                    "value": 0.07142857142857142,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "20",
+                    "value": 0.14285714285714285,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "21",
+                    "value": 0.21428571428571427,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "22",
+                    "value": 0.2857142857142857,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "23",
+                    "value": 0.35714285714285715,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "24",
+                    "value": 0.42857142857142855,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "25",
+                    "value": 0.5,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "26",
+                    "value": 0.5714285714285714,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "27",
+                    "value": 0.6428571428571429,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "28",
+                    "value": 0.7142857142857143,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "29",
+                    "value": 0.7857142857142857,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "30",
+                    "value": 0.8571428571428571,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "31",
+                    "value": 0.9285714285714286,
+                  },
+                ]
+              }
+              horizontalMonthTicks={
+                Array [
+                  Object {
+                    "daysLeftInMonth": 14,
+                    "label": "OCT / 2017",
+                    "value": 0,
+                  },
+                ]
+              }
+              verticalLabel={
+                Array [
+                  Object {
+                    "label": "Blood Glucose (mg/dL)",
+                    "value": 0.5,
+                  },
+                ]
+              }
+              verticalTicks={
+                Array [
+                  Object {
+                    "label": "0",
+                    "value": 0,
+                  },
+                  Object {
+                    "label": "100",
+                    "value": 0.25,
+                  },
+                  Object {
+                    "label": "200",
+                    "value": 0.5,
+                  },
+                  Object {
+                    "label": "300",
+                    "value": 0.75,
+                  },
+                  Object {
+                    "label": "400",
+                    "value": 1,
+                  },
+                ]
+              }
+              width={1100}
+            />,
+            "height": 350,
+            "id": "trend-plot",
+            "width": 1100,
+            "x": 0,
+            "y": 0,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "height": 350,
+              "horizontalDayTicks": Array [
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "18",
+                  "value": 0,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "19",
+                  "value": 0.07142857142857142,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "20",
+                  "value": 0.14285714285714285,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "21",
+                  "value": 0.21428571428571427,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "22",
+                  "value": 0.2857142857142857,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "23",
+                  "value": 0.35714285714285715,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "24",
+                  "value": 0.42857142857142855,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "25",
+                  "value": 0.5,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "26",
+                  "value": 0.5714285714285714,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "27",
+                  "value": 0.6428571428571429,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "28",
+                  "value": 0.7142857142857143,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": true,
+                  "label": "29",
+                  "value": 0.7857142857142857,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "30",
+                  "value": 0.8571428571428571,
+                },
+                Object {
+                  "drawLongTick": false,
+                  "isWeekend": false,
+                  "label": "31",
+                  "value": 0.9285714285714286,
+                },
+              ],
+              "horizontalMonthTicks": Array [
+                Object {
+                  "daysLeftInMonth": 14,
+                  "label": "OCT / 2017",
+                  "value": 0,
+                },
+              ],
+              "verticalLabel": Array [
+                Object {
+                  "label": "Blood Glucose (mg/dL)",
+                  "value": 0.5,
+                },
+              ],
+              "verticalTicks": Array [
+                Object {
+                  "label": "0",
+                  "value": 0,
+                },
+                Object {
+                  "label": "100",
+                  "value": 0.25,
+                },
+                Object {
+                  "label": "200",
+                  "value": 0.5,
+                },
+                Object {
+                  "label": "300",
+                  "value": 0.75,
+                },
+                Object {
+                  "label": "400",
+                  "value": 1,
+                },
+              ],
+              "width": 1100,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Unknown
+              height={280}
+              horizontalCount={4}
+              verticalCount={14}
+              width={1045}
+            />,
+            "height": 280,
+            "id": "trend-trend",
+            "width": 1045,
+            "x": 55,
+            "y": 24.500000000000004,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "height": 280,
+              "horizontalCount": 4,
+              "verticalCount": 14,
+              "width": 1045,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Graph
+          anchor="xMidYMid"
+          height={350}
+          viewportBottom={350}
+          viewportRight={1100}
+        >
+          <Plot
+            height={350}
+            id="trend-plot"
+            width={1100}
+            x={0}
+            y={0}
+          >
+            <Unknown
+              height={350}
+              horizontalDayTicks={
+                Array [
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "18",
+                    "value": 0,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "19",
+                    "value": 0.07142857142857142,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "20",
+                    "value": 0.14285714285714285,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "21",
+                    "value": 0.21428571428571427,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "22",
+                    "value": 0.2857142857142857,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "23",
+                    "value": 0.35714285714285715,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "24",
+                    "value": 0.42857142857142855,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "25",
+                    "value": 0.5,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "26",
+                    "value": 0.5714285714285714,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "27",
+                    "value": 0.6428571428571429,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "28",
+                    "value": 0.7142857142857143,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "29",
+                    "value": 0.7857142857142857,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "30",
+                    "value": 0.8571428571428571,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "31",
+                    "value": 0.9285714285714286,
+                  },
+                ]
+              }
+              horizontalMonthTicks={
+                Array [
+                  Object {
+                    "daysLeftInMonth": 14,
+                    "label": "OCT / 2017",
+                    "value": 0,
+                  },
+                ]
+              }
+              verticalLabel={
+                Array [
+                  Object {
+                    "label": "Blood Glucose (mg/dL)",
+                    "value": 0.5,
+                  },
+                ]
+              }
+              verticalTicks={
+                Array [
+                  Object {
+                    "label": "0",
+                    "value": 0,
+                  },
+                  Object {
+                    "label": "100",
+                    "value": 0.25,
+                  },
+                  Object {
+                    "label": "200",
+                    "value": 0.5,
+                  },
+                  Object {
+                    "label": "300",
+                    "value": 0.75,
+                  },
+                  Object {
+                    "label": "400",
+                    "value": 1,
+                  },
+                ]
+              }
+              width={1100}
+            />
+          </Plot>
+          <Plot
+            height={280}
+            id="trend-trend"
+            width={1045}
+            x={55}
+            y={24.500000000000004}
+          >
+            <Unknown
+              height={280}
+              horizontalCount={4}
+              verticalCount={14}
+              width={1045}
+            />
+          </Plot>
+        </Graph>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "anchor": "xMidYMid",
+          "children": Array [
+            <Plot
+              height={350}
+              id="trend-plot"
+              width={1100}
+              x={0}
+              y={0}
+            >
+              <Unknown
+                height={350}
+                horizontalDayTicks={
+                  Array [
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "18",
+                      "value": 0,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "19",
+                      "value": 0.07142857142857142,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "20",
+                      "value": 0.14285714285714285,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": true,
+                      "label": "21",
+                      "value": 0.21428571428571427,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": true,
+                      "label": "22",
+                      "value": 0.2857142857142857,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "23",
+                      "value": 0.35714285714285715,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "24",
+                      "value": 0.42857142857142855,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "25",
+                      "value": 0.5,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "26",
+                      "value": 0.5714285714285714,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "27",
+                      "value": 0.6428571428571429,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": true,
+                      "label": "28",
+                      "value": 0.7142857142857143,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": true,
+                      "label": "29",
+                      "value": 0.7857142857142857,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "30",
+                      "value": 0.8571428571428571,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "31",
+                      "value": 0.9285714285714286,
+                    },
+                  ]
+                }
+                horizontalMonthTicks={
+                  Array [
+                    Object {
+                      "daysLeftInMonth": 14,
+                      "label": "OCT / 2017",
+                      "value": 0,
+                    },
+                  ]
+                }
+                verticalLabel={
+                  Array [
+                    Object {
+                      "label": "Blood Glucose (mg/dL)",
+                      "value": 0.5,
+                    },
+                  ]
+                }
+                verticalTicks={
+                  Array [
+                    Object {
+                      "label": "0",
+                      "value": 0,
+                    },
+                    Object {
+                      "label": "100",
+                      "value": 0.25,
+                    },
+                    Object {
+                      "label": "200",
+                      "value": 0.5,
+                    },
+                    Object {
+                      "label": "300",
+                      "value": 0.75,
+                    },
+                    Object {
+                      "label": "400",
+                      "value": 1,
+                    },
+                  ]
+                }
+                width={1100}
+              />
+            </Plot>,
+            <Plot
+              height={280}
+              id="trend-trend"
+              width={1045}
+              x={55}
+              y={24.500000000000004}
+            >
+              <Unknown
+                height={280}
+                horizontalCount={4}
+                verticalCount={14}
+                width={1045}
+              />
+            </Plot>,
+          ],
+          "height": 350,
+          "viewportBottom": 350,
+          "viewportRight": 1100,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Unknown
+                height={350}
+                horizontalDayTicks={
+                  Array [
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "18",
+                      "value": 0,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "19",
+                      "value": 0.07142857142857142,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "20",
+                      "value": 0.14285714285714285,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": true,
+                      "label": "21",
+                      "value": 0.21428571428571427,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": true,
+                      "label": "22",
+                      "value": 0.2857142857142857,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "23",
+                      "value": 0.35714285714285715,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "24",
+                      "value": 0.42857142857142855,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "25",
+                      "value": 0.5,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "26",
+                      "value": 0.5714285714285714,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "27",
+                      "value": 0.6428571428571429,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": true,
+                      "label": "28",
+                      "value": 0.7142857142857143,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": true,
+                      "label": "29",
+                      "value": 0.7857142857142857,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "30",
+                      "value": 0.8571428571428571,
+                    },
+                    Object {
+                      "drawLongTick": false,
+                      "isWeekend": false,
+                      "label": "31",
+                      "value": 0.9285714285714286,
+                    },
+                  ]
+                }
+                horizontalMonthTicks={
+                  Array [
+                    Object {
+                      "daysLeftInMonth": 14,
+                      "label": "OCT / 2017",
+                      "value": 0,
+                    },
+                  ]
+                }
+                verticalLabel={
+                  Array [
+                    Object {
+                      "label": "Blood Glucose (mg/dL)",
+                      "value": 0.5,
+                    },
+                  ]
+                }
+                verticalTicks={
+                  Array [
+                    Object {
+                      "label": "0",
+                      "value": 0,
+                    },
+                    Object {
+                      "label": "100",
+                      "value": 0.25,
+                    },
+                    Object {
+                      "label": "200",
+                      "value": 0.5,
+                    },
+                    Object {
+                      "label": "300",
+                      "value": 0.75,
+                    },
+                    Object {
+                      "label": "400",
+                      "value": 1,
+                    },
+                  ]
+                }
+                width={1100}
+              />,
+              "height": 350,
+              "id": "trend-plot",
+              "width": 1100,
+              "x": 0,
+              "y": 0,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "height": 350,
+                "horizontalDayTicks": Array [
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "18",
+                    "value": 0,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "19",
+                    "value": 0.07142857142857142,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "20",
+                    "value": 0.14285714285714285,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "21",
+                    "value": 0.21428571428571427,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "22",
+                    "value": 0.2857142857142857,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "23",
+                    "value": 0.35714285714285715,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "24",
+                    "value": 0.42857142857142855,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "25",
+                    "value": 0.5,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "26",
+                    "value": 0.5714285714285714,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "27",
+                    "value": 0.6428571428571429,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "28",
+                    "value": 0.7142857142857143,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": true,
+                    "label": "29",
+                    "value": 0.7857142857142857,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "30",
+                    "value": 0.8571428571428571,
+                  },
+                  Object {
+                    "drawLongTick": false,
+                    "isWeekend": false,
+                    "label": "31",
+                    "value": 0.9285714285714286,
+                  },
+                ],
+                "horizontalMonthTicks": Array [
+                  Object {
+                    "daysLeftInMonth": 14,
+                    "label": "OCT / 2017",
+                    "value": 0,
+                  },
+                ],
+                "verticalLabel": Array [
+                  Object {
+                    "label": "Blood Glucose (mg/dL)",
+                    "value": 0.5,
+                  },
+                ],
+                "verticalTicks": Array [
+                  Object {
+                    "label": "0",
+                    "value": 0,
+                  },
+                  Object {
+                    "label": "100",
+                    "value": 0.25,
+                  },
+                  Object {
+                    "label": "200",
+                    "value": 0.5,
+                  },
+                  Object {
+                    "label": "300",
+                    "value": 0.75,
+                  },
+                  Object {
+                    "label": "400",
+                    "value": 1,
+                  },
+                ],
+                "width": 1100,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Unknown
+                height={280}
+                horizontalCount={4}
+                verticalCount={14}
+                width={1045}
+              />,
+              "height": 280,
+              "id": "trend-trend",
+              "width": 1045,
+              "x": 55,
+              "y": 24.500000000000004,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "height": 280,
+                "horizontalCount": 4,
+                "verticalCount": 14,
+                "width": 1045,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Trend Graph test suite it renders vertical axis correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    height={350}
+    horizontalDayTicks={
+      Array [
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "18",
+          "value": 0,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "19",
+          "value": 0.07142857142857142,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "20",
+          "value": 0.14285714285714285,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "21",
+          "value": 0.21428571428571427,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "22",
+          "value": 0.2857142857142857,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "23",
+          "value": 0.35714285714285715,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "24",
+          "value": 0.42857142857142855,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "25",
+          "value": 0.5,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "26",
+          "value": 0.5714285714285714,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "27",
+          "value": 0.6428571428571429,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "28",
+          "value": 0.7142857142857143,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": true,
+          "label": "29",
+          "value": 0.7857142857142857,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "30",
+          "value": 0.8571428571428571,
+        },
+        Object {
+          "drawLongTick": false,
+          "isWeekend": false,
+          "label": "31",
+          "value": 0.9285714285714286,
+        },
+      ]
+    }
+    horizontalMonthTicks={
+      Array [
+        Object {
+          "daysLeftInMonth": 14,
+          "label": "OCT / 2017",
+          "value": 0,
+        },
+      ]
+    }
+    verticalLabel={
+      Array [
+        Object {
+          "label": "Blood Glucose (mg/dL)",
+          "value": 0.5,
+        },
+      ]
+    }
+    verticalTicks={
+      Array [
+        Object {
+          "label": "0",
+          "value": 0,
+        },
+        Object {
+          "label": "100",
+          "value": 0.25,
+        },
+        Object {
+          "label": "200",
+          "value": 0.5,
+        },
+        Object {
+          "label": "300",
+          "value": 0.75,
+        },
+        Object {
+          "label": "400",
+          "value": 1,
+        },
+      ]
+    }
+    width={1100}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          Tick={[Function]}
+          height={280}
+          ticks={
+            Array [
+              Object {
+                "label": "0",
+                "value": 0,
+              },
+              Object {
+                "label": "100",
+                "value": 0.25,
+              },
+              Object {
+                "label": "200",
+                "value": 0.5,
+              },
+              Object {
+                "label": "300",
+                "value": 0.75,
+              },
+              Object {
+                "label": "400",
+                "value": 1,
+              },
+            ]
+          }
+          x={49.5}
+          y={45.5}
+        />,
+        <Unknown
+          Tick={[Function]}
+          height={280}
+          ticks={
+            Array [
+              Object {
+                "label": "Blood Glucose (mg/dL)",
+                "value": 0.5,
+              },
+            ]
+          }
+          x={18.333333333333332}
+          y={45.5}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "Tick": [Function],
+          "height": 280,
+          "ticks": Array [
+            Object {
+              "label": "0",
+              "value": 0,
+            },
+            Object {
+              "label": "100",
+              "value": 0.25,
+            },
+            Object {
+              "label": "200",
+              "value": 0.5,
+            },
+            Object {
+              "label": "300",
+              "value": 0.75,
+            },
+            Object {
+              "label": "400",
+              "value": 1,
+            },
+          ],
+          "x": 49.5,
+          "y": 45.5,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "Tick": [Function],
+          "height": 280,
+          "ticks": Array [
+            Object {
+              "label": "Blood Glucose (mg/dL)",
+              "value": 0.5,
+            },
+          ],
+          "x": 18.333333333333332,
+          "y": 45.5,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            Tick={[Function]}
+            height={280}
+            ticks={
+              Array [
+                Object {
+                  "label": "0",
+                  "value": 0,
+                },
+                Object {
+                  "label": "100",
+                  "value": 0.25,
+                },
+                Object {
+                  "label": "200",
+                  "value": 0.5,
+                },
+                Object {
+                  "label": "300",
+                  "value": 0.75,
+                },
+                Object {
+                  "label": "400",
+                  "value": 1,
+                },
+              ]
+            }
+            x={49.5}
+            y={45.5}
+          />,
+          <Unknown
+            Tick={[Function]}
+            height={280}
+            ticks={
+              Array [
+                Object {
+                  "label": "Blood Glucose (mg/dL)",
+                  "value": 0.5,
+                },
+              ]
+            }
+            x={18.333333333333332}
+            y={45.5}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "Tick": [Function],
+            "height": 280,
+            "ticks": Array [
+              Object {
+                "label": "0",
+                "value": 0,
+              },
+              Object {
+                "label": "100",
+                "value": 0.25,
+              },
+              Object {
+                "label": "200",
+                "value": 0.5,
+              },
+              Object {
+                "label": "300",
+                "value": 0.75,
+              },
+              Object {
+                "label": "400",
+                "value": 1,
+              },
+            ],
+            "x": 49.5,
+            "y": 45.5,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "Tick": [Function],
+            "height": 280,
+            "ticks": Array [
+              Object {
+                "label": "Blood Glucose (mg/dL)",
+                "value": 0.5,
+              },
+            ],
+            "x": 18.333333333333332,
+            "y": 45.5,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

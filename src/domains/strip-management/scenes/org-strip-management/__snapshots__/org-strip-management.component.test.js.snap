@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organization Strip Management component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    match={
+      Object {
+        "params": Object {
+          "id": 22,
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": <GridItem
+        span="12"
+      >
+        <Card>
+          <Unknown>
+            <TabsHeader
+              mb={4}
+              ml="0"
+              mr="auto"
+            >
+              <withRouter()
+                name="Stock Details"
+                path=""
+              />
+            </TabsHeader>
+            <Unknown />
+          </Unknown>
+        </Card>
+      </GridItem>,
+      "marginBottom": true,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Card>
+          <Unknown>
+            <TabsHeader
+              mb={4}
+              ml="0"
+              mr="auto"
+            >
+              <withRouter()
+                name="Stock Details"
+                path=""
+              />
+            </TabsHeader>
+            <Unknown />
+          </Unknown>
+        </Card>,
+        "span": "12",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Unknown>
+            <TabsHeader
+              mb={4}
+              ml="0"
+              mr="auto"
+            >
+              <withRouter()
+                name="Stock Details"
+                path=""
+              />
+            </TabsHeader>
+            <Unknown />
+          </Unknown>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <TabsHeader
+                mb={4}
+                ml="0"
+                mr="auto"
+              >
+                <withRouter()
+                  name="Stock Details"
+                  path=""
+                />
+              </TabsHeader>,
+              <Unknown />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "children": <withRouter()
+                  name="Stock Details"
+                  path=""
+                />,
+                "mb": 4,
+                "ml": "0",
+                "mr": "auto",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "name": "Stock Details",
+                  "path": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": <GridItem
+          span="12"
+        >
+          <Card>
+            <Unknown>
+              <TabsHeader
+                mb={4}
+                ml="0"
+                mr="auto"
+              >
+                <withRouter()
+                  name="Stock Details"
+                  path=""
+                />
+              </TabsHeader>
+              <Unknown />
+            </Unknown>
+          </Card>
+        </GridItem>,
+        "marginBottom": true,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Card>
+            <Unknown>
+              <TabsHeader
+                mb={4}
+                ml="0"
+                mr="auto"
+              >
+                <withRouter()
+                  name="Stock Details"
+                  path=""
+                />
+              </TabsHeader>
+              <Unknown />
+            </Unknown>
+          </Card>,
+          "span": "12",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Unknown>
+              <TabsHeader
+                mb={4}
+                ml="0"
+                mr="auto"
+              >
+                <withRouter()
+                  name="Stock Details"
+                  path=""
+                />
+              </TabsHeader>
+              <Unknown />
+            </Unknown>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <TabsHeader
+                  mb={4}
+                  ml="0"
+                  mr="auto"
+                >
+                  <withRouter()
+                    name="Stock Details"
+                    path=""
+                  />
+                </TabsHeader>,
+                <Unknown />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <withRouter()
+                    name="Stock Details"
+                    path=""
+                  />,
+                  "mb": 4,
+                  "ml": "0",
+                  "mr": "auto",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "name": "Stock Details",
+                    "path": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "children": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Badge
+    disabled={true}
+    size={60}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "bgColor": "#0066CC",
+      "children": <styled.span
+        bgColor="#0066CC"
+        disabled={true}
+        emptyInnerCircle={undefined}
+        size={60}
+      >
+        <f1
+          validate={undefined}
+        />
+      </styled.span>,
+      "disabled": true,
+      "emptyInnerCircle": undefined,
+      "size": 60,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "bgColor": "#0066CC",
+        "children": <f1
+          validate={undefined}
+        />,
+        "disabled": true,
+        "emptyInnerCircle": undefined,
+        "size": 60,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": undefined,
+          "validate": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "bgColor": "#0066CC",
+        "children": <styled.span
+          bgColor="#0066CC"
+          disabled={true}
+          emptyInnerCircle={undefined}
+          size={60}
+        >
+          <f1
+            validate={undefined}
+          />
+        </styled.span>,
+        "disabled": true,
+        "emptyInnerCircle": undefined,
+        "size": 60,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "bgColor": "#0066CC",
+          "children": <f1
+            validate={undefined}
+          />,
+          "disabled": true,
+          "emptyInnerCircle": undefined,
+          "size": 60,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": undefined,
+            "validate": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Badge component renders correctly with default props 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Badge />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "bgColor": "#0066CC",
+      "children": <styled.span
+        bgColor="#0066CC"
+        disabled={false}
+        emptyInnerCircle={undefined}
+        size={42}
+      >
+        <f1
+          validate={undefined}
+        />
+      </styled.span>,
+      "disabled": false,
+      "emptyInnerCircle": undefined,
+      "size": 42,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "bgColor": "#0066CC",
+        "children": <f1
+          validate={undefined}
+        />,
+        "disabled": false,
+        "emptyInnerCircle": undefined,
+        "size": 42,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": undefined,
+          "validate": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "bgColor": "#0066CC",
+        "children": <styled.span
+          bgColor="#0066CC"
+          disabled={false}
+          emptyInnerCircle={undefined}
+          size={42}
+        >
+          <f1
+            validate={undefined}
+          />
+        </styled.span>,
+        "disabled": false,
+        "emptyInnerCircle": undefined,
+        "size": 42,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "bgColor": "#0066CC",
+          "children": <f1
+            validate={undefined}
+          />,
+          "disabled": false,
+          "emptyInnerCircle": undefined,
+          "size": 42,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": undefined,
+            "validate": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

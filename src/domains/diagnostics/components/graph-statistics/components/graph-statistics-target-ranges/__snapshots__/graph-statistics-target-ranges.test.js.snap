@@ -1,0 +1,933 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`graph-statistics-target-ranges test suite it renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    abovePercentage={40}
+    belowPercentage={30}
+    hypoglycaemiaNumber={1}
+    hypoglycaemiaPercentage={10}
+    targetBloodGlucoseMaximum={250}
+    targetBloodGlucoseMinimum={170}
+    withinPercentage={30}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.div>
+          <styled.div>
+            <Unknown
+              fillColor="rgba(185, 231, 153, 0.4)"
+              strokeColor="rgba(185, 231, 153, 0.4)"
+            />
+             
+          </styled.div>
+          <LocalizedText
+            textKey="graphDetails.statistics.targetRanges.targetRange"
+          />
+           (170-250 mg/dL)
+        </styled.div>,
+        <styled.div>
+          <styled.ul>
+            <styled.li
+              bold={true}
+            >
+              <LocalizedText
+                textKey="graphDetails.statistics.targetRanges.above"
+              />
+            </styled.li>
+            <styled.li
+              bold={true}
+            >
+              <LocalizedText
+                textKey="graphDetails.statistics.targetRanges.within"
+              />
+            </styled.li>
+            <styled.li
+              bold={true}
+            >
+              <LocalizedText
+                textKey="graphDetails.statistics.targetRanges.below"
+              />
+            </styled.li>
+          </styled.ul>
+          <styled.ul>
+            <styled.li>
+              40%
+            </styled.li>
+            <styled.li>
+              30%
+            </styled.li>
+            <styled.li>
+              30%
+            </styled.li>
+          </styled.ul>
+          <styled.ul
+            noBorder={true}
+          >
+            <styled.li
+              bold={true}
+            >
+              <LocalizedText
+                textKey="graphDetails.statistics.targetRanges.hypos"
+              />
+            </styled.li>
+          </styled.ul>
+          <styled.ul>
+            <styled.li>
+              10% (1)
+            </styled.li>
+          </styled.ul>
+          <styled.ul
+            flex={16}
+          />
+        </styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.div>
+              <Unknown
+                fillColor="rgba(185, 231, 153, 0.4)"
+                strokeColor="rgba(185, 231, 153, 0.4)"
+              />
+               
+            </styled.div>,
+            <LocalizedText
+              textKey="graphDetails.statistics.targetRanges.targetRange"
+            />,
+            " (170-250 mg/dL)",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Unknown
+                  fillColor="rgba(185, 231, 153, 0.4)"
+                  strokeColor="rgba(185, 231, 153, 0.4)"
+                />,
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "fillColor": "rgba(185, 231, 153, 0.4)",
+                  "strokeColor": "rgba(185, 231, 153, 0.4)",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              " ",
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "textKey": "graphDetails.statistics.targetRanges.targetRange",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " (170-250 mg/dL)",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.ul>
+              <styled.li
+                bold={true}
+              >
+                <LocalizedText
+                  textKey="graphDetails.statistics.targetRanges.above"
+                />
+              </styled.li>
+              <styled.li
+                bold={true}
+              >
+                <LocalizedText
+                  textKey="graphDetails.statistics.targetRanges.within"
+                />
+              </styled.li>
+              <styled.li
+                bold={true}
+              >
+                <LocalizedText
+                  textKey="graphDetails.statistics.targetRanges.below"
+                />
+              </styled.li>
+            </styled.ul>,
+            <styled.ul>
+              <styled.li>
+                40%
+              </styled.li>
+              <styled.li>
+                30%
+              </styled.li>
+              <styled.li>
+                30%
+              </styled.li>
+            </styled.ul>,
+            <styled.ul
+              noBorder={true}
+            >
+              <styled.li
+                bold={true}
+              >
+                <LocalizedText
+                  textKey="graphDetails.statistics.targetRanges.hypos"
+                />
+              </styled.li>
+            </styled.ul>,
+            <styled.ul>
+              <styled.li>
+                10% (1)
+              </styled.li>
+            </styled.ul>,
+            <styled.ul
+              flex={16}
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <styled.li
+                  bold={true}
+                >
+                  <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.above"
+                  />
+                </styled.li>,
+                <styled.li
+                  bold={true}
+                >
+                  <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.within"
+                  />
+                </styled.li>,
+                <styled.li
+                  bold={true}
+                >
+                  <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.below"
+                  />
+                </styled.li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bold": true,
+                  "children": <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.above"
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "textKey": "graphDetails.statistics.targetRanges.above",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bold": true,
+                  "children": <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.within"
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "textKey": "graphDetails.statistics.targetRanges.within",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bold": true,
+                  "children": <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.below"
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "textKey": "graphDetails.statistics.targetRanges.below",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <styled.li>
+                  40%
+                </styled.li>,
+                <styled.li>
+                  30%
+                </styled.li>,
+                <styled.li>
+                  30%
+                </styled.li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "40%",
+                },
+                "ref": null,
+                "rendered": "40%",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "30%",
+                },
+                "ref": null,
+                "rendered": "30%",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "30%",
+                },
+                "ref": null,
+                "rendered": "30%",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <styled.li
+                bold={true}
+              >
+                <LocalizedText
+                  textKey="graphDetails.statistics.targetRanges.hypos"
+                />
+              </styled.li>,
+              "noBorder": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "bold": true,
+                "children": <LocalizedText
+                  textKey="graphDetails.statistics.targetRanges.hypos"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "textKey": "graphDetails.statistics.targetRanges.hypos",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <styled.li>
+                10% (1)
+              </styled.li>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "10% (1)",
+              },
+              "ref": null,
+              "rendered": "10% (1)",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "flex": 16,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.div>
+            <styled.div>
+              <Unknown
+                fillColor="rgba(185, 231, 153, 0.4)"
+                strokeColor="rgba(185, 231, 153, 0.4)"
+              />
+               
+            </styled.div>
+            <LocalizedText
+              textKey="graphDetails.statistics.targetRanges.targetRange"
+            />
+             (170-250 mg/dL)
+          </styled.div>,
+          <styled.div>
+            <styled.ul>
+              <styled.li
+                bold={true}
+              >
+                <LocalizedText
+                  textKey="graphDetails.statistics.targetRanges.above"
+                />
+              </styled.li>
+              <styled.li
+                bold={true}
+              >
+                <LocalizedText
+                  textKey="graphDetails.statistics.targetRanges.within"
+                />
+              </styled.li>
+              <styled.li
+                bold={true}
+              >
+                <LocalizedText
+                  textKey="graphDetails.statistics.targetRanges.below"
+                />
+              </styled.li>
+            </styled.ul>
+            <styled.ul>
+              <styled.li>
+                40%
+              </styled.li>
+              <styled.li>
+                30%
+              </styled.li>
+              <styled.li>
+                30%
+              </styled.li>
+            </styled.ul>
+            <styled.ul
+              noBorder={true}
+            >
+              <styled.li
+                bold={true}
+              >
+                <LocalizedText
+                  textKey="graphDetails.statistics.targetRanges.hypos"
+                />
+              </styled.li>
+            </styled.ul>
+            <styled.ul>
+              <styled.li>
+                10% (1)
+              </styled.li>
+            </styled.ul>
+            <styled.ul
+              flex={16}
+            />
+          </styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.div>
+                <Unknown
+                  fillColor="rgba(185, 231, 153, 0.4)"
+                  strokeColor="rgba(185, 231, 153, 0.4)"
+                />
+                 
+              </styled.div>,
+              <LocalizedText
+                textKey="graphDetails.statistics.targetRanges.targetRange"
+              />,
+              " (170-250 mg/dL)",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    fillColor="rgba(185, 231, 153, 0.4)"
+                    strokeColor="rgba(185, 231, 153, 0.4)"
+                  />,
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "fillColor": "rgba(185, 231, 153, 0.4)",
+                    "strokeColor": "rgba(185, 231, 153, 0.4)",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                " ",
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "textKey": "graphDetails.statistics.targetRanges.targetRange",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            " (170-250 mg/dL)",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.ul>
+                <styled.li
+                  bold={true}
+                >
+                  <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.above"
+                  />
+                </styled.li>
+                <styled.li
+                  bold={true}
+                >
+                  <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.within"
+                  />
+                </styled.li>
+                <styled.li
+                  bold={true}
+                >
+                  <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.below"
+                  />
+                </styled.li>
+              </styled.ul>,
+              <styled.ul>
+                <styled.li>
+                  40%
+                </styled.li>
+                <styled.li>
+                  30%
+                </styled.li>
+                <styled.li>
+                  30%
+                </styled.li>
+              </styled.ul>,
+              <styled.ul
+                noBorder={true}
+              >
+                <styled.li
+                  bold={true}
+                >
+                  <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.hypos"
+                  />
+                </styled.li>
+              </styled.ul>,
+              <styled.ul>
+                <styled.li>
+                  10% (1)
+                </styled.li>
+              </styled.ul>,
+              <styled.ul
+                flex={16}
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.li
+                    bold={true}
+                  >
+                    <LocalizedText
+                      textKey="graphDetails.statistics.targetRanges.above"
+                    />
+                  </styled.li>,
+                  <styled.li
+                    bold={true}
+                  >
+                    <LocalizedText
+                      textKey="graphDetails.statistics.targetRanges.within"
+                    />
+                  </styled.li>,
+                  <styled.li
+                    bold={true}
+                  >
+                    <LocalizedText
+                      textKey="graphDetails.statistics.targetRanges.below"
+                    />
+                  </styled.li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bold": true,
+                    "children": <LocalizedText
+                      textKey="graphDetails.statistics.targetRanges.above"
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "textKey": "graphDetails.statistics.targetRanges.above",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bold": true,
+                    "children": <LocalizedText
+                      textKey="graphDetails.statistics.targetRanges.within"
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "textKey": "graphDetails.statistics.targetRanges.within",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bold": true,
+                    "children": <LocalizedText
+                      textKey="graphDetails.statistics.targetRanges.below"
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "textKey": "graphDetails.statistics.targetRanges.below",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.li>
+                    40%
+                  </styled.li>,
+                  <styled.li>
+                    30%
+                  </styled.li>,
+                  <styled.li>
+                    30%
+                  </styled.li>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "40%",
+                  },
+                  "ref": null,
+                  "rendered": "40%",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "30%",
+                  },
+                  "ref": null,
+                  "rendered": "30%",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "30%",
+                  },
+                  "ref": null,
+                  "rendered": "30%",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <styled.li
+                  bold={true}
+                >
+                  <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.hypos"
+                  />
+                </styled.li>,
+                "noBorder": true,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "bold": true,
+                  "children": <LocalizedText
+                    textKey="graphDetails.statistics.targetRanges.hypos"
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "textKey": "graphDetails.statistics.targetRanges.hypos",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <styled.li>
+                  10% (1)
+                </styled.li>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "10% (1)",
+                },
+                "ref": null,
+                "rendered": "10% (1)",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "flex": 16,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

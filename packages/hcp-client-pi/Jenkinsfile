@@ -1,0 +1,127 @@
+#!groovy?
+
+properties([[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', daysToKeepStr: '30']]])
+
+// define global var
+def hcp_client_pi
+def v
+def branch_type
+
+node('node_java'){
+
+    try {
+        init()
+        test()
+        sonar()
+        compile()
+        publishPackage()
+        
+        if (env.BRANCH_NAME == 'master' ) {
+            build job: '../../hcp-client-pipeline/master', wait: false
+        }
+    }
+    catch (Exception err) {
+        currentBuild.result = 'FAILURE'
+    }
+
+}
+
+// Utility functions
+def init() {
+    stage('Init') {
+        deleteDir()
+        checkout scm
+        v = version()
+        branch_type = get_branch_type "${env.BRANCH_NAME}"
+        currentBuild.displayName = "${branch_type}-${v}-${env.BUILD_NUMBER}"
+    }
+}
+def test(){
+    stage('Unit test') {
+        try{
+            sh 'echo "NODE_PATH=./" > .env'
+            sh 'yarn install'
+            sh 'yarn run test:ci'
+        }
+        finally{
+            junit 'junit.xml'
+        }
+    }
+}
+
+
+def sonar(){
+    stage('SonarQube analysis') {
+        def scannerHome = tool 'SonarQube';
+        withCredentials([string(credentialsId: 'sonarqube-jenkins', variable: 'token')]) {
+            withSonarQubeEnv('SonarQube IPP') {
+                sh "${scannerHome}/bin/sonar-scanner -Dproject.settings=sonar-scanner.properties -Dsonar.projectVersion=${currentBuild.displayName} -Dsonar.login=$token"
+            }
+        }
+        timeout(time: 5, unit: 'MINUTES') {
+            def qg = waitForQualityGate()
+              if (qg.status != 'OK') {
+                  error "Pipeline aborted due to quality gate failure: ${qg.status}"
+              }
+        }
+    }
+}
+
+def compile(){
+    stage('Compile') {
+            sh 'yarn set-version'
+            sh 'yarn build'
+    }
+}
+
+def publishPackage(){
+    stage('Publish NPM package to Nexus') {
+        def published_version = get_package_version branch_type
+        withNPM(npmrcConfig:'nexus-jenkins-npm') {
+            sh "yarn version --new-version ${published_version}"
+            sh "cp package.json dist/"
+            sh "npm pack ./dist"
+            sh "npm publish roche-patterns-indicators-${published_version}.tgz"
+        }
+    }
+}
+
+def get_branch_type(String branch_name) {
+    //Must be specified according to <flowInitContext> configuration of jgitflow-maven-plugin in pom.xml
+    def dev_pattern = ".*develop"
+    def release_pattern = ".*release/.*"
+    def feature_pattern = ".*feature/.*"
+    def hotfix_pattern = ".*hotfix/.*"
+    def master_pattern = ".*master"
+    if (branch_name =~ dev_pattern) {
+        return "dev"
+    } else if (branch_name =~ release_pattern) {
+        return "release"
+    } else if (branch_name =~ master_pattern) {
+        return "master"
+    } else if (branch_name =~ feature_pattern) {
+        return "feature"
+    } else if (branch_name =~ hotfix_pattern) {
+        return "hotfix"
+    } else {
+        return null;
+    }
+}
+
+def get_package_version(String branch_type) {
+    if (branch_type == "master") {
+        return "${v}-dev.${env.BUILD_NUMBER}"
+    } else if (branch_type == "release") {
+        return "${v}-${env.BUILD_NUMBER}"
+    } else {
+        currentBuild.result = 'ERROR'
+        error('Nothing to publish, only master and release branches are candidates')
+    }
+}
+
+def version() {
+    def currentVersion = sh script: 'cat package.json | grep version | head -1 | awk -F: \'{ print $2 }\' | sed \'s/[",]//g\' ' , returnStdout: true
+    currentVersion = currentVersion.replaceAll("\\s","")
+    return currentVersion
+}
+

@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RangeSlider Component Tests Should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RangeSlider
+    maxValue={46}
+    minValue={3}
+    onChange={[MockFunction onRangeSliderValuesChanged]}
+    rangeMax={50}
+    rangeMin={0}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <InnerPath
+          left={NaN}
+          width={NaN}
+        />,
+        <Handle
+          innerRef={[Function]}
+          left={NaN}
+          onMouseDown={[Function]}
+        />,
+        <Handle
+          innerRef={[Function]}
+          left={NaN}
+          onMouseDown={[Function]}
+        />,
+      ],
+      "innerRef": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "left": NaN,
+          "width": NaN,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "innerRef": [Function],
+          "left": NaN,
+          "onMouseDown": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "innerRef": [Function],
+          "left": NaN,
+          "onMouseDown": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <InnerPath
+            left={NaN}
+            width={NaN}
+          />,
+          <Handle
+            innerRef={[Function]}
+            left={NaN}
+            onMouseDown={[Function]}
+          />,
+          <Handle
+            innerRef={[Function]}
+            left={NaN}
+            onMouseDown={[Function]}
+          />,
+        ],
+        "innerRef": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "left": NaN,
+            "width": NaN,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "innerRef": [Function],
+            "left": NaN,
+            "onMouseDown": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "innerRef": [Function],
+            "left": NaN,
+            "onMouseDown": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

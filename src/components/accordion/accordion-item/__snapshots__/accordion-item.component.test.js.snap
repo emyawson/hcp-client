@@ -1,0 +1,545 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Item tests renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "active": undefined,
+      "children": Array [
+        <f1
+          validate={undefined}
+        >
+          <Unknown
+            active={undefined}
+            marginDirection="bottom"
+            text={undefined}
+          />
+        </f1>,
+        <Unknown
+          active={undefined}
+          disabled={undefined}
+          id={undefined}
+          isNested={true}
+          toggleHandler={undefined}
+        >
+          
+        </Unknown>,
+        <styled.div
+          active={undefined}
+          aria-labelledby="AccordionTitle--undefined"
+        >
+          <Card
+            active={undefined}
+            cardStyles={
+              Array [
+                "blue",
+              ]
+            }
+          />
+        </styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Unknown
+            active={undefined}
+            marginDirection="bottom"
+            text={undefined}
+          />,
+          "validate": undefined,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "active": undefined,
+            "marginDirection": "bottom",
+            "text": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "active": undefined,
+          "children": "",
+          "disabled": undefined,
+          "id": undefined,
+          "isNested": true,
+          "toggleHandler": undefined,
+        },
+        "ref": null,
+        "rendered": "",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "active": undefined,
+          "aria-labelledby": "AccordionTitle--undefined",
+          "children": <Card
+            active={undefined}
+            cardStyles={
+              Array [
+                "blue",
+              ]
+            }
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "active": undefined,
+            "cardStyles": Array [
+              "blue",
+            ],
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "active": undefined,
+        "children": Array [
+          <f1
+            validate={undefined}
+          >
+            <Unknown
+              active={undefined}
+              marginDirection="bottom"
+              text={undefined}
+            />
+          </f1>,
+          <Unknown
+            active={undefined}
+            disabled={undefined}
+            id={undefined}
+            isNested={true}
+            toggleHandler={undefined}
+          >
+            
+          </Unknown>,
+          <styled.div
+            active={undefined}
+            aria-labelledby="AccordionTitle--undefined"
+          >
+            <Card
+              active={undefined}
+              cardStyles={
+                Array [
+                  "blue",
+                ]
+              }
+            />
+          </styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Unknown
+              active={undefined}
+              marginDirection="bottom"
+              text={undefined}
+            />,
+            "validate": undefined,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "active": undefined,
+              "marginDirection": "bottom",
+              "text": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "active": undefined,
+            "children": "",
+            "disabled": undefined,
+            "id": undefined,
+            "isNested": true,
+            "toggleHandler": undefined,
+          },
+          "ref": null,
+          "rendered": "",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "active": undefined,
+            "aria-labelledby": "AccordionTitle--undefined",
+            "children": <Card
+              active={undefined}
+              cardStyles={
+                Array [
+                  "blue",
+                ]
+              }
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "active": undefined,
+              "cardStyles": Array [
+                "blue",
+              ],
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Accordion Item tests renders with label 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    label="test"
+    labelled={true}
+    title="Test"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "active": undefined,
+      "children": Array [
+        <f1
+          validate={true}
+        >
+          <Unknown
+            active={undefined}
+            marginDirection="bottom"
+            text="test"
+          />
+        </f1>,
+        <Unknown
+          active={undefined}
+          disabled={undefined}
+          id={undefined}
+          isNested={true}
+          toggleHandler={undefined}
+        >
+          Test
+        </Unknown>,
+        <styled.div
+          active={undefined}
+          aria-labelledby="AccordionTitle--undefined"
+        >
+          <Card
+            active={undefined}
+            cardStyles={
+              Array [
+                "blue",
+              ]
+            }
+          />
+        </styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Unknown
+            active={undefined}
+            marginDirection="bottom"
+            text="test"
+          />,
+          "validate": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "active": undefined,
+            "marginDirection": "bottom",
+            "text": "test",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "active": undefined,
+          "children": "Test",
+          "disabled": undefined,
+          "id": undefined,
+          "isNested": true,
+          "toggleHandler": undefined,
+        },
+        "ref": null,
+        "rendered": "Test",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "active": undefined,
+          "aria-labelledby": "AccordionTitle--undefined",
+          "children": <Card
+            active={undefined}
+            cardStyles={
+              Array [
+                "blue",
+              ]
+            }
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "active": undefined,
+            "cardStyles": Array [
+              "blue",
+            ],
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "active": undefined,
+        "children": Array [
+          <f1
+            validate={true}
+          >
+            <Unknown
+              active={undefined}
+              marginDirection="bottom"
+              text="test"
+            />
+          </f1>,
+          <Unknown
+            active={undefined}
+            disabled={undefined}
+            id={undefined}
+            isNested={true}
+            toggleHandler={undefined}
+          >
+            Test
+          </Unknown>,
+          <styled.div
+            active={undefined}
+            aria-labelledby="AccordionTitle--undefined"
+          >
+            <Card
+              active={undefined}
+              cardStyles={
+                Array [
+                  "blue",
+                ]
+              }
+            />
+          </styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Unknown
+              active={undefined}
+              marginDirection="bottom"
+              text="test"
+            />,
+            "validate": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "active": undefined,
+              "marginDirection": "bottom",
+              "text": "test",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "active": undefined,
+            "children": "Test",
+            "disabled": undefined,
+            "id": undefined,
+            "isNested": true,
+            "toggleHandler": undefined,
+          },
+          "ref": null,
+          "rendered": "Test",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "active": undefined,
+            "aria-labelledby": "AccordionTitle--undefined",
+            "children": <Card
+              active={undefined}
+              cardStyles={
+                Array [
+                  "blue",
+                ]
+              }
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "active": undefined,
+              "cardStyles": Array [
+                "blue",
+              ],
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

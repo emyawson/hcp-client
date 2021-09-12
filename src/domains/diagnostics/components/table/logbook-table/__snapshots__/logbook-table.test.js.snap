@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogbookTable test suite LogbookTable renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    logbookData={
+      Array [
+        Object {
+          "day": "Fri, 17 Oct 2017",
+          "mealTimes": Object {
+            "AFTER_BREAKFAST": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "AFTER_DINNER": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "AFTER_LUNCH": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "BEDTIME": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "BEFORE_BREAKFAST": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "BEFORE_DINNER": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "BEFORE_LUNCH": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "NIGHT": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+              Object {
+                "bloodGlucose": 39,
+                "bolus": null,
+                "carbohydrates": null,
+                "date": "",
+              },
+              Object {
+                "bloodGlucose": 40,
+                "bolus": null,
+                "carbohydrates": null,
+                "date": "",
+              },
+            ],
+          },
+        },
+        Object {
+          "day": "Sat, 18 Oct 2017",
+          "mealTimes": Object {
+            "AFTER_BREAKFAST": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "AFTER_DINNER": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "AFTER_LUNCH": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "BEDTIME": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "BEFORE_BREAKFAST": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "BEFORE_DINNER": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "BEFORE_LUNCH": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+            ],
+            "NIGHT": Array [
+              Object {
+                "bloodGlucose": 40,
+                "bolus": 35,
+                "carbohydrates": 15,
+                "date": "",
+              },
+              Object {
+                "bloodGlucose": 39,
+                "bolus": null,
+                "carbohydrates": null,
+                "date": "",
+              },
+              Object {
+                "bloodGlucose": 40,
+                "bolus": null,
+                "carbohydrates": null,
+                "date": "",
+              },
+            ],
+          },
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": [Function],
+      "disableHeight": false,
+      "disableWidth": false,
+      "onResize": [Function],
+      "style": Object {},
+    },
+    "ref": null,
+    "rendered": [Function],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": [Function],
+        "disableHeight": false,
+        "disableWidth": false,
+        "onResize": [Function],
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": [Function],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

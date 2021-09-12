@@ -1,0 +1,31 @@
+[ignore]
+.*/node_modules/.*
+.*/public/.*
+.*/__snapshots__/.*
+.*/coverage/.*
+w
+[include]
+src/
+
+[libs]
+src/
+flow/utils.js
+flow-typed/
+
+[lints]
+sketchy-null=warn
+
+[options]
+all=true
+emoji=true
+
+munge_underscores=true
+server.max_workers=2
+module.name_mapper='\(src\)' -> '<PROJECT_ROOT>/'
+suppress_comment= \\(.\\|\n\\)*\\$FlowIgnore
+suppress_type=$Untyped
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=.
+
+[version]
+0.59.0

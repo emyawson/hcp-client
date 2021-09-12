@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Patients
+    getAllPatients={[Function]}
+    isFetchingPatients={false}
+    match={
+      Object {
+        "isExact": false,
+        "params": Object {},
+        "path": "/",
+        "url": "/",
+      }
+    }
+    patients={
+      Array [
+        Object {
+          "birthdate": 19900101,
+          "diabetesType": 1,
+          "id": 1,
+          "name": Object {
+            "first": "Bob",
+            "last": "Smith",
+          },
+          "phone": 212111111,
+        },
+        Object {
+          "birthdate": 19801212,
+          "diabetesType": 2,
+          "id": 2,
+          "name": Object {
+            "first": "Jane",
+            "last": "Lee",
+          },
+          "phone": 2122222222,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          This is the Patients page
+        </h2>,
+        <ul>
+          <li>
+            <Link
+              replace={false}
+              to="//1"
+            >
+              undefined undefined
+            </Link>
+          </li>
+          <li>
+            <Link
+              replace={false}
+              to="//2"
+            >
+              undefined undefined
+            </Link>
+          </li>
+        </ul>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": "This is the Patients page",
+        },
+        "ref": null,
+        "rendered": "This is the Patients page",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <Link
+                replace={false}
+                to="//1"
+              >
+                undefined undefined
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="//2"
+              >
+                undefined undefined
+              </Link>
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="//1"
+              >
+                undefined undefined
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "undefined undefined",
+                "replace": false,
+                "to": "//1",
+              },
+              "ref": null,
+              "rendered": "undefined undefined",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="//2"
+              >
+                undefined undefined
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": "undefined undefined",
+                "replace": false,
+                "to": "//2",
+              },
+              "ref": null,
+              "rendered": "undefined undefined",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            This is the Patients page
+          </h2>,
+          <ul>
+            <li>
+              <Link
+                replace={false}
+                to="//1"
+              >
+                undefined undefined
+              </Link>
+            </li>
+            <li>
+              <Link
+                replace={false}
+                to="//2"
+              >
+                undefined undefined
+              </Link>
+            </li>
+          </ul>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": "This is the Patients page",
+          },
+          "ref": null,
+          "rendered": "This is the Patients page",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <Link
+                  replace={false}
+                  to="//1"
+                >
+                  undefined undefined
+                </Link>
+              </li>,
+              <li>
+                <Link
+                  replace={false}
+                  to="//2"
+                >
+                  undefined undefined
+                </Link>
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  replace={false}
+                  to="//1"
+                >
+                  undefined undefined
+                </Link>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "undefined undefined",
+                  "replace": false,
+                  "to": "//1",
+                },
+                "ref": null,
+                "rendered": "undefined undefined",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  replace={false}
+                  to="//2"
+                >
+                  undefined undefined
+                </Link>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "undefined undefined",
+                  "replace": false,
+                  "to": "//2",
+                },
+                "ref": null,
+                "rendered": "undefined undefined",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

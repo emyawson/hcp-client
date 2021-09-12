@@ -1,0 +1,5 @@
+
+
+[submodule "packages/hcp-client-pi"]
+	path = packages/hcp-client-pi
+	url = https://git.rochedevops.accentureanalytics.com/rangle/hcp-client-pi.git

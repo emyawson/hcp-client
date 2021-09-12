@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      window.__PR__ = function(token, action, patientId) {
+        var f = document.getElementById('redirect-form');
+        f.authorization.value = token;
+        f.actionWindow.value = action;
+        if (patientId) {
+          f.patientId.value = patientId;
+        }
+        f.submit();
+      }; 
+    </script>  
+  </head>
+  <body>
+    <form id="redirect-form" action="/eConecta/frame/launchRedirectFrame.action" target="_self" method="POST">
+      <input type="hidden" name="authorization">
+      <input type="hidden" name="actionWindow">
+      <input type="hidden" name="patientId">
+   </form>
+  </body>
+</html>

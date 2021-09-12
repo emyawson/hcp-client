@@ -1,0 +1,629 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Number input component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NumberInput
+    id="testInput"
+    initialValue={0}
+    max={99}
+    min={0}
+    model="numberOfStrips"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <f1
+          validate={false}
+        >
+          <Unknown
+            disabled={false}
+            icon={
+              <styled.span>
+                <Unknown />
+              </styled.span>
+            }
+            operatorAction={[Function]}
+            position="left"
+          />
+          <NumberInputField
+            disabled={false}
+            id="testInput"
+            max={99}
+            min={0}
+            model="numberOfStrips"
+            updateField={[Function]}
+          />
+          <Unknown
+            disabled={false}
+            icon={
+              <Unknown
+                height={10}
+              />
+            }
+            operatorAction={[Function]}
+            position="right"
+          />
+        </f1>,
+        <f1
+          validate={true}
+        >
+          <NumberInputField
+            disabled={false}
+            id="testInput"
+            max={99}
+            min={0}
+            model="numberOfStrips"
+            updateField={[Function]}
+          />
+          <styled.div>
+            <Unknown
+              disabled={false}
+              icon={
+                <Unknown
+                  height={10}
+                />
+              }
+              operatorAction={[Function]}
+            />
+            <styled.div />
+            <Unknown
+              disabled={false}
+              icon={
+                <styled.span>
+                  <Unknown />
+                </styled.span>
+              }
+              operatorAction={[Function]}
+            />
+          </styled.div>
+        </f1>,
+      ],
+      "disabled": false,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Unknown
+              disabled={false}
+              icon={
+                <styled.span>
+                  <Unknown />
+                </styled.span>
+              }
+              operatorAction={[Function]}
+              position="left"
+            />,
+            <NumberInputField
+              disabled={false}
+              id="testInput"
+              max={99}
+              min={0}
+              model="numberOfStrips"
+              updateField={[Function]}
+            />,
+            <Unknown
+              disabled={false}
+              icon={
+                <Unknown
+                  height={10}
+                />
+              }
+              operatorAction={[Function]}
+              position="right"
+            />,
+          ],
+          "validate": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "disabled": false,
+              "icon": <styled.span>
+                <Unknown />
+              </styled.span>,
+              "operatorAction": [Function],
+              "position": "left",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "disabled": false,
+              "id": "testInput",
+              "max": 99,
+              "min": 0,
+              "model": "numberOfStrips",
+              "updateField": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "disabled": false,
+              "icon": <Unknown
+                height={10}
+              />,
+              "operatorAction": [Function],
+              "position": "right",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <NumberInputField
+              disabled={false}
+              id="testInput"
+              max={99}
+              min={0}
+              model="numberOfStrips"
+              updateField={[Function]}
+            />,
+            <styled.div>
+              <Unknown
+                disabled={false}
+                icon={
+                  <Unknown
+                    height={10}
+                  />
+                }
+                operatorAction={[Function]}
+              />
+              <styled.div />
+              <Unknown
+                disabled={false}
+                icon={
+                  <styled.span>
+                    <Unknown />
+                  </styled.span>
+                }
+                operatorAction={[Function]}
+              />
+            </styled.div>,
+          ],
+          "validate": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "disabled": false,
+              "id": "testInput",
+              "max": 99,
+              "min": 0,
+              "model": "numberOfStrips",
+              "updateField": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Unknown
+                  disabled={false}
+                  icon={
+                    <Unknown
+                      height={10}
+                    />
+                  }
+                  operatorAction={[Function]}
+                />,
+                <styled.div />,
+                <Unknown
+                  disabled={false}
+                  icon={
+                    <styled.span>
+                      <Unknown />
+                    </styled.span>
+                  }
+                  operatorAction={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "disabled": false,
+                  "icon": <Unknown
+                    height={10}
+                  />,
+                  "operatorAction": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "disabled": false,
+                  "icon": <styled.span>
+                    <Unknown />
+                  </styled.span>,
+                  "operatorAction": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <f1
+            validate={false}
+          >
+            <Unknown
+              disabled={false}
+              icon={
+                <styled.span>
+                  <Unknown />
+                </styled.span>
+              }
+              operatorAction={[Function]}
+              position="left"
+            />
+            <NumberInputField
+              disabled={false}
+              id="testInput"
+              max={99}
+              min={0}
+              model="numberOfStrips"
+              updateField={[Function]}
+            />
+            <Unknown
+              disabled={false}
+              icon={
+                <Unknown
+                  height={10}
+                />
+              }
+              operatorAction={[Function]}
+              position="right"
+            />
+          </f1>,
+          <f1
+            validate={true}
+          >
+            <NumberInputField
+              disabled={false}
+              id="testInput"
+              max={99}
+              min={0}
+              model="numberOfStrips"
+              updateField={[Function]}
+            />
+            <styled.div>
+              <Unknown
+                disabled={false}
+                icon={
+                  <Unknown
+                    height={10}
+                  />
+                }
+                operatorAction={[Function]}
+              />
+              <styled.div />
+              <Unknown
+                disabled={false}
+                icon={
+                  <styled.span>
+                    <Unknown />
+                  </styled.span>
+                }
+                operatorAction={[Function]}
+              />
+            </styled.div>
+          </f1>,
+        ],
+        "disabled": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Unknown
+                disabled={false}
+                icon={
+                  <styled.span>
+                    <Unknown />
+                  </styled.span>
+                }
+                operatorAction={[Function]}
+                position="left"
+              />,
+              <NumberInputField
+                disabled={false}
+                id="testInput"
+                max={99}
+                min={0}
+                model="numberOfStrips"
+                updateField={[Function]}
+              />,
+              <Unknown
+                disabled={false}
+                icon={
+                  <Unknown
+                    height={10}
+                  />
+                }
+                operatorAction={[Function]}
+                position="right"
+              />,
+            ],
+            "validate": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "disabled": false,
+                "icon": <styled.span>
+                  <Unknown />
+                </styled.span>,
+                "operatorAction": [Function],
+                "position": "left",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "disabled": false,
+                "id": "testInput",
+                "max": 99,
+                "min": 0,
+                "model": "numberOfStrips",
+                "updateField": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "disabled": false,
+                "icon": <Unknown
+                  height={10}
+                />,
+                "operatorAction": [Function],
+                "position": "right",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <NumberInputField
+                disabled={false}
+                id="testInput"
+                max={99}
+                min={0}
+                model="numberOfStrips"
+                updateField={[Function]}
+              />,
+              <styled.div>
+                <Unknown
+                  disabled={false}
+                  icon={
+                    <Unknown
+                      height={10}
+                    />
+                  }
+                  operatorAction={[Function]}
+                />
+                <styled.div />
+                <Unknown
+                  disabled={false}
+                  icon={
+                    <styled.span>
+                      <Unknown />
+                    </styled.span>
+                  }
+                  operatorAction={[Function]}
+                />
+              </styled.div>,
+            ],
+            "validate": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "disabled": false,
+                "id": "testInput",
+                "max": 99,
+                "min": 0,
+                "model": "numberOfStrips",
+                "updateField": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    disabled={false}
+                    icon={
+                      <Unknown
+                        height={10}
+                      />
+                    }
+                    operatorAction={[Function]}
+                  />,
+                  <styled.div />,
+                  <Unknown
+                    disabled={false}
+                    icon={
+                      <styled.span>
+                        <Unknown />
+                      </styled.span>
+                    }
+                    operatorAction={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "disabled": false,
+                    "icon": <Unknown
+                      height={10}
+                    />,
+                    "operatorAction": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "disabled": false,
+                    "icon": <styled.span>
+                      <Unknown />
+                    </styled.span>,
+                    "operatorAction": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

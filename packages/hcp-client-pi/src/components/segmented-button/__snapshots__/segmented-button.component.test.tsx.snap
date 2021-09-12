@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`segmented button test suite it renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    labels={
+      Array [
+        "Trend Graph",
+        "Log Book",
+      ]
+    }
+    onSegmentClick={[Function]}
+    selectedSegment="Trend Graph"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <styled.button
+          active={true}
+          onClick={[Function]}
+        >
+          Trend Graph
+        </styled.button>,
+        <styled.button
+          active={false}
+          onClick={[Function]}
+        >
+          Log Book
+        </styled.button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "active": true,
+          "children": "Trend Graph",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Trend Graph",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "active": false,
+          "children": "Log Book",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Log Book",
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <styled.button
+            active={true}
+            onClick={[Function]}
+          >
+            Trend Graph
+          </styled.button>,
+          <styled.button
+            active={false}
+            onClick={[Function]}
+          >
+            Log Book
+          </styled.button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "active": true,
+            "children": "Trend Graph",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Trend Graph",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "active": false,
+            "children": "Log Book",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Log Book",
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

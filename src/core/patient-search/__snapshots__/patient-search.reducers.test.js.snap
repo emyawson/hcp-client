@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Patient search reducer tests Should put the patient results onto the store 1`] = `
+Object {
+  "data": Object {
+    "data": Array [
+      Object {
+        "id": "1234",
+      },
+    ],
+  },
+  "didSearch": true,
+  "error": "",
+}
+`;

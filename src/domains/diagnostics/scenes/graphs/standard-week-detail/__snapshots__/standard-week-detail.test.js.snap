@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Standard Week Detail Component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <withState(withHandlers(StandardWeekDetail))
+    lines={
+      Array [
+        Array [
+          Object {
+            "data": Object {
+              "date": "2018-02-19 07:37:00 GMT+0000",
+              "x": 0.774,
+              "y": 33,
+            },
+            "x": 0.11057142857142857,
+            "y": 0.0825,
+          },
+          Object {
+            "data": Object {
+              "date": "2018-02-20 07:37:00 GMT+0000",
+              "x": 0.997,
+              "y": 106,
+            },
+            "x": 0.14242857142857143,
+            "y": 0.265,
+          },
+        ],
+      ]
+    }
+    meanPoints={
+      Array [
+        Object {
+          "glucoseValue": 69.5,
+          "intervalArr": Array [
+            Object {
+              "aboveTargetRange": false,
+              "afterMeal": false,
+              "beforeMeal": true,
+              "belowTargetRange": true,
+              "carbohydrates": null,
+              "control": false,
+              "date": "2018-02-19 07:37:00 GMT+0000",
+              "hypoSymptoms": false,
+              "value": 33,
+              "weeklyFloat": 0.774,
+            },
+            Object {
+              "aboveTargetRange": false,
+              "afterMeal": false,
+              "beforeMeal": false,
+              "belowTargetRange": false,
+              "carbohydrates": null,
+              "control": false,
+              "date": "2018-02-20 07:37:00 GMT+0000",
+              "hypoSymptoms": false,
+              "value": 106,
+              "weeklyFloat": 0.997,
+            },
+          ],
+          "shape": Object {
+            "style": Object {
+              "fillColor": "#4A4A4A",
+              "strokeColor": "#4A4A4A",
+            },
+            "type": "circle",
+          },
+          "unit": "mg/dL",
+          "x": -0.9285714285714286,
+          "y": 0.17375,
+        },
+      ]
+    }
+    measurements={
+      Array [
+        Object {
+          "aboveTargetRange": false,
+          "afterMeal": false,
+          "beforeMeal": true,
+          "belowTargetRange": true,
+          "carbohydrates": null,
+          "control": false,
+          "date": "2018-02-19 07:37:00 GMT+0000",
+          "hypoSymptoms": false,
+          "value": 33,
+        },
+        Object {
+          "aboveTargetRange": false,
+          "afterMeal": false,
+          "beforeMeal": false,
+          "belowTargetRange": false,
+          "carbohydrates": null,
+          "control": false,
+          "date": "2018-02-20 07:37:00 GMT+0000",
+          "hypoSymptoms": false,
+          "value": 106,
+        },
+      ]
+    }
+    points={
+      Array [
+        Object {
+          "data": Object {
+            "aboveTargetRange": false,
+            "afterMeal": false,
+            "beforeMeal": true,
+            "belowTargetRange": true,
+            "carbohydrates": null,
+            "control": false,
+            "date": "2018-02-19 07:37:00 GMT+0000",
+            "hypoSymptoms": false,
+            "value": 33,
+          },
+          "fillColor": "#FFF",
+          "shape": "square",
+          "strokeColor": "#CF021B",
+          "x": 0.11057142857142857,
+          "y": 0.0825,
+        },
+        Object {
+          "data": Object {
+            "aboveTargetRange": false,
+            "afterMeal": false,
+            "beforeMeal": false,
+            "belowTargetRange": false,
+            "carbohydrates": null,
+            "control": false,
+            "date": "2018-02-20 07:37:00 GMT+0000",
+            "hypoSymptoms": false,
+            "value": 106,
+          },
+          "fillColor": "#FFF",
+          "shape": "x",
+          "strokeColor": "#333",
+          "x": 0.14242857142857143,
+          "y": 0.265,
+        },
+      ]
+    }
+    targetRange={
+      Object {
+        "data": Object {
+          "max": 128,
+          "min": 98,
+        },
+        "max": 0.32,
+        "min": 0.245,
+      }
+    }
+    threshold={
+      Object {
+        "data": Object {
+          "value": 88,
+        },
+        "value": 0.22,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "lines": Array [
+        Array [
+          Object {
+            "data": Object {
+              "date": "2018-02-19 07:37:00 GMT+0000",
+              "x": 0.774,
+              "y": 33,
+            },
+            "x": 0.11057142857142857,
+            "y": 0.0825,
+          },
+          Object {
+            "data": Object {
+              "date": "2018-02-20 07:37:00 GMT+0000",
+              "x": 0.997,
+              "y": 106,
+            },
+            "x": 0.14242857142857143,
+            "y": 0.265,
+          },
+        ],
+      ],
+      "meanPoints": Array [
+        Object {
+          "glucoseValue": 69.5,
+          "intervalArr": Array [
+            Object {
+              "aboveTargetRange": false,
+              "afterMeal": false,
+              "beforeMeal": true,
+              "belowTargetRange": true,
+              "carbohydrates": null,
+              "control": false,
+              "date": "2018-02-19 07:37:00 GMT+0000",
+              "hypoSymptoms": false,
+              "value": 33,
+              "weeklyFloat": 0.774,
+            },
+            Object {
+              "aboveTargetRange": false,
+              "afterMeal": false,
+              "beforeMeal": false,
+              "belowTargetRange": false,
+              "carbohydrates": null,
+              "control": false,
+              "date": "2018-02-20 07:37:00 GMT+0000",
+              "hypoSymptoms": false,
+              "value": 106,
+              "weeklyFloat": 0.997,
+            },
+          ],
+          "shape": Object {
+            "style": Object {
+              "fillColor": "#4A4A4A",
+              "strokeColor": "#4A4A4A",
+            },
+            "type": "circle",
+          },
+          "unit": "mg/dL",
+          "x": -0.9285714285714286,
+          "y": 0.17375,
+        },
+      ],
+      "measurements": Array [
+        Object {
+          "aboveTargetRange": false,
+          "afterMeal": false,
+          "beforeMeal": true,
+          "belowTargetRange": true,
+          "carbohydrates": null,
+          "control": false,
+          "date": "2018-02-19 07:37:00 GMT+0000",
+          "hypoSymptoms": false,
+          "value": 33,
+        },
+        Object {
+          "aboveTargetRange": false,
+          "afterMeal": false,
+          "beforeMeal": false,
+          "belowTargetRange": false,
+          "carbohydrates": null,
+          "control": false,
+          "date": "2018-02-20 07:37:00 GMT+0000",
+          "hypoSymptoms": false,
+          "value": 106,
+        },
+      ],
+      "points": Array [
+        Object {
+          "data": Object {
+            "aboveTargetRange": false,
+            "afterMeal": false,
+            "beforeMeal": true,
+            "belowTargetRange": true,
+            "carbohydrates": null,
+            "control": false,
+            "date": "2018-02-19 07:37:00 GMT+0000",
+            "hypoSymptoms": false,
+            "value": 33,
+          },
+          "fillColor": "#FFF",
+          "shape": "square",
+          "strokeColor": "#CF021B",
+          "x": 0.11057142857142857,
+          "y": 0.0825,
+        },
+        Object {
+          "data": Object {
+            "aboveTargetRange": false,
+            "afterMeal": false,
+            "beforeMeal": false,
+            "belowTargetRange": false,
+            "carbohydrates": null,
+            "control": false,
+            "date": "2018-02-20 07:37:00 GMT+0000",
+            "hypoSymptoms": false,
+            "value": 106,
+          },
+          "fillColor": "#FFF",
+          "shape": "x",
+          "strokeColor": "#333",
+          "x": 0.14242857142857143,
+          "y": 0.265,
+        },
+      ],
+      "targetRange": Object {
+        "data": Object {
+          "max": 128,
+          "min": 98,
+        },
+        "max": 0.32,
+        "min": 0.245,
+      },
+      "threshold": Object {
+        "data": Object {
+          "value": 88,
+        },
+        "value": 0.22,
+      },
+      "toggleToolTip": [Function],
+      "toolTip": Object {
+        "data": Object {},
+        "x": null,
+        "y": null,
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "lines": Array [
+          Array [
+            Object {
+              "data": Object {
+                "date": "2018-02-19 07:37:00 GMT+0000",
+                "x": 0.774,
+                "y": 33,
+              },
+              "x": 0.11057142857142857,
+              "y": 0.0825,
+            },
+            Object {
+              "data": Object {
+                "date": "2018-02-20 07:37:00 GMT+0000",
+                "x": 0.997,
+                "y": 106,
+              },
+              "x": 0.14242857142857143,
+              "y": 0.265,
+            },
+          ],
+        ],
+        "meanPoints": Array [
+          Object {
+            "glucoseValue": 69.5,
+            "intervalArr": Array [
+              Object {
+                "aboveTargetRange": false,
+                "afterMeal": false,
+                "beforeMeal": true,
+                "belowTargetRange": true,
+                "carbohydrates": null,
+                "control": false,
+                "date": "2018-02-19 07:37:00 GMT+0000",
+                "hypoSymptoms": false,
+                "value": 33,
+                "weeklyFloat": 0.774,
+              },
+              Object {
+                "aboveTargetRange": false,
+                "afterMeal": false,
+                "beforeMeal": false,
+                "belowTargetRange": false,
+                "carbohydrates": null,
+                "control": false,
+                "date": "2018-02-20 07:37:00 GMT+0000",
+                "hypoSymptoms": false,
+                "value": 106,
+                "weeklyFloat": 0.997,
+              },
+            ],
+            "shape": Object {
+              "style": Object {
+                "fillColor": "#4A4A4A",
+                "strokeColor": "#4A4A4A",
+              },
+              "type": "circle",
+            },
+            "unit": "mg/dL",
+            "x": -0.9285714285714286,
+            "y": 0.17375,
+          },
+        ],
+        "measurements": Array [
+          Object {
+            "aboveTargetRange": false,
+            "afterMeal": false,
+            "beforeMeal": true,
+            "belowTargetRange": true,
+            "carbohydrates": null,
+            "control": false,
+            "date": "2018-02-19 07:37:00 GMT+0000",
+            "hypoSymptoms": false,
+            "value": 33,
+          },
+          Object {
+            "aboveTargetRange": false,
+            "afterMeal": false,
+            "beforeMeal": false,
+            "belowTargetRange": false,
+            "carbohydrates": null,
+            "control": false,
+            "date": "2018-02-20 07:37:00 GMT+0000",
+            "hypoSymptoms": false,
+            "value": 106,
+          },
+        ],
+        "points": Array [
+          Object {
+            "data": Object {
+              "aboveTargetRange": false,
+              "afterMeal": false,
+              "beforeMeal": true,
+              "belowTargetRange": true,
+              "carbohydrates": null,
+              "control": false,
+              "date": "2018-02-19 07:37:00 GMT+0000",
+              "hypoSymptoms": false,
+              "value": 33,
+            },
+            "fillColor": "#FFF",
+            "shape": "square",
+            "strokeColor": "#CF021B",
+            "x": 0.11057142857142857,
+            "y": 0.0825,
+          },
+          Object {
+            "data": Object {
+              "aboveTargetRange": false,
+              "afterMeal": false,
+              "beforeMeal": false,
+              "belowTargetRange": false,
+              "carbohydrates": null,
+              "control": false,
+              "date": "2018-02-20 07:37:00 GMT+0000",
+              "hypoSymptoms": false,
+              "value": 106,
+            },
+            "fillColor": "#FFF",
+            "shape": "x",
+            "strokeColor": "#333",
+            "x": 0.14242857142857143,
+            "y": 0.265,
+          },
+        ],
+        "targetRange": Object {
+          "data": Object {
+            "max": 128,
+            "min": 98,
+          },
+          "max": 0.32,
+          "min": 0.245,
+        },
+        "threshold": Object {
+          "data": Object {
+            "value": 88,
+          },
+          "value": 0.22,
+        },
+        "toggleToolTip": [Function],
+        "toolTip": Object {
+          "data": Object {},
+          "x": null,
+          "y": null,
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

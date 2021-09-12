@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "paths": {
+      "@roche/patterns-indicators/*": [
+        "node_modules/@roche/patterns-indicators/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules/@roche/patterns-indicators/node_modules",
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests"
+  ]
+}

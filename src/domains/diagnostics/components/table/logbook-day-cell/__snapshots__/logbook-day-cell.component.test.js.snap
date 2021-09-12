@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogbookDayCell test suite it renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    dayLines={
+      Array [
+        "Wednesday,",
+        "Jan 17, 2017",
+      ]
+    }
+    numberOfRows={4}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "Wednesday,, Jan 17, 2017",
+    "nodeType": "function",
+    "props": Object {
+      "borderRight": true,
+      "children": Array [
+        <LogbookCellBlocksContainer>
+          <Unknown
+            align="left"
+            flex={1}
+          >
+            <DayLinesList
+              isWeekendDay={false}
+            >
+              <li>
+                Wednesday,
+              </li>
+              <li>
+                Jan 17, 2017
+              </li>
+            </DayLinesList>
+          </Unknown>
+        </LogbookCellBlocksContainer>,
+        <Unknown
+          numberOfCells={1}
+          numberOfRows={3}
+        />,
+      ],
+      "highlight": undefined,
+      "width": "6.7rem",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Unknown
+            align="left"
+            flex={1}
+          >
+            <DayLinesList
+              isWeekendDay={false}
+            >
+              <li>
+                Wednesday,
+              </li>
+              <li>
+                Jan 17, 2017
+              </li>
+            </DayLinesList>
+          </Unknown>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "align": "left",
+            "children": <DayLinesList
+              isWeekendDay={false}
+            >
+              <li>
+                Wednesday,
+              </li>
+              <li>
+                Jan 17, 2017
+              </li>
+            </DayLinesList>,
+            "flex": 1,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <li>
+                  Wednesday,
+                </li>,
+                <li>
+                  Jan 17, 2017
+                </li>,
+              ],
+              "isWeekendDay": false,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "Wednesday,",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Wednesday,",
+                },
+                "ref": null,
+                "rendered": "Wednesday,",
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": "Jan 17, 2017",
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Jan 17, 2017",
+                },
+                "ref": null,
+                "rendered": "Jan 17, 2017",
+                "type": "li",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "numberOfCells": 1,
+          "numberOfRows": 3,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "Wednesday,, Jan 17, 2017",
+      "nodeType": "function",
+      "props": Object {
+        "borderRight": true,
+        "children": Array [
+          <LogbookCellBlocksContainer>
+            <Unknown
+              align="left"
+              flex={1}
+            >
+              <DayLinesList
+                isWeekendDay={false}
+              >
+                <li>
+                  Wednesday,
+                </li>
+                <li>
+                  Jan 17, 2017
+                </li>
+              </DayLinesList>
+            </Unknown>
+          </LogbookCellBlocksContainer>,
+          <Unknown
+            numberOfCells={1}
+            numberOfRows={3}
+          />,
+        ],
+        "highlight": undefined,
+        "width": "6.7rem",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Unknown
+              align="left"
+              flex={1}
+            >
+              <DayLinesList
+                isWeekendDay={false}
+              >
+                <li>
+                  Wednesday,
+                </li>
+                <li>
+                  Jan 17, 2017
+                </li>
+              </DayLinesList>
+            </Unknown>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "align": "left",
+              "children": <DayLinesList
+                isWeekendDay={false}
+              >
+                <li>
+                  Wednesday,
+                </li>
+                <li>
+                  Jan 17, 2017
+                </li>
+              </DayLinesList>,
+              "flex": 1,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <li>
+                    Wednesday,
+                  </li>,
+                  <li>
+                    Jan 17, 2017
+                  </li>,
+                ],
+                "isWeekendDay": false,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "Wednesday,",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Wednesday,",
+                  },
+                  "ref": null,
+                  "rendered": "Wednesday,",
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "Jan 17, 2017",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Jan 17, 2017",
+                  },
+                  "ref": null,
+                  "rendered": "Jan 17, 2017",
+                  "type": "li",
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "numberOfCells": 1,
+            "numberOfRows": 3,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

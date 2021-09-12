@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logbook Diary Component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    logbookDiaryData={
+      Array [
+        Array [
+          Object {
+            "carbohydrates": null,
+            "date": "Wed, 14 Feb 2018",
+            "dayOfWeek": "3",
+            "glucoseValue": 237,
+            "time": "3:08am",
+          },
+          Object {
+            "carbohydrates": 50,
+            "date": "Wed, 14 Feb 2018",
+            "dayOfWeek": "3",
+            "glucoseValue": 133,
+            "time": "11:01am",
+          },
+        ],
+        Array [
+          Object {
+            "carbohydrates": null,
+            "date": "Thu, 15 Feb 2018",
+            "dayOfWeek": "4",
+            "glucoseValue": 47,
+            "time": "11:26am",
+          },
+          Object {
+            "carbohydrates": null,
+            "date": "Thu, 15 Feb 2018",
+            "dayOfWeek": "4",
+            "glucoseValue": 135,
+            "time": "3:07pm",
+          },
+        ],
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "blueBackground": true,
+      "children": Array [
+        <Unknown
+          noMarginTop={true}
+          noPaddingTop={true}
+          title="Diary"
+        />,
+        <TimeoutErrorMessage
+          hasError={false}
+          isLoading={undefined}
+        >
+          <Styled(styled.table)
+            clearFill={true}
+            width="auto"
+          >
+            <Unknown />
+          </Styled(styled.table)>
+          <LogbookDiaryScrollWrapper
+            innerRef={[Function]}
+          >
+            <ResizeWrapper
+              minHeight={420}
+              render={[Function]}
+              resizeFunction={[Function]}
+            />
+          </LogbookDiaryScrollWrapper>
+        </TimeoutErrorMessage>,
+        <f1
+          validate={true}
+        >
+          <GraphDetailContainer>
+            <Unknown
+              graphType="logbook"
+            />
+          </GraphDetailContainer>
+        </f1>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "noMarginTop": true,
+          "noPaddingTop": true,
+          "title": "Diary",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(styled.table)
+              clearFill={true}
+              width="auto"
+            >
+              <Unknown />
+            </Styled(styled.table)>,
+            <LogbookDiaryScrollWrapper
+              innerRef={[Function]}
+            >
+              <ResizeWrapper
+                minHeight={420}
+                render={[Function]}
+                resizeFunction={[Function]}
+              />
+            </LogbookDiaryScrollWrapper>,
+          ],
+          "hasError": false,
+          "isLoading": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Unknown />,
+              "clearFill": true,
+              "width": "auto",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <ResizeWrapper
+                minHeight={420}
+                render={[Function]}
+                resizeFunction={[Function]}
+              />,
+              "innerRef": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "minHeight": 420,
+                "render": [Function],
+                "resizeFunction": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": <GraphDetailContainer>
+            <Unknown
+              graphType="logbook"
+            />
+          </GraphDetailContainer>,
+          "validate": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Unknown
+              graphType="logbook"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "graphType": "logbook",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "blueBackground": true,
+        "children": Array [
+          <Unknown
+            noMarginTop={true}
+            noPaddingTop={true}
+            title="Diary"
+          />,
+          <TimeoutErrorMessage
+            hasError={false}
+            isLoading={undefined}
+          >
+            <Styled(styled.table)
+              clearFill={true}
+              width="auto"
+            >
+              <Unknown />
+            </Styled(styled.table)>
+            <LogbookDiaryScrollWrapper
+              innerRef={[Function]}
+            >
+              <ResizeWrapper
+                minHeight={420}
+                render={[Function]}
+                resizeFunction={[Function]}
+              />
+            </LogbookDiaryScrollWrapper>
+          </TimeoutErrorMessage>,
+          <f1
+            validate={true}
+          >
+            <GraphDetailContainer>
+              <Unknown
+                graphType="logbook"
+              />
+            </GraphDetailContainer>
+          </f1>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "noMarginTop": true,
+            "noPaddingTop": true,
+            "title": "Diary",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(styled.table)
+                clearFill={true}
+                width="auto"
+              >
+                <Unknown />
+              </Styled(styled.table)>,
+              <LogbookDiaryScrollWrapper
+                innerRef={[Function]}
+              >
+                <ResizeWrapper
+                  minHeight={420}
+                  render={[Function]}
+                  resizeFunction={[Function]}
+                />
+              </LogbookDiaryScrollWrapper>,
+            ],
+            "hasError": false,
+            "isLoading": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Unknown />,
+                "clearFill": true,
+                "width": "auto",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <ResizeWrapper
+                  minHeight={420}
+                  render={[Function]}
+                  resizeFunction={[Function]}
+                />,
+                "innerRef": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "minHeight": 420,
+                  "render": [Function],
+                  "resizeFunction": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": <GraphDetailContainer>
+              <Unknown
+                graphType="logbook"
+              />
+            </GraphDetailContainer>,
+            "validate": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Unknown
+                graphType="logbook"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "graphType": "logbook",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

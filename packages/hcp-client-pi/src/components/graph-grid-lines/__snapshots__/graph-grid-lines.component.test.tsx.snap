@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section header component Renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    height={100}
+    horizontalCount={1}
+    verticalCount={1}
+    width={100}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        Array [
+          <line
+            stroke="#D8D8D8"
+            strokeDasharray="3, 3"
+            strokeWidth="0.8"
+            x1={0}
+            x2={0}
+            y1={0}
+            y2={-100}
+          />,
+        ],
+        Array [
+          <line
+            stroke="#D8D8D8"
+            strokeDasharray="3, 3"
+            strokeWidth="0.8"
+            x1={0}
+            x2={100}
+            y1={-0}
+            y2={-0}
+          />,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "stroke": "#D8D8D8",
+          "strokeDasharray": "3, 3",
+          "strokeWidth": "0.8",
+          "x1": 0,
+          "x2": 0,
+          "y1": 0,
+          "y2": -100,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "line",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "stroke": "#D8D8D8",
+          "strokeDasharray": "3, 3",
+          "strokeWidth": "0.8",
+          "x1": 0,
+          "x2": 100,
+          "y1": -0,
+          "y2": -0,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "line",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          Array [
+            <line
+              stroke="#D8D8D8"
+              strokeDasharray="3, 3"
+              strokeWidth="0.8"
+              x1={0}
+              x2={0}
+              y1={0}
+              y2={-100}
+            />,
+          ],
+          Array [
+            <line
+              stroke="#D8D8D8"
+              strokeDasharray="3, 3"
+              strokeWidth="0.8"
+              x1={0}
+              x2={100}
+              y1={-0}
+              y2={-0}
+            />,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "stroke": "#D8D8D8",
+            "strokeDasharray": "3, 3",
+            "strokeWidth": "0.8",
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": -100,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "line",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "stroke": "#D8D8D8",
+            "strokeDasharray": "3, 3",
+            "strokeWidth": "0.8",
+            "x1": 0,
+            "x2": 100,
+            "y1": -0,
+            "y2": -0,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "line",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

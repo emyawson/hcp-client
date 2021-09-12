@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom clinic guide summary component Renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    date="June 20 2018"
+    name="guide 1"
+    ownerName="Brandy Newton"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.h1>
+          guide 1
+        </styled.h1>,
+        <styled.div>
+          <styled.div>
+            <styled.span>
+              Owner -
+            </styled.span>
+            <styled.span>
+              Brandy Newton
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              Date:
+            </styled.span>
+            <styled.span>
+              June 20 2018
+            </styled.span>
+          </styled.div>
+        </styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": "guide 1",
+        },
+        "ref": null,
+        "rendered": "guide 1",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.div>
+              <styled.span>
+                Owner -
+              </styled.span>
+              <styled.span>
+                Brandy Newton
+              </styled.span>
+            </styled.div>,
+            <styled.div>
+              <styled.span>
+                Date:
+              </styled.span>
+              <styled.span>
+                June 20 2018
+              </styled.span>
+            </styled.div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <styled.span>
+                  Owner -
+                </styled.span>,
+                <styled.span>
+                  Brandy Newton
+                </styled.span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Owner -",
+                },
+                "ref": null,
+                "rendered": "Owner -",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Brandy Newton",
+                },
+                "ref": null,
+                "rendered": "Brandy Newton",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <styled.span>
+                  Date:
+                </styled.span>,
+                <styled.span>
+                  June 20 2018
+                </styled.span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Date:",
+                },
+                "ref": null,
+                "rendered": "Date:",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "June 20 2018",
+                },
+                "ref": null,
+                "rendered": "June 20 2018",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.h1>
+            guide 1
+          </styled.h1>,
+          <styled.div>
+            <styled.div>
+              <styled.span>
+                Owner -
+              </styled.span>
+              <styled.span>
+                Brandy Newton
+              </styled.span>
+            </styled.div>
+            <styled.div>
+              <styled.span>
+                Date:
+              </styled.span>
+              <styled.span>
+                June 20 2018
+              </styled.span>
+            </styled.div>
+          </styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": "guide 1",
+          },
+          "ref": null,
+          "rendered": "guide 1",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.div>
+                <styled.span>
+                  Owner -
+                </styled.span>
+                <styled.span>
+                  Brandy Newton
+                </styled.span>
+              </styled.div>,
+              <styled.div>
+                <styled.span>
+                  Date:
+                </styled.span>
+                <styled.span>
+                  June 20 2018
+                </styled.span>
+              </styled.div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.span>
+                    Owner -
+                  </styled.span>,
+                  <styled.span>
+                    Brandy Newton
+                  </styled.span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Owner -",
+                  },
+                  "ref": null,
+                  "rendered": "Owner -",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Brandy Newton",
+                  },
+                  "ref": null,
+                  "rendered": "Brandy Newton",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.span>
+                    Date:
+                  </styled.span>,
+                  <styled.span>
+                    June 20 2018
+                  </styled.span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Date:",
+                  },
+                  "ref": null,
+                  "rendered": "Date:",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "June 20 2018",
+                  },
+                  "ref": null,
+                  "rendered": "June 20 2018",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

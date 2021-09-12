@@ -1,0 +1,1343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Strip delivery component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    currentPrescription={Object {}}
+    deliverStripsToPatient={[Function]}
+    forceTrafficStatus={Object {}}
+    frequency="twoWeeks"
+    getDeliveryHasError={false}
+    getDeliveryStatusRequest={[Function]}
+    getPrescriptionHasError={false}
+    hasActivePrescription={true}
+    hasStripDeliveryData={true}
+    lastCollectedDate="2017-11-29T15:10:41.00"
+    match={Object {}}
+    nextDeliveryDate="2017-11-29T15:10:41.00"
+    numberOfStripsToDeliver={1}
+    patientDelivery={Object {}}
+    patientId={1}
+    patientStock={Object {}}
+    patientStripStock={2}
+    period="days"
+    prescriptionType="permanent"
+    quantity={3}
+    saveDeliveryRequest={[Function]}
+    setDeliveryStatusRequest={[Function]}
+    stripModelId={1}
+    stripModelName="Accuchek Aviva"
+    stripsCanBeDelivered={true}
+    submitLostStripsRequest={[Function]}
+    submitManualDeliveryRequest={[Function]}
+    trafficLightStatus="DELIVER"
+    trafficLightStatusConditions={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <GridItem
+          span="12"
+        >
+          <f1
+            validate={true}
+          >
+            <Unknown
+              active={true}
+              marginDirection="bottom"
+              text="ACTIVE GUIDELINE"
+            />
+          </f1>
+          <TimeoutErrorMessage
+            active={true}
+            frequency="twoWeeks"
+            hasError={false}
+            nextDeliveryDate="2017-11-29T15:10:41.00"
+            patientStock={2}
+            period="days"
+            prescriptionType="permanent"
+            quantity={3}
+            showLoader={true}
+            stripModel="Accuchek Aviva"
+          />
+        </GridItem>,
+        <Connect(mapProps(WithPermissionsComponent))
+          hasPermissions={
+            Array [
+              "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+            ]
+          }
+        >
+          <f1
+            validate={undefined}
+          >
+            <GridItem
+              span="12"
+            >
+              <Unknown
+                date={undefined}
+                isExpanded={true}
+                message={undefined}
+                title="Force Status Comments"
+              />
+            </GridItem>
+          </f1>
+        </Connect(mapProps(WithPermissionsComponent))>,
+        <mapProps(Connect(mapProps(WithPermissionsComponent)))
+          createPrescriptionRoute="strip-information/prescription"
+        >
+          <Connect(mapProps(WithPermissionsComponent))
+            hasPermissions={
+              Array [
+                "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+              ]
+            }
+            onAccessDenied={[Function]}
+            onRender={[Function]}
+          />
+          <Unknown
+            conditions={Object {}}
+            hasLastDeliveryWithAlert={undefined}
+            trafficLightStatus="DELIVER"
+          />
+          <Connect(mapProps(WithPermissionsComponent))
+            hasPermissions={
+              Array [
+                "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+              ]
+            }
+          >
+            <f1
+              validate={false}
+            >
+              <styled.div>
+                <NotificationBanner
+                  color="#CF021B"
+                  text="Change the Traffic Light Status to Green to deliver strips."
+                />
+              </styled.div>
+            </f1>
+            <withState(withHandlers(lifecycle(Component)))
+              cardStyles={
+                Array [
+                  "secondary",
+                ]
+              }
+              isDisabled={false}
+              textTransform="capitalize"
+              title="Force Status"
+            >
+              <Unknown
+                currentStatus="DELIVER"
+                disabled={false}
+                forceTrafficStatus={Object {}}
+                modelPath="stripDelivery.forceTrafficStatus"
+                patientId={1}
+                setDeliveryStatusRequest={[Function]}
+              />
+            </withState(withHandlers(lifecycle(Component)))>
+          </Connect(mapProps(WithPermissionsComponent))>
+        </mapProps(Connect(mapProps(WithPermissionsComponent)))>,
+        <GridItem
+          span="6"
+        >
+          <Card
+            cardStyles={
+              Array [
+                "secondary",
+              ]
+            }
+          >
+            <withState(withHandlers(withHandlers(mapProps(Component))))
+              disabled={false}
+              patientId={1}
+              patientStock={2}
+              stripModelId={1}
+              submitLostStripsRequest={[Function]}
+            />
+          </Card>
+        </GridItem>,
+        <GridItem
+          span="6"
+        >
+          <Card
+            cardStyles={
+              Array [
+                "secondary",
+              ]
+            }
+          >
+            <withState(withHandlers(withHandlers(mapProps(Component))))
+              disabled={false}
+              patientId={1}
+              stripModelId={1}
+              submitManualDeliveryRequest={[Function]}
+            />
+          </Card>
+        </GridItem>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <f1
+              validate={true}
+            >
+              <Unknown
+                active={true}
+                marginDirection="bottom"
+                text="ACTIVE GUIDELINE"
+              />
+            </f1>,
+            <TimeoutErrorMessage
+              active={true}
+              frequency="twoWeeks"
+              hasError={false}
+              nextDeliveryDate="2017-11-29T15:10:41.00"
+              patientStock={2}
+              period="days"
+              prescriptionType="permanent"
+              quantity={3}
+              showLoader={true}
+              stripModel="Accuchek Aviva"
+            />,
+          ],
+          "span": "12",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Unknown
+                active={true}
+                marginDirection="bottom"
+                text="ACTIVE GUIDELINE"
+              />,
+              "validate": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "active": true,
+                "marginDirection": "bottom",
+                "text": "ACTIVE GUIDELINE",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "active": true,
+              "frequency": "twoWeeks",
+              "hasError": false,
+              "nextDeliveryDate": "2017-11-29T15:10:41.00",
+              "patientStock": 2,
+              "period": "days",
+              "prescriptionType": "permanent",
+              "quantity": 3,
+              "showLoader": true,
+              "stripModel": "Accuchek Aviva",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <f1
+            validate={undefined}
+          >
+            <GridItem
+              span="12"
+            >
+              <Unknown
+                date={undefined}
+                isExpanded={true}
+                message={undefined}
+                title="Force Status Comments"
+              />
+            </GridItem>
+          </f1>,
+          "hasPermissions": Array [
+            "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+          ],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": <GridItem
+              span="12"
+            >
+              <Unknown
+                date={undefined}
+                isExpanded={true}
+                message={undefined}
+                title="Force Status Comments"
+              />
+            </GridItem>,
+            "validate": undefined,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Unknown
+                date={undefined}
+                isExpanded={true}
+                message={undefined}
+                title="Force Status Comments"
+              />,
+              "span": "12",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "date": undefined,
+                "isExpanded": true,
+                "message": undefined,
+                "title": "Force Status Comments",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={
+                Array [
+                  "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+                ]
+              }
+              onAccessDenied={[Function]}
+              onRender={[Function]}
+            />,
+            <Unknown
+              conditions={Object {}}
+              hasLastDeliveryWithAlert={undefined}
+              trafficLightStatus="DELIVER"
+            />,
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={
+                Array [
+                  "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+                ]
+              }
+            >
+              <f1
+                validate={false}
+              >
+                <styled.div>
+                  <NotificationBanner
+                    color="#CF021B"
+                    text="Change the Traffic Light Status to Green to deliver strips."
+                  />
+                </styled.div>
+              </f1>
+              <withState(withHandlers(lifecycle(Component)))
+                cardStyles={
+                  Array [
+                    "secondary",
+                  ]
+                }
+                isDisabled={false}
+                textTransform="capitalize"
+                title="Force Status"
+              >
+                <Unknown
+                  currentStatus="DELIVER"
+                  disabled={false}
+                  forceTrafficStatus={Object {}}
+                  modelPath="stripDelivery.forceTrafficStatus"
+                  patientId={1}
+                  setDeliveryStatusRequest={[Function]}
+                />
+              </withState(withHandlers(lifecycle(Component)))>
+            </Connect(mapProps(WithPermissionsComponent))>,
+          ],
+          "createPrescriptionRoute": "strip-information/prescription",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "hasPermissions": Array [
+                "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+              ],
+              "onAccessDenied": [Function],
+              "onRender": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "conditions": Object {},
+              "hasLastDeliveryWithAlert": undefined,
+              "trafficLightStatus": "DELIVER",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <f1
+                  validate={false}
+                >
+                  <styled.div>
+                    <NotificationBanner
+                      color="#CF021B"
+                      text="Change the Traffic Light Status to Green to deliver strips."
+                    />
+                  </styled.div>
+                </f1>,
+                <withState(withHandlers(lifecycle(Component)))
+                  cardStyles={
+                    Array [
+                      "secondary",
+                    ]
+                  }
+                  isDisabled={false}
+                  textTransform="capitalize"
+                  title="Force Status"
+                >
+                  <Unknown
+                    currentStatus="DELIVER"
+                    disabled={false}
+                    forceTrafficStatus={Object {}}
+                    modelPath="stripDelivery.forceTrafficStatus"
+                    patientId={1}
+                    setDeliveryStatusRequest={[Function]}
+                  />
+                </withState(withHandlers(lifecycle(Component)))>,
+              ],
+              "hasPermissions": Array [
+                "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <styled.div>
+                    <NotificationBanner
+                      color="#CF021B"
+                      text="Change the Traffic Light Status to Green to deliver strips."
+                    />
+                  </styled.div>,
+                  "validate": false,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <NotificationBanner
+                      color="#CF021B"
+                      text="Change the Traffic Light Status to Green to deliver strips."
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "color": "#CF021B",
+                      "text": "Change the Traffic Light Status to Green to deliver strips.",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "class",
+                "props": Object {
+                  "cardStyles": Array [
+                    "secondary",
+                  ],
+                  "children": <Unknown
+                    currentStatus="DELIVER"
+                    disabled={false}
+                    forceTrafficStatus={Object {}}
+                    modelPath="stripDelivery.forceTrafficStatus"
+                    patientId={1}
+                    setDeliveryStatusRequest={[Function]}
+                  />,
+                  "isDisabled": false,
+                  "textTransform": "capitalize",
+                  "title": "Force Status",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "currentStatus": "DELIVER",
+                    "disabled": false,
+                    "forceTrafficStatus": Object {},
+                    "modelPath": "stripDelivery.forceTrafficStatus",
+                    "patientId": 1,
+                    "setDeliveryStatusRequest": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Card
+            cardStyles={
+              Array [
+                "secondary",
+              ]
+            }
+          >
+            <withState(withHandlers(withHandlers(mapProps(Component))))
+              disabled={false}
+              patientId={1}
+              patientStock={2}
+              stripModelId={1}
+              submitLostStripsRequest={[Function]}
+            />
+          </Card>,
+          "span": "6",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "cardStyles": Array [
+              "secondary",
+            ],
+            "children": <withState(withHandlers(withHandlers(mapProps(Component))))
+              disabled={false}
+              patientId={1}
+              patientStock={2}
+              stripModelId={1}
+              submitLostStripsRequest={[Function]}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "patientId": 1,
+              "patientStock": 2,
+              "stripModelId": 1,
+              "submitLostStripsRequest": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Card
+            cardStyles={
+              Array [
+                "secondary",
+              ]
+            }
+          >
+            <withState(withHandlers(withHandlers(mapProps(Component))))
+              disabled={false}
+              patientId={1}
+              stripModelId={1}
+              submitManualDeliveryRequest={[Function]}
+            />
+          </Card>,
+          "span": "6",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "cardStyles": Array [
+              "secondary",
+            ],
+            "children": <withState(withHandlers(withHandlers(mapProps(Component))))
+              disabled={false}
+              patientId={1}
+              stripModelId={1}
+              submitManualDeliveryRequest={[Function]}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "patientId": 1,
+              "stripModelId": 1,
+              "submitManualDeliveryRequest": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <GridItem
+            span="12"
+          >
+            <f1
+              validate={true}
+            >
+              <Unknown
+                active={true}
+                marginDirection="bottom"
+                text="ACTIVE GUIDELINE"
+              />
+            </f1>
+            <TimeoutErrorMessage
+              active={true}
+              frequency="twoWeeks"
+              hasError={false}
+              nextDeliveryDate="2017-11-29T15:10:41.00"
+              patientStock={2}
+              period="days"
+              prescriptionType="permanent"
+              quantity={3}
+              showLoader={true}
+              stripModel="Accuchek Aviva"
+            />
+          </GridItem>,
+          <Connect(mapProps(WithPermissionsComponent))
+            hasPermissions={
+              Array [
+                "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+              ]
+            }
+          >
+            <f1
+              validate={undefined}
+            >
+              <GridItem
+                span="12"
+              >
+                <Unknown
+                  date={undefined}
+                  isExpanded={true}
+                  message={undefined}
+                  title="Force Status Comments"
+                />
+              </GridItem>
+            </f1>
+          </Connect(mapProps(WithPermissionsComponent))>,
+          <mapProps(Connect(mapProps(WithPermissionsComponent)))
+            createPrescriptionRoute="strip-information/prescription"
+          >
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={
+                Array [
+                  "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+                ]
+              }
+              onAccessDenied={[Function]}
+              onRender={[Function]}
+            />
+            <Unknown
+              conditions={Object {}}
+              hasLastDeliveryWithAlert={undefined}
+              trafficLightStatus="DELIVER"
+            />
+            <Connect(mapProps(WithPermissionsComponent))
+              hasPermissions={
+                Array [
+                  "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+                ]
+              }
+            >
+              <f1
+                validate={false}
+              >
+                <styled.div>
+                  <NotificationBanner
+                    color="#CF021B"
+                    text="Change the Traffic Light Status to Green to deliver strips."
+                  />
+                </styled.div>
+              </f1>
+              <withState(withHandlers(lifecycle(Component)))
+                cardStyles={
+                  Array [
+                    "secondary",
+                  ]
+                }
+                isDisabled={false}
+                textTransform="capitalize"
+                title="Force Status"
+              >
+                <Unknown
+                  currentStatus="DELIVER"
+                  disabled={false}
+                  forceTrafficStatus={Object {}}
+                  modelPath="stripDelivery.forceTrafficStatus"
+                  patientId={1}
+                  setDeliveryStatusRequest={[Function]}
+                />
+              </withState(withHandlers(lifecycle(Component)))>
+            </Connect(mapProps(WithPermissionsComponent))>
+          </mapProps(Connect(mapProps(WithPermissionsComponent)))>,
+          <GridItem
+            span="6"
+          >
+            <Card
+              cardStyles={
+                Array [
+                  "secondary",
+                ]
+              }
+            >
+              <withState(withHandlers(withHandlers(mapProps(Component))))
+                disabled={false}
+                patientId={1}
+                patientStock={2}
+                stripModelId={1}
+                submitLostStripsRequest={[Function]}
+              />
+            </Card>
+          </GridItem>,
+          <GridItem
+            span="6"
+          >
+            <Card
+              cardStyles={
+                Array [
+                  "secondary",
+                ]
+              }
+            >
+              <withState(withHandlers(withHandlers(mapProps(Component))))
+                disabled={false}
+                patientId={1}
+                stripModelId={1}
+                submitManualDeliveryRequest={[Function]}
+              />
+            </Card>
+          </GridItem>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <f1
+                validate={true}
+              >
+                <Unknown
+                  active={true}
+                  marginDirection="bottom"
+                  text="ACTIVE GUIDELINE"
+                />
+              </f1>,
+              <TimeoutErrorMessage
+                active={true}
+                frequency="twoWeeks"
+                hasError={false}
+                nextDeliveryDate="2017-11-29T15:10:41.00"
+                patientStock={2}
+                period="days"
+                prescriptionType="permanent"
+                quantity={3}
+                showLoader={true}
+                stripModel="Accuchek Aviva"
+              />,
+            ],
+            "span": "12",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Unknown
+                  active={true}
+                  marginDirection="bottom"
+                  text="ACTIVE GUIDELINE"
+                />,
+                "validate": true,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "active": true,
+                  "marginDirection": "bottom",
+                  "text": "ACTIVE GUIDELINE",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "active": true,
+                "frequency": "twoWeeks",
+                "hasError": false,
+                "nextDeliveryDate": "2017-11-29T15:10:41.00",
+                "patientStock": 2,
+                "period": "days",
+                "prescriptionType": "permanent",
+                "quantity": 3,
+                "showLoader": true,
+                "stripModel": "Accuchek Aviva",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <f1
+              validate={undefined}
+            >
+              <GridItem
+                span="12"
+              >
+                <Unknown
+                  date={undefined}
+                  isExpanded={true}
+                  message={undefined}
+                  title="Force Status Comments"
+                />
+              </GridItem>
+            </f1>,
+            "hasPermissions": Array [
+              "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+            ],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": <GridItem
+                span="12"
+              >
+                <Unknown
+                  date={undefined}
+                  isExpanded={true}
+                  message={undefined}
+                  title="Force Status Comments"
+                />
+              </GridItem>,
+              "validate": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Unknown
+                  date={undefined}
+                  isExpanded={true}
+                  message={undefined}
+                  title="Force Status Comments"
+                />,
+                "span": "12",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "date": undefined,
+                  "isExpanded": true,
+                  "message": undefined,
+                  "title": "Force Status Comments",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+                  ]
+                }
+                onAccessDenied={[Function]}
+                onRender={[Function]}
+              />,
+              <Unknown
+                conditions={Object {}}
+                hasLastDeliveryWithAlert={undefined}
+                trafficLightStatus="DELIVER"
+              />,
+              <Connect(mapProps(WithPermissionsComponent))
+                hasPermissions={
+                  Array [
+                    "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+                  ]
+                }
+              >
+                <f1
+                  validate={false}
+                >
+                  <styled.div>
+                    <NotificationBanner
+                      color="#CF021B"
+                      text="Change the Traffic Light Status to Green to deliver strips."
+                    />
+                  </styled.div>
+                </f1>
+                <withState(withHandlers(lifecycle(Component)))
+                  cardStyles={
+                    Array [
+                      "secondary",
+                    ]
+                  }
+                  isDisabled={false}
+                  textTransform="capitalize"
+                  title="Force Status"
+                >
+                  <Unknown
+                    currentStatus="DELIVER"
+                    disabled={false}
+                    forceTrafficStatus={Object {}}
+                    modelPath="stripDelivery.forceTrafficStatus"
+                    patientId={1}
+                    setDeliveryStatusRequest={[Function]}
+                  />
+                </withState(withHandlers(lifecycle(Component)))>
+              </Connect(mapProps(WithPermissionsComponent))>,
+            ],
+            "createPrescriptionRoute": "strip-information/prescription",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "hasPermissions": Array [
+                  "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+                ],
+                "onAccessDenied": [Function],
+                "onRender": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "conditions": Object {},
+                "hasLastDeliveryWithAlert": undefined,
+                "trafficLightStatus": "DELIVER",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <f1
+                    validate={false}
+                  >
+                    <styled.div>
+                      <NotificationBanner
+                        color="#CF021B"
+                        text="Change the Traffic Light Status to Green to deliver strips."
+                      />
+                    </styled.div>
+                  </f1>,
+                  <withState(withHandlers(lifecycle(Component)))
+                    cardStyles={
+                      Array [
+                        "secondary",
+                      ]
+                    }
+                    isDisabled={false}
+                    textTransform="capitalize"
+                    title="Force Status"
+                  >
+                    <Unknown
+                      currentStatus="DELIVER"
+                      disabled={false}
+                      forceTrafficStatus={Object {}}
+                      modelPath="stripDelivery.forceTrafficStatus"
+                      patientId={1}
+                      setDeliveryStatusRequest={[Function]}
+                    />
+                  </withState(withHandlers(lifecycle(Component)))>,
+                ],
+                "hasPermissions": Array [
+                  "ROLE_STRIP_MNG_FORCE_TRAFFIC_LIGHT",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <styled.div>
+                      <NotificationBanner
+                        color="#CF021B"
+                        text="Change the Traffic Light Status to Green to deliver strips."
+                      />
+                    </styled.div>,
+                    "validate": false,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <NotificationBanner
+                        color="#CF021B"
+                        text="Change the Traffic Light Status to Green to deliver strips."
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "color": "#CF021B",
+                        "text": "Change the Traffic Light Status to Green to deliver strips.",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "class",
+                  "props": Object {
+                    "cardStyles": Array [
+                      "secondary",
+                    ],
+                    "children": <Unknown
+                      currentStatus="DELIVER"
+                      disabled={false}
+                      forceTrafficStatus={Object {}}
+                      modelPath="stripDelivery.forceTrafficStatus"
+                      patientId={1}
+                      setDeliveryStatusRequest={[Function]}
+                    />,
+                    "isDisabled": false,
+                    "textTransform": "capitalize",
+                    "title": "Force Status",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "currentStatus": "DELIVER",
+                      "disabled": false,
+                      "forceTrafficStatus": Object {},
+                      "modelPath": "stripDelivery.forceTrafficStatus",
+                      "patientId": 1,
+                      "setDeliveryStatusRequest": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Card
+              cardStyles={
+                Array [
+                  "secondary",
+                ]
+              }
+            >
+              <withState(withHandlers(withHandlers(mapProps(Component))))
+                disabled={false}
+                patientId={1}
+                patientStock={2}
+                stripModelId={1}
+                submitLostStripsRequest={[Function]}
+              />
+            </Card>,
+            "span": "6",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "cardStyles": Array [
+                "secondary",
+              ],
+              "children": <withState(withHandlers(withHandlers(mapProps(Component))))
+                disabled={false}
+                patientId={1}
+                patientStock={2}
+                stripModelId={1}
+                submitLostStripsRequest={[Function]}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "patientId": 1,
+                "patientStock": 2,
+                "stripModelId": 1,
+                "submitLostStripsRequest": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Card
+              cardStyles={
+                Array [
+                  "secondary",
+                ]
+              }
+            >
+              <withState(withHandlers(withHandlers(mapProps(Component))))
+                disabled={false}
+                patientId={1}
+                stripModelId={1}
+                submitManualDeliveryRequest={[Function]}
+              />
+            </Card>,
+            "span": "6",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "cardStyles": Array [
+                "secondary",
+              ],
+              "children": <withState(withHandlers(withHandlers(mapProps(Component))))
+                disabled={false}
+                patientId={1}
+                stripModelId={1}
+                submitManualDeliveryRequest={[Function]}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "patientId": 1,
+                "stripModelId": 1,
+                "submitManualDeliveryRequest": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

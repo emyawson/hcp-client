@@ -1,0 +1,7 @@
+export const REQUEST = {
+  START: 'REQUEST_START',
+  SUCCESS: 'REQUEST_SUCCESS',
+  ERROR: 'REQUEST_ERROR',
+};
+
+export const REQUEST_ANIMATION_DELAY = 1500; // milliseconds

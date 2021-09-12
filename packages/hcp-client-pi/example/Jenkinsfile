@@ -1,0 +1,160 @@
+#!groovy?
+
+properties([[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', daysToKeepStr: '30']]])
+
+// define global var
+def pp_client
+
+node(){
+
+    try {
+
+        //compile and run unit test for all branches
+        test()
+        compile()
+        sonar()
+
+        //based on the branch name we do additionals steps
+        def branch_type = get_branch_type "${env.BRANCH_NAME}"
+        def branch_deployment_environment = get_branch_deployment_environment branch_type
+
+        if (branch_deployment_environment) {
+            dockerBuild(branch_deployment_environment)
+            dockerPush()
+            deployTo(branch_deployment_environment)
+        }
+
+    }
+    catch (Exception err) {
+        currentBuild.result = 'FAILURE'
+    }
+
+}
+
+
+
+
+// Utility functions
+def compile(){
+    stage('Compile') {
+            def v = version()
+            def branch_type = get_branch_type "${env.BRANCH_NAME}"
+
+            currentBuild.displayName = "${branch_type}-${v}-${env.BUILD_NUMBER}"
+            sh 'yarn set-version'
+	        sh 'yarn build'
+    }
+}
+
+
+def test(){
+    stage('Unit test') {
+        try{
+            checkout scm
+            //we need to set NODE_PATH at build time
+            sh 'echo "NODE_PATH=./" > .env'
+            sh 'yarn install'
+            sh 'yarn run test:ci'
+        }
+        finally{
+            junit 'junit.xml'
+        }
+    }
+}
+
+def sonar(){
+    stage('SonarQube analysis') {
+        def scannerHome = tool 'SonarQube';
+        withCredentials([string(credentialsId: 'sonarqube-jenkins', variable: 'token')]) {
+            withSonarQubeEnv('SonarQube IPP') {
+                sh "${scannerHome}/bin/sonar-scanner -Dproject.settings=sonar-scanner.properties -Dsonar.projectVersion=${currentBuild.displayName} -Dsonar.login=$token"
+            }
+        }
+        timeout(time: 5, unit: 'MINUTES') {
+            def qg = waitForQualityGate()
+            if (qg.status != 'OK') {
+                  error "Pipeline aborted due to quality gate failure: ${qg.status}"
+            }
+        }        
+    }
+}
+
+
+def dockerBuild(String env){
+    stage('Docker build'){
+        def ENV = env
+
+        pp_client = docker.build("dockadmin/seed-example",".")
+    }
+}
+
+
+def dockerPush(){
+    stage('Docker Push'){
+
+        docker.withRegistry('http://docker-internal.rochedc.accentureanalytics.com:18123/dockadmin', '69f9f2de-ed6a-406a-8c38-ec546d9e0bd2') {
+            /* Push the container to the custom Registry */
+            pp_client.push(currentBuild.displayName)
+        }
+    }
+}
+
+def deployTo(String env){
+  def NAME = "seed-example"
+  def IMAGE_NAME = "docker.rochedc.accentureanalytics.com/dockadmin/seed-example"
+  def ENV = env
+
+  stage('Docker deploy to ' + env){
+
+    sh "cp ~/.kube/config_${ENV} config_${ENV}"
+    try{
+        sh "/usr/local/bin/kubectl set image deployment/seed-example seed-example=docker.rochedc.accentureanalytics.com/dockadmin/seed-example:$currentBuild.displayName --kubeconfig=config_$ENV"
+    }
+
+    finally{
+        sh "/usr/local/bin/kubectl rollout status deployment/seed-example --kubeconfig=config_$ENV"
+        sh "/usr/local/bin/kubectl get deployments --kubeconfig=config_$ENV"
+    }
+
+  }
+}
+
+
+
+def get_branch_type(String branch_name) {
+    //Must be specified according to <flowInitContext> configuration of jgitflow-maven-plugin in pom.xml
+    def dev_pattern = ".*develop"
+    def release_pattern = ".*release/.*"
+    def feature_pattern = ".*feature/.*"
+    def hotfix_pattern = ".*hotfix/.*"
+    def master_pattern = ".*master"
+    if (branch_name =~ dev_pattern) {
+        return "dev"
+    } else if (branch_name =~ release_pattern) {
+        return "release"
+    } else if (branch_name =~ master_pattern) {
+        return "master"
+    } else if (branch_name =~ feature_pattern) {
+        return "feature"
+    } else if (branch_name =~ hotfix_pattern) {
+        return "hotfix"
+    } else {
+        return null;
+    }
+}
+
+def get_branch_deployment_environment(String branch_type) {
+    if (branch_type == "master") {
+        return "dev"
+    } else if (branch_type == "release") {
+        return "test"
+    } else {
+        return null;
+    }
+}
+
+def version() {
+    def currentVersion = sh script: 'cat package.json | grep version | head -1 | awk -F: \'{ print $2 }\' | sed \'s/[",]//g\' ' , returnStdout: true
+    currentVersion = currentVersion.replaceAll("\\s","")
+    return currentVersion
+}

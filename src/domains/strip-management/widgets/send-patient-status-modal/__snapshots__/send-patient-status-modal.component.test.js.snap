@@ -1,0 +1,911 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Send patient status modal component Renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    data={
+      Object {
+        "trafficLightStatus": "DELIVER",
+        "trafficLightStatusConditions": Object {},
+      }
+    }
+    destroyModal={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.div>
+          <LocalizedText
+            fontSize={4}
+            textKey="modals.sendPatientStatus.title"
+          />
+          <Styled(Styled(Component))
+            onClick={[Function]}
+          >
+            <Unknown
+              fillColor="#FFF"
+              height={14}
+            />
+          </Styled(Styled(Component))>
+        </styled.div>,
+        <styled.div>
+          <GridContainer>
+            <mapProps(Connect(mapProps(WithPermissionsComponent)))
+              displayOnly={true}
+            >
+              <Unknown
+                conditions={undefined}
+                hasLastDeliveryWithAlert={undefined}
+                trafficLightStatus={undefined}
+              />
+              <LocalForm
+                getDispatch={undefined}
+                initialState={
+                  Object {
+                    "comment": "",
+                  }
+                }
+                model="sendPatientStatus"
+                onSubmit={undefined}
+                validators={
+                  Object {
+                    "comment": [Function],
+                  }
+                }
+              >
+                <Unknown
+                  component={[Function]}
+                  maxLength={255}
+                  model=".comment"
+                  placeholder="Add your comment here..."
+                />
+                <styled.div>
+                  <Unknown
+                    component={[Function]}
+                    controlProps={
+                      Object {
+                        "label": "Send Status to Doctor",
+                        "type": "submit",
+                      }
+                    }
+                    disabled={
+                      Object {
+                        "valid": false,
+                      }
+                    }
+                    model="sendPatientStatus"
+                    name="sendPatientStatusSubmit"
+                  />
+                </styled.div>
+              </LocalForm>
+            </mapProps(Connect(mapProps(WithPermissionsComponent)))>
+          </GridContainer>
+        </styled.div>,
+      ],
+      "minWidth": 960,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <LocalizedText
+              fontSize={4}
+              textKey="modals.sendPatientStatus.title"
+            />,
+            <Styled(Styled(Component))
+              onClick={[Function]}
+            >
+              <Unknown
+                fillColor="#FFF"
+                height={14}
+              />
+            </Styled(Styled(Component))>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "fontSize": 4,
+              "textKey": "modals.sendPatientStatus.title",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Unknown
+                fillColor="#FFF"
+                height={14}
+              />,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "fillColor": "#FFF",
+                "height": 14,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": <GridContainer>
+            <mapProps(Connect(mapProps(WithPermissionsComponent)))
+              displayOnly={true}
+            >
+              <Unknown
+                conditions={undefined}
+                hasLastDeliveryWithAlert={undefined}
+                trafficLightStatus={undefined}
+              />
+              <LocalForm
+                getDispatch={undefined}
+                initialState={
+                  Object {
+                    "comment": "",
+                  }
+                }
+                model="sendPatientStatus"
+                onSubmit={undefined}
+                validators={
+                  Object {
+                    "comment": [Function],
+                  }
+                }
+              >
+                <Unknown
+                  component={[Function]}
+                  maxLength={255}
+                  model=".comment"
+                  placeholder="Add your comment here..."
+                />
+                <styled.div>
+                  <Unknown
+                    component={[Function]}
+                    controlProps={
+                      Object {
+                        "label": "Send Status to Doctor",
+                        "type": "submit",
+                      }
+                    }
+                    disabled={
+                      Object {
+                        "valid": false,
+                      }
+                    }
+                    model="sendPatientStatus"
+                    name="sendPatientStatusSubmit"
+                  />
+                </styled.div>
+              </LocalForm>
+            </mapProps(Connect(mapProps(WithPermissionsComponent)))>
+          </GridContainer>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <mapProps(Connect(mapProps(WithPermissionsComponent)))
+              displayOnly={true}
+            >
+              <Unknown
+                conditions={undefined}
+                hasLastDeliveryWithAlert={undefined}
+                trafficLightStatus={undefined}
+              />
+              <LocalForm
+                getDispatch={undefined}
+                initialState={
+                  Object {
+                    "comment": "",
+                  }
+                }
+                model="sendPatientStatus"
+                onSubmit={undefined}
+                validators={
+                  Object {
+                    "comment": [Function],
+                  }
+                }
+              >
+                <Unknown
+                  component={[Function]}
+                  maxLength={255}
+                  model=".comment"
+                  placeholder="Add your comment here..."
+                />
+                <styled.div>
+                  <Unknown
+                    component={[Function]}
+                    controlProps={
+                      Object {
+                        "label": "Send Status to Doctor",
+                        "type": "submit",
+                      }
+                    }
+                    disabled={
+                      Object {
+                        "valid": false,
+                      }
+                    }
+                    model="sendPatientStatus"
+                    name="sendPatientStatusSubmit"
+                  />
+                </styled.div>
+              </LocalForm>
+            </mapProps(Connect(mapProps(WithPermissionsComponent)))>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Unknown
+                  conditions={undefined}
+                  hasLastDeliveryWithAlert={undefined}
+                  trafficLightStatus={undefined}
+                />,
+                <LocalForm
+                  getDispatch={undefined}
+                  initialState={
+                    Object {
+                      "comment": "",
+                    }
+                  }
+                  model="sendPatientStatus"
+                  onSubmit={undefined}
+                  validators={
+                    Object {
+                      "comment": [Function],
+                    }
+                  }
+                >
+                  <Unknown
+                    component={[Function]}
+                    maxLength={255}
+                    model=".comment"
+                    placeholder="Add your comment here..."
+                  />
+                  <styled.div>
+                    <Unknown
+                      component={[Function]}
+                      controlProps={
+                        Object {
+                          "label": "Send Status to Doctor",
+                          "type": "submit",
+                        }
+                      }
+                      disabled={
+                        Object {
+                          "valid": false,
+                        }
+                      }
+                      model="sendPatientStatus"
+                      name="sendPatientStatusSubmit"
+                    />
+                  </styled.div>
+                </LocalForm>,
+              ],
+              "displayOnly": true,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "conditions": undefined,
+                  "hasLastDeliveryWithAlert": undefined,
+                  "trafficLightStatus": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <Unknown
+                      component={[Function]}
+                      maxLength={255}
+                      model=".comment"
+                      placeholder="Add your comment here..."
+                    />,
+                    <styled.div>
+                      <Unknown
+                        component={[Function]}
+                        controlProps={
+                          Object {
+                            "label": "Send Status to Doctor",
+                            "type": "submit",
+                          }
+                        }
+                        disabled={
+                          Object {
+                            "valid": false,
+                          }
+                        }
+                        model="sendPatientStatus"
+                        name="sendPatientStatusSubmit"
+                      />
+                    </styled.div>,
+                  ],
+                  "getDispatch": undefined,
+                  "initialState": Object {
+                    "comment": "",
+                  },
+                  "model": "sendPatientStatus",
+                  "onSubmit": undefined,
+                  "validators": Object {
+                    "comment": [Function],
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "function",
+                    "props": Object {
+                      "component": [Function],
+                      "maxLength": 255,
+                      "model": ".comment",
+                      "placeholder": "Add your comment here...",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": null,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Unknown
+                        component={[Function]}
+                        controlProps={
+                          Object {
+                            "label": "Send Status to Doctor",
+                            "type": "submit",
+                          }
+                        }
+                        disabled={
+                          Object {
+                            "valid": false,
+                          }
+                        }
+                        model="sendPatientStatus"
+                        name="sendPatientStatusSubmit"
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "component": [Function],
+                        "controlProps": Object {
+                          "label": "Send Status to Doctor",
+                          "type": "submit",
+                        },
+                        "disabled": Object {
+                          "valid": false,
+                        },
+                        "model": "sendPatientStatus",
+                        "name": "sendPatientStatusSubmit",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.div>
+            <LocalizedText
+              fontSize={4}
+              textKey="modals.sendPatientStatus.title"
+            />
+            <Styled(Styled(Component))
+              onClick={[Function]}
+            >
+              <Unknown
+                fillColor="#FFF"
+                height={14}
+              />
+            </Styled(Styled(Component))>
+          </styled.div>,
+          <styled.div>
+            <GridContainer>
+              <mapProps(Connect(mapProps(WithPermissionsComponent)))
+                displayOnly={true}
+              >
+                <Unknown
+                  conditions={undefined}
+                  hasLastDeliveryWithAlert={undefined}
+                  trafficLightStatus={undefined}
+                />
+                <LocalForm
+                  getDispatch={undefined}
+                  initialState={
+                    Object {
+                      "comment": "",
+                    }
+                  }
+                  model="sendPatientStatus"
+                  onSubmit={undefined}
+                  validators={
+                    Object {
+                      "comment": [Function],
+                    }
+                  }
+                >
+                  <Unknown
+                    component={[Function]}
+                    maxLength={255}
+                    model=".comment"
+                    placeholder="Add your comment here..."
+                  />
+                  <styled.div>
+                    <Unknown
+                      component={[Function]}
+                      controlProps={
+                        Object {
+                          "label": "Send Status to Doctor",
+                          "type": "submit",
+                        }
+                      }
+                      disabled={
+                        Object {
+                          "valid": false,
+                        }
+                      }
+                      model="sendPatientStatus"
+                      name="sendPatientStatusSubmit"
+                    />
+                  </styled.div>
+                </LocalForm>
+              </mapProps(Connect(mapProps(WithPermissionsComponent)))>
+            </GridContainer>
+          </styled.div>,
+        ],
+        "minWidth": 960,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <LocalizedText
+                fontSize={4}
+                textKey="modals.sendPatientStatus.title"
+              />,
+              <Styled(Styled(Component))
+                onClick={[Function]}
+              >
+                <Unknown
+                  fillColor="#FFF"
+                  height={14}
+                />
+              </Styled(Styled(Component))>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "fontSize": 4,
+                "textKey": "modals.sendPatientStatus.title",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Unknown
+                  fillColor="#FFF"
+                  height={14}
+                />,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "fillColor": "#FFF",
+                  "height": 14,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": <GridContainer>
+              <mapProps(Connect(mapProps(WithPermissionsComponent)))
+                displayOnly={true}
+              >
+                <Unknown
+                  conditions={undefined}
+                  hasLastDeliveryWithAlert={undefined}
+                  trafficLightStatus={undefined}
+                />
+                <LocalForm
+                  getDispatch={undefined}
+                  initialState={
+                    Object {
+                      "comment": "",
+                    }
+                  }
+                  model="sendPatientStatus"
+                  onSubmit={undefined}
+                  validators={
+                    Object {
+                      "comment": [Function],
+                    }
+                  }
+                >
+                  <Unknown
+                    component={[Function]}
+                    maxLength={255}
+                    model=".comment"
+                    placeholder="Add your comment here..."
+                  />
+                  <styled.div>
+                    <Unknown
+                      component={[Function]}
+                      controlProps={
+                        Object {
+                          "label": "Send Status to Doctor",
+                          "type": "submit",
+                        }
+                      }
+                      disabled={
+                        Object {
+                          "valid": false,
+                        }
+                      }
+                      model="sendPatientStatus"
+                      name="sendPatientStatusSubmit"
+                    />
+                  </styled.div>
+                </LocalForm>
+              </mapProps(Connect(mapProps(WithPermissionsComponent)))>
+            </GridContainer>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <mapProps(Connect(mapProps(WithPermissionsComponent)))
+                displayOnly={true}
+              >
+                <Unknown
+                  conditions={undefined}
+                  hasLastDeliveryWithAlert={undefined}
+                  trafficLightStatus={undefined}
+                />
+                <LocalForm
+                  getDispatch={undefined}
+                  initialState={
+                    Object {
+                      "comment": "",
+                    }
+                  }
+                  model="sendPatientStatus"
+                  onSubmit={undefined}
+                  validators={
+                    Object {
+                      "comment": [Function],
+                    }
+                  }
+                >
+                  <Unknown
+                    component={[Function]}
+                    maxLength={255}
+                    model=".comment"
+                    placeholder="Add your comment here..."
+                  />
+                  <styled.div>
+                    <Unknown
+                      component={[Function]}
+                      controlProps={
+                        Object {
+                          "label": "Send Status to Doctor",
+                          "type": "submit",
+                        }
+                      }
+                      disabled={
+                        Object {
+                          "valid": false,
+                        }
+                      }
+                      model="sendPatientStatus"
+                      name="sendPatientStatusSubmit"
+                    />
+                  </styled.div>
+                </LocalForm>
+              </mapProps(Connect(mapProps(WithPermissionsComponent)))>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Unknown
+                    conditions={undefined}
+                    hasLastDeliveryWithAlert={undefined}
+                    trafficLightStatus={undefined}
+                  />,
+                  <LocalForm
+                    getDispatch={undefined}
+                    initialState={
+                      Object {
+                        "comment": "",
+                      }
+                    }
+                    model="sendPatientStatus"
+                    onSubmit={undefined}
+                    validators={
+                      Object {
+                        "comment": [Function],
+                      }
+                    }
+                  >
+                    <Unknown
+                      component={[Function]}
+                      maxLength={255}
+                      model=".comment"
+                      placeholder="Add your comment here..."
+                    />
+                    <styled.div>
+                      <Unknown
+                        component={[Function]}
+                        controlProps={
+                          Object {
+                            "label": "Send Status to Doctor",
+                            "type": "submit",
+                          }
+                        }
+                        disabled={
+                          Object {
+                            "valid": false,
+                          }
+                        }
+                        model="sendPatientStatus"
+                        name="sendPatientStatusSubmit"
+                      />
+                    </styled.div>
+                  </LocalForm>,
+                ],
+                "displayOnly": true,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "conditions": undefined,
+                    "hasLastDeliveryWithAlert": undefined,
+                    "trafficLightStatus": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": null,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      <Unknown
+                        component={[Function]}
+                        maxLength={255}
+                        model=".comment"
+                        placeholder="Add your comment here..."
+                      />,
+                      <styled.div>
+                        <Unknown
+                          component={[Function]}
+                          controlProps={
+                            Object {
+                              "label": "Send Status to Doctor",
+                              "type": "submit",
+                            }
+                          }
+                          disabled={
+                            Object {
+                              "valid": false,
+                            }
+                          }
+                          model="sendPatientStatus"
+                          name="sendPatientStatusSubmit"
+                        />
+                      </styled.div>,
+                    ],
+                    "getDispatch": undefined,
+                    "initialState": Object {
+                      "comment": "",
+                    },
+                    "model": "sendPatientStatus",
+                    "onSubmit": undefined,
+                    "validators": Object {
+                      "comment": [Function],
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "function",
+                      "props": Object {
+                        "component": [Function],
+                        "maxLength": 255,
+                        "model": ".comment",
+                        "placeholder": "Add your comment here...",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": null,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Unknown
+                          component={[Function]}
+                          controlProps={
+                            Object {
+                              "label": "Send Status to Doctor",
+                              "type": "submit",
+                            }
+                          }
+                          disabled={
+                            Object {
+                              "valid": false,
+                            }
+                          }
+                          model="sendPatientStatus"
+                          name="sendPatientStatusSubmit"
+                        />,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": null,
+                        "nodeType": "function",
+                        "props": Object {
+                          "component": [Function],
+                          "controlProps": Object {
+                            "label": "Send Status to Doctor",
+                            "type": "submit",
+                          },
+                          "disabled": Object {
+                            "valid": false,
+                          },
+                          "model": "sendPatientStatus",
+                          "name": "sendPatientStatusSubmit",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

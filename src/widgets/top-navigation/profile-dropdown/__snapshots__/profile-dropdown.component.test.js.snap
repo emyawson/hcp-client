@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`profile-dropdown test suite it renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProfileDropdown
+    fullName="Test User"
+    onSignOut={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.div
+          onClick={[Function]}
+        >
+          <styled.span>
+            <Unknown
+              fullName="Test User"
+            >
+              Test User
+            </Unknown>
+          </styled.span>
+          <styled.div>
+            <Unknown
+              color="#D8D8D8"
+              size={25}
+            />
+          </styled.div>
+           
+          <styled.div>
+            <Unknown
+              direction="DOWN"
+            />
+          </styled.div>
+        </styled.div>,
+        <Unknown
+          onSignOut={[Function]}
+          pushArrowLeft={-9}
+          pushLeft={5}
+          show={false}
+          width={17}
+        />,
+      ],
+      "innerRef": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.span>
+              <Unknown
+                fullName="Test User"
+              >
+                Test User
+              </Unknown>
+            </styled.span>,
+            <styled.div>
+              <Unknown
+                color="#D8D8D8"
+                size={25}
+              />
+            </styled.div>,
+            " ",
+            <styled.div>
+              <Unknown
+                direction="DOWN"
+              />
+            </styled.div>,
+          ],
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Unknown
+                fullName="Test User"
+              >
+                Test User
+              </Unknown>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Test User",
+                "fullName": "Test User",
+              },
+              "ref": null,
+              "rendered": "Test User",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Unknown
+                color="#D8D8D8"
+                size={25}
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "color": "#D8D8D8",
+                "size": 25,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Unknown
+                direction="DOWN"
+              />,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "direction": "DOWN",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "function",
+        "props": Object {
+          "onSignOut": [Function],
+          "pushArrowLeft": -9,
+          "pushLeft": 5,
+          "show": false,
+          "width": 17,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.div
+            onClick={[Function]}
+          >
+            <styled.span>
+              <Unknown
+                fullName="Test User"
+              >
+                Test User
+              </Unknown>
+            </styled.span>
+            <styled.div>
+              <Unknown
+                color="#D8D8D8"
+                size={25}
+              />
+            </styled.div>
+             
+            <styled.div>
+              <Unknown
+                direction="DOWN"
+              />
+            </styled.div>
+          </styled.div>,
+          <Unknown
+            onSignOut={[Function]}
+            pushArrowLeft={-9}
+            pushLeft={5}
+            show={false}
+            width={17}
+          />,
+        ],
+        "innerRef": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.span>
+                <Unknown
+                  fullName="Test User"
+                >
+                  Test User
+                </Unknown>
+              </styled.span>,
+              <styled.div>
+                <Unknown
+                  color="#D8D8D8"
+                  size={25}
+                />
+              </styled.div>,
+              " ",
+              <styled.div>
+                <Unknown
+                  direction="DOWN"
+                />
+              </styled.div>,
+            ],
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Unknown
+                  fullName="Test User"
+                >
+                  Test User
+                </Unknown>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Test User",
+                  "fullName": "Test User",
+                },
+                "ref": null,
+                "rendered": "Test User",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Unknown
+                  color="#D8D8D8"
+                  size={25}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "color": "#D8D8D8",
+                  "size": 25,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Unknown
+                  direction="DOWN"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": null,
+                "nodeType": "function",
+                "props": Object {
+                  "direction": "DOWN",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "function",
+          "props": Object {
+            "onSignOut": [Function],
+            "pushArrowLeft": -9,
+            "pushLeft": 5,
+            "show": false,
+            "width": 17,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

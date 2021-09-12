@@ -1,0 +1,867 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MealTimesTableHeader test suite MealTimesTableHeader renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown>
+    <div>
+      test children
+    </div>
+  </Unknown>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "bg": "rgba(93, 143, 223, 0.05)",
+      "children": Array [
+        <Styled(styled.tr)
+          flex={1}
+        >
+          <Unknown
+            alignItems="left"
+            keyText={0}
+            mealTime="DATE"
+          />
+          <Unknown
+            alignItems="left"
+            keyText="1"
+            mealTime="NIGHT"
+            width="9rem"
+          />
+          <Unknown
+            alignItems="left"
+            keyText="2"
+            mealTime="BREAKFAST"
+            width="9rem"
+          />
+          <Unknown
+            alignItems="left"
+            keyText="3"
+            mealTime="LUNCH"
+            width="9rem"
+          />
+          <Unknown
+            alignItems="left"
+            keyText="4"
+            mealTime="DINNER"
+            width="9rem"
+          />
+          <Unknown
+            alignItems="left"
+            keyText="5"
+            mealTime="BEDTIME"
+            width="9rem"
+          />
+          <Unknown
+            alignItems="left"
+            keyText={6}
+            mealTime="NOTES"
+          />
+        </Styled(styled.tr)>,
+        <Styled(styled.tr)
+          flex={1}
+        >
+          <Unknown />
+          <Unknown
+            alignItems="left"
+            keyText="0"
+            mealTime="NIGHT"
+          />
+          <Unknown
+            alignItems="left"
+            keyText="1"
+            mealTime="BREAKFAST"
+          />
+          <Unknown
+            alignItems="left"
+            keyText="2"
+            mealTime="LUNCH"
+          />
+          <Unknown
+            alignItems="left"
+            keyText="3"
+            mealTime="DINNER"
+          />
+          <Unknown
+            alignItems="left"
+            keyText="4"
+            mealTime="BEDTIME"
+          />
+          <Unknown
+            p={1}
+          />
+        </Styled(styled.tr)>,
+        <Styled(styled.tr)
+          flex={1}
+        >
+          <Unknown
+            width="6.7rem"
+          />
+          <Unknown />
+        </Styled(styled.tr)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Unknown
+              alignItems="left"
+              keyText={0}
+              mealTime="DATE"
+            />,
+            Array [
+              <Unknown
+                alignItems="left"
+                keyText="1"
+                mealTime="NIGHT"
+                width="9rem"
+              />,
+              <Unknown
+                alignItems="left"
+                keyText="2"
+                mealTime="BREAKFAST"
+                width="9rem"
+              />,
+              <Unknown
+                alignItems="left"
+                keyText="3"
+                mealTime="LUNCH"
+                width="9rem"
+              />,
+              <Unknown
+                alignItems="left"
+                keyText="4"
+                mealTime="DINNER"
+                width="9rem"
+              />,
+              <Unknown
+                alignItems="left"
+                keyText="5"
+                mealTime="BEDTIME"
+                width="9rem"
+              />,
+            ],
+            <Unknown
+              alignItems="left"
+              keyText={6}
+              mealTime="NOTES"
+            />,
+          ],
+          "flex": 1,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "meal time label header - DATE-0",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": 0,
+              "mealTime": "DATE",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time label header - NIGHT-1",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": "1",
+              "mealTime": "NIGHT",
+              "width": "9rem",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time label header - BREAKFAST-2",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": "2",
+              "mealTime": "BREAKFAST",
+              "width": "9rem",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time label header - LUNCH-3",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": "3",
+              "mealTime": "LUNCH",
+              "width": "9rem",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time label header - DINNER-4",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": "4",
+              "mealTime": "DINNER",
+              "width": "9rem",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time label header - BEDTIME-5",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": "5",
+              "mealTime": "BEDTIME",
+              "width": "9rem",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time label header - DATE-6",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": 6,
+              "mealTime": "NOTES",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Unknown />,
+            Array [
+              <Unknown
+                alignItems="left"
+                keyText="0"
+                mealTime="NIGHT"
+              />,
+              <Unknown
+                alignItems="left"
+                keyText="1"
+                mealTime="BREAKFAST"
+              />,
+              <Unknown
+                alignItems="left"
+                keyText="2"
+                mealTime="LUNCH"
+              />,
+              <Unknown
+                alignItems="left"
+                keyText="3"
+                mealTime="DINNER"
+              />,
+              <Unknown
+                alignItems="left"
+                keyText="4"
+                mealTime="BEDTIME"
+              />,
+            ],
+            <Unknown
+              p={1}
+            />,
+          ],
+          "flex": 1,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time icon header - NIGHT-0",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": "0",
+              "mealTime": "NIGHT",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time icon header - BREAKFAST-1",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": "1",
+              "mealTime": "BREAKFAST",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time icon header - LUNCH-2",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": "2",
+              "mealTime": "LUNCH",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time icon header - DINNER-3",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": "3",
+              "mealTime": "DINNER",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "meal time icon header - BEDTIME-4",
+            "nodeType": "function",
+            "props": Object {
+              "alignItems": "left",
+              "keyText": "4",
+              "mealTime": "BEDTIME",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "p": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": null,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Unknown
+              width="6.7rem"
+            />,
+            <Unknown />,
+          ],
+          "flex": 1,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {
+              "width": "6.7rem",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": null,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "bg": "rgba(93, 143, 223, 0.05)",
+        "children": Array [
+          <Styled(styled.tr)
+            flex={1}
+          >
+            <Unknown
+              alignItems="left"
+              keyText={0}
+              mealTime="DATE"
+            />
+            <Unknown
+              alignItems="left"
+              keyText="1"
+              mealTime="NIGHT"
+              width="9rem"
+            />
+            <Unknown
+              alignItems="left"
+              keyText="2"
+              mealTime="BREAKFAST"
+              width="9rem"
+            />
+            <Unknown
+              alignItems="left"
+              keyText="3"
+              mealTime="LUNCH"
+              width="9rem"
+            />
+            <Unknown
+              alignItems="left"
+              keyText="4"
+              mealTime="DINNER"
+              width="9rem"
+            />
+            <Unknown
+              alignItems="left"
+              keyText="5"
+              mealTime="BEDTIME"
+              width="9rem"
+            />
+            <Unknown
+              alignItems="left"
+              keyText={6}
+              mealTime="NOTES"
+            />
+          </Styled(styled.tr)>,
+          <Styled(styled.tr)
+            flex={1}
+          >
+            <Unknown />
+            <Unknown
+              alignItems="left"
+              keyText="0"
+              mealTime="NIGHT"
+            />
+            <Unknown
+              alignItems="left"
+              keyText="1"
+              mealTime="BREAKFAST"
+            />
+            <Unknown
+              alignItems="left"
+              keyText="2"
+              mealTime="LUNCH"
+            />
+            <Unknown
+              alignItems="left"
+              keyText="3"
+              mealTime="DINNER"
+            />
+            <Unknown
+              alignItems="left"
+              keyText="4"
+              mealTime="BEDTIME"
+            />
+            <Unknown
+              p={1}
+            />
+          </Styled(styled.tr)>,
+          <Styled(styled.tr)
+            flex={1}
+          >
+            <Unknown
+              width="6.7rem"
+            />
+            <Unknown />
+          </Styled(styled.tr)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Unknown
+                alignItems="left"
+                keyText={0}
+                mealTime="DATE"
+              />,
+              Array [
+                <Unknown
+                  alignItems="left"
+                  keyText="1"
+                  mealTime="NIGHT"
+                  width="9rem"
+                />,
+                <Unknown
+                  alignItems="left"
+                  keyText="2"
+                  mealTime="BREAKFAST"
+                  width="9rem"
+                />,
+                <Unknown
+                  alignItems="left"
+                  keyText="3"
+                  mealTime="LUNCH"
+                  width="9rem"
+                />,
+                <Unknown
+                  alignItems="left"
+                  keyText="4"
+                  mealTime="DINNER"
+                  width="9rem"
+                />,
+                <Unknown
+                  alignItems="left"
+                  keyText="5"
+                  mealTime="BEDTIME"
+                  width="9rem"
+                />,
+              ],
+              <Unknown
+                alignItems="left"
+                keyText={6}
+                mealTime="NOTES"
+              />,
+            ],
+            "flex": 1,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "meal time label header - DATE-0",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": 0,
+                "mealTime": "DATE",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time label header - NIGHT-1",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": "1",
+                "mealTime": "NIGHT",
+                "width": "9rem",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time label header - BREAKFAST-2",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": "2",
+                "mealTime": "BREAKFAST",
+                "width": "9rem",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time label header - LUNCH-3",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": "3",
+                "mealTime": "LUNCH",
+                "width": "9rem",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time label header - DINNER-4",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": "4",
+                "mealTime": "DINNER",
+                "width": "9rem",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time label header - BEDTIME-5",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": "5",
+                "mealTime": "BEDTIME",
+                "width": "9rem",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time label header - DATE-6",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": 6,
+                "mealTime": "NOTES",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Unknown />,
+              Array [
+                <Unknown
+                  alignItems="left"
+                  keyText="0"
+                  mealTime="NIGHT"
+                />,
+                <Unknown
+                  alignItems="left"
+                  keyText="1"
+                  mealTime="BREAKFAST"
+                />,
+                <Unknown
+                  alignItems="left"
+                  keyText="2"
+                  mealTime="LUNCH"
+                />,
+                <Unknown
+                  alignItems="left"
+                  keyText="3"
+                  mealTime="DINNER"
+                />,
+                <Unknown
+                  alignItems="left"
+                  keyText="4"
+                  mealTime="BEDTIME"
+                />,
+              ],
+              <Unknown
+                p={1}
+              />,
+            ],
+            "flex": 1,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time icon header - NIGHT-0",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": "0",
+                "mealTime": "NIGHT",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time icon header - BREAKFAST-1",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": "1",
+                "mealTime": "BREAKFAST",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time icon header - LUNCH-2",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": "2",
+                "mealTime": "LUNCH",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time icon header - DINNER-3",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": "3",
+                "mealTime": "DINNER",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "meal time icon header - BEDTIME-4",
+              "nodeType": "function",
+              "props": Object {
+                "alignItems": "left",
+                "keyText": "4",
+                "mealTime": "BEDTIME",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "p": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": null,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Unknown
+                width="6.7rem"
+              />,
+              <Unknown />,
+            ],
+            "flex": 1,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {
+                "width": "6.7rem",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": null,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

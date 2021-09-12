@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Standard Week Trend Component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <withState(withHandlers(Component))
+    graphData={
+      Array [
+        Object {
+          "data": Object {
+            "max": 242,
+            "mean": 166.33333333333334,
+            "min": 62,
+            "stdDev": 93.36130533220566,
+          },
+          "deviation": 0.23340326333051414,
+          "max": 0.1255,
+          "min": 0.155,
+          "x": 0,
+          "y": 0.41583333333333333,
+        },
+      ]
+    }
+    targetRange={
+      Object {
+        "maxTargetWindow": 0.32,
+        "minTargetWindow": 0.245,
+      }
+    }
+    threshold={0.22}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "graphData": Array [
+        Object {
+          "data": Object {
+            "max": 242,
+            "mean": 166.33333333333334,
+            "min": 62,
+            "stdDev": 93.36130533220566,
+          },
+          "deviation": 0.23340326333051414,
+          "max": 0.1255,
+          "min": 0.155,
+          "x": 0,
+          "y": 0.41583333333333333,
+        },
+      ],
+      "targetRange": Object {
+        "maxTargetWindow": 0.32,
+        "minTargetWindow": 0.245,
+      },
+      "threshold": 0.22,
+      "toggleToolTip": [Function],
+      "toolTip": Object {
+        "data": Object {},
+        "x": null,
+        "y": null,
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "graphData": Array [
+          Object {
+            "data": Object {
+              "max": 242,
+              "mean": 166.33333333333334,
+              "min": 62,
+              "stdDev": 93.36130533220566,
+            },
+            "deviation": 0.23340326333051414,
+            "max": 0.1255,
+            "min": 0.155,
+            "x": 0,
+            "y": 0.41583333333333333,
+          },
+        ],
+        "targetRange": Object {
+          "maxTargetWindow": 0.32,
+          "minTargetWindow": 0.245,
+        },
+        "threshold": 0.22,
+        "toggleToolTip": [Function],
+        "toolTip": Object {
+          "data": Object {},
+          "x": null,
+          "y": null,
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
